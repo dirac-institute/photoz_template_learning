@@ -1,0 +1,33 @@
+
+# Matplotlib settings for a paper
+
+# Figure
+figure.figsize : 3.35, 3.35
+figure.dpi     : 100
+figure.titlesize : 10
+#figure.autolayout : True
+
+# Fonts
+font.size   : 10
+font.family : serif
+text.usetex : True
+
+# Axes
+axes.titlesize  : 10
+axes.labelsize  : 10
+xtick.labelsize : 10
+ytick.labelsize : 10
+xtick.direction : in 
+ytick.direction : in 
+xtick.top       : True
+ytick.right     : True
+
+# Lines and Markers
+lines.linewidth  : 1.2
+lines.markersize : 2
+
+# Legend
+legend.fontsize : 10
+
+# Saved Figure
+savefig.dpi        : 600
