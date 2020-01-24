@@ -1,35 +1,59 @@
 import numpy as np
-import copy
 from scipy.interpolate import interp1d
-from lsst.sims.photUtils import Bandpass, BandpassDict
 
 
-# load filters
-names, files = np.loadtxt('filters/filters.list', unpack=True, dtype=str)
-bandpassList = []
-for filename in files:
-    bandpass = Bandpass()
-    bandpass.readThroughput('filters/'+filename)
-    bandpassList.append(bandpass)
-bandpass_dict = BandpassDict(bandpassList,names)
+class Bandpass:
+    '''Class defining a bandpass filter'''
+    def __init__(self, filename):
+        # load from file
+        wavelen,sb = np.loadtxt(filename,unpack=True)
+        # resample wavelen and calculate phi
+        self.wavelen = np.arange(min(wavelen),max(wavelen),1)
+        sb = np.interp(self.wavelen,wavelen,sb)
+        self.phi = sb/self.wavelen
+        self.phi /= self.phi.sum() * (self.wavelen[1] - self.wavelen[0])
+        del wavelen,sb
+        # calculate effective wavelen
+        self.eff_wavelen = (self.wavelen*self.phi).sum()/self.phi.sum()
+        
+def get_bandpass_dict(filter_loc):
+    names, files = np.loadtxt(filter_loc+'filters.list', unpack=True, dtype=str)
+    bandpass_dict = dict()
+    for i,filename in enumerate(files):
+        bandpass = Bandpass('filters/'+filename)
+        bandpass_dict[names[i]] = bandpass  
+    return bandpass_dict
 
-def get_bandpass_dict():
-    return copy.deepcopy(bandpass_dict)
-
-# effective wavelengths of filters
-eff_wavelen = np.array([])
-for Filter in bandpass_dict.values():
-    eff_wavelen = np.append(eff_wavelen,Filter.calcEffWavelen()[0])
+def get_eff_wavelen(bandpass_dict):
+    eff_wavelen = []
+    for band in bandpass_dict.values():
+        eff_wavelen.append(band.eff_wavelen)
+    return np.array(eff_wavelen)
     
-def get_eff_wavelen():
-    return copy.deepcopy(eff_wavelen)
-
-# dictionary to hold functions representing filters for use in perturbation alg.
-filter_functions = dict()
-for key in bandpass_dict.keys():
-    Filter = bandpass_dict[key]
-    f = interp1d(Filter.wavelen,Filter.phi,kind='cubic',bounds_error=False,fill_value=0)
-    filter_functions[key] = f
+def get_bandpass_functions(bandpass_dict):
+    bandpass_functions = dict()
+    for key in bandpass_dict.keys():
+        bandpass = bandpass_dict[key]
+        f = interp1d(bandpass.wavelen,bandpass.phi,bounds_error=False,fill_value=0)
+        bandpass_functions[key] = f
+    return bandpass_functions
     
-def get_filter_functions():
-    return copy.deepcopy(filter_functions)
+class Sed:
+    '''Class defining an SED'''
+    def __init__(self, wavelen=None, flambda=None):
+        self.wavelen = wavelen
+        self.flambda = flambda
+        
+    def redshift(self,z):
+        self.wavelen *= (1 + z)
+        
+    def flux(self,bandpass):
+        y = np.interp(bandpass.wavelen,self.wavelen,self.flambda)
+        flux = (y*bandpass.phi).sum() * (bandpass.wavelen[1] - bandpass.wavelen[0])
+        return flux
+    
+    def fluxlist(self,bandpass_dict):
+        fluxes = []
+        for bandpass in bandpass_dict.values():
+            fluxes.append(self.flux(bandpass))
+        return np.array(fluxes)
