@@ -9,19 +9,19 @@ export BPZPATH=$HOME/documents/dirac/bpz-1.99.3
 cp templates/* $BPZPATH/SED/
 
 echo "Running BPZ on CWW+SB4 templates..."
-python $BPZPATH/bpz.py data/bpz_catalog.cat -SPECTRA=cwwsb4.list -INTERP=2 > /dev/null
+python $BPZPATH/bpz.py data/bpz_catalog.cat -SPECTRA cwwsb4.list -INTERP 2 > /dev/null
 python $BPZPATH/bpzfinalize.py data/bpz_catalog > /dev/null
 echo "Saving data/cwwsb4_photoz.bpz ..."
 mv data/bpz_catalog_bpz.cat data/cwwsb4_photoz.bpz
 
 echo "Running BPZ on trained CWW+SB4 templates..."
-python $HOME/documents/dirac/bpz-1.99.3/bpz.py data/bpz_catalog.cat -SPECTRA=cwwsb4_trained.list -INTERP=2 > /dev/null
+python $HOME/documents/dirac/bpz-1.99.3/bpz.py data/bpz_catalog.cat -SPECTRA cwwsb4_trained.list -INTERP 2 > /dev/null
 python $HOME/documents/dirac/bpz-1.99.3/bpzfinalize.py data/bpz_catalog > /dev/null
 echo "Saving data/cwwsb4_trained_photoz.bpz ..."
 mv data/bpz_catalog_bpz.cat data/cwwsb4_trained_photoz.bpz
 
 echo "Running BPZ on trained naive templates..."
-python $HOME/documents/dirac/bpz-1.99.3/bpz.py data/bpz_catalog.cat -SPECTRA=naive_trained.list -INTERP=2 > /dev/null
+python $HOME/documents/dirac/bpz-1.99.3/bpz.py data/bpz_catalog.cat -SPECTRA naive_trained.list -INTERP 2 > /dev/null
 python $HOME/documents/dirac/bpz-1.99.3/bpzfinalize.py data/bpz_catalog > /dev/null
 echo "Saving data/naive_trained_photoz.bpz ..."
 mv data/bpz_catalog_bpz.cat data/naive_trained_photoz.bpz
