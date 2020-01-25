@@ -109,7 +109,6 @@ def create_training_sets(template_dict,data,bandpass_dict):
 
 # Functions for training templates
 # --------------------------------------------------------------------------
-# pull in the bandpass functions that are defined in modules.py
 def perturb_template(template, data, bandpass_dict, Delta=0.005, mask=0):
     """
     Function that perturbs an SED template in accordance with the
