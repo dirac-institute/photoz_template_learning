@@ -133,7 +133,7 @@ def perturb_template(template, data, bandpass_dict, mask=0):
               float(wavelen[-1]-wavelen[-2])]
     
     # create initial M and nu
-    Delta = 0.01
+    Delta = 0.005
     M = np.identity(nbins)*1/Delta**2
     nu = np.zeros(nbins)
     
@@ -175,7 +175,7 @@ def perturb_template(template, data, bandpass_dict, mask=0):
     return sol
 
 
-def train_templates(template_dict, data, bandpass_dict, N_rounds=5, N_iter=3):
+def train_templates(template_dict, data, bandpass_dict, N_rounds=5, N_iter=4):
     
     Tdict = copy.deepcopy(template_dict)
     Plist = copy.deepcopy(data)
