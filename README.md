@@ -1,5 +1,6 @@
 
-Repo that contains all the code and plots for the template learning paper.
+Repo that contains all the code and plots for the template learning paper about my algorithm to learn photo-z templates from broadband galaxy photometry.
+
 
 Workflow:
 
