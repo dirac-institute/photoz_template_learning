@@ -110,7 +110,7 @@ def create_training_sets(template_dict,data,bandpass_dict):
 # Functions for training templates
 # --------------------------------------------------------------------------
 # pull in the bandpass functions that are defined in modules.py
-def perturb_template(template, data, bandpass_dict, mask=0):
+def perturb_template(template, data, bandpass_dict, Delta=0.005, mask=0):
     """
     Function that perturbs an SED template in accordance with the
     matched photometry. Definition of terms found in paper I am writing.
@@ -123,7 +123,6 @@ def perturb_template(template, data, bandpass_dict, mask=0):
                       float(wavelen[-1]-wavelen[-2])])
     
     # create initial M and nu
-    Delta = 0.005
     M = np.identity(nbins)*1/Delta**2
     nu = np.zeros(nbins)
     
@@ -166,7 +165,7 @@ def perturb_template(template, data, bandpass_dict, mask=0):
     return sol
 
 
-def train_templates(template_dict, data, bandpass_dict, N_rounds=5, N_iter=4):
+def train_templates(template_dict, data, bandpass_dict, N_rounds=5, N_iter=4, Delta=0.005):
     
     Tdict = copy.deepcopy(template_dict)
     Plist = copy.deepcopy(data)
@@ -189,7 +188,7 @@ def train_templates(template_dict, data, bandpass_dict, N_rounds=5, N_iter=4):
             mask = clf.fit_predict(xy)
 
             for j in range(N_iter):
-                pert = perturb_template(template,training_set,bandpass_dict,mask=mask)
+                pert = perturb_template(template,training_set,bandpass_dict,Delta=Delta,mask=mask)
                 template.flambda += pert
                 
     training_sets = create_training_sets(Tdict,Plist,bandpass_dict)
