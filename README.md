@@ -1,1 +1,18 @@
-Repo for template learning paper. Link to paper here and write more later. 
+
+Repo that contains all the code and plots for the template learning paper.
+
+Workflow:
+
+1. catalog.ipynb - this notebook opens the DEEP2/3 and HST spec-z catalogs that are in the data folder. It applies quality cuts, combines the qualifying galaxies into a single catalog for my use, and also makes plots of the data set.
+
+2. training_example.ipynb - this notebook takes the 5Myr starburst template that comes with BPZ, simulates observations, and then trains a flat template until it matches the data. The classes for filters and seds, and the all the functions used in the learning algorithm are found in modules.py.
+
+3. training_naive.ipynb - this takes the combined galaxy catalog, establishes naive templates, and trains them to match the data. Matching and training are iterated until templates approximately converge. The notebook also contains plots analyzing the final trained templates.
+
+4. training_cwwsb4.ipynb - same as number 3, except using the CWW+SB4 templates as the starting point.
+
+5. create_bpz_catalog.py - this script takes the combined catalog from number 1, and creates a catalog file that is readable by BPZ.
+
+6. bpz_script.py - this script runs BPZ to estimate photo-z's using the 3 template sets: CWW+SB4 original, CWW+SB4 trained, and naive trained. It runs the original bpz script, then the bpz finalize script, and then cleans up after BPZ. Note that all BPZ output is supressed. The script requires that you have BPZ installed on your system at BPZPATH, which is defined at the top of the script, and that you are in an environment with python 2. BPZ can be installed [here](http://www.stsci.edu/~dcoe/BPZ/).
+
+7. photoz_analysis.ipynb - this notebook loads all of the BPZ photo-z results, and makes plots/computes stats to analyze them.
