@@ -35,14 +35,6 @@ def get_eff_wavelen(bandpass_dict):
         eff_wavelen.append(band.eff_wavelen)
     return np.array(eff_wavelen)
     
-def get_bandpass_functions(bandpass_dict):
-    bandpass_functions = dict()
-    for key in bandpass_dict.keys():
-        bandpass = bandpass_dict[key]
-        f = interp1d(bandpass.wavelen,bandpass.phi,bounds_error=False,fill_value=0)
-        bandpass_functions[key] = f
-    return bandpass_functions
-    
 class Sed:
     '''Class defining an SED'''
     def __init__(self, wavelen=None, flambda=None):
@@ -124,13 +116,11 @@ def perturb_template(template, data, bandpass_dict, mask=0):
     matched photometry. Definition of terms found in paper I am writing.
     """
     
-    bandpass_functions = get_bandpass_functions(bandpass_dict)
-    
     nbins = len(template.wavelen)
     wavelen = template.wavelen
-    widths = [float(wavelen[1]-wavelen[0]),
-              *[(wavelen[i+1]-wavelen[i-1])/2 for i in range(1,nbins-1)],
-              float(wavelen[-1]-wavelen[-2])]
+    widths = np.array([float(wavelen[1]-wavelen[0]),
+                      *[(wavelen[i+1]-wavelen[i-1])/2 for i in range(1,nbins-1)],
+                      float(wavelen[-1]-wavelen[-2])])
     
     # create initial M and nu
     Delta = 0.005
@@ -160,8 +150,9 @@ def perturb_template(template, data, bandpass_dict, mask=0):
         template_flux = template_.flux(bandpass_dict[filter_name])
         
         # calculate r^n * Delta lambda
-        bandpass_func = bandpass_functions[filter_name]
-        rn_dlambda = bandpass_func( wavelen * (1+redshift) ) * widths * (1+redshift)
+        rn = np.interp(wavelen * (1+redshift), bandpass_dict[filter_name].wavelen, bandpass_dict[filter_name].phi)
+        dlambda = widths * (1+redshift)
+        rn_dlambda = rn * dlambda
         
         # add to M
         M += 1/sigma**2 * np.outer(rn_dlambda,rn_dlambda)
