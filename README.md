@@ -17,4 +17,4 @@ Workflow:
 
 7. <code>photoz_analysis.ipynb</code> - this notebook loads all of the BPZ photo-z results, and makes plots/computes stats to analyze them.
 
-Note all of the dependencies can be installed via <code>pip install --user --requirement requirements.txt</code>. Jupyter notebooks can be opened via running <code>jupyter lab</code> in the root directory, and then double clicking on notebooks in the sidebar.
+Note all of the dependencies can be installed via <code>pip install --user --requirement requirements.txt</code>. Python version is 3.7.3, except BPZ, which was run in version 2.7.17. Jupyter notebooks can be opened via running <code>jupyter lab</code> in the root directory, and then double clicking on notebooks in the sidebar.
