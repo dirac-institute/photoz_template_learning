@@ -13,7 +13,7 @@ class Bandpass:
         # load from file
         wavelen,sb = np.loadtxt(filename,unpack=True)
         # resample wavelen and calculate phi
-        self.wavelen = np.arange(min(wavelen),max(wavelen),1)
+        self.wavelen = np.arange(min(wavelen),max(wavelen),20)
         sb = np.interp(self.wavelen,wavelen,sb)
         self.phi = sb/self.wavelen
         self.phi /= self.phi.sum() * (self.wavelen[1] - self.wavelen[0])
