@@ -21,7 +21,7 @@ echo "Saving data/cwwsb4_trained_photoz.bpz ..."
 mv data/bpz_catalog_bpz.cat data/cwwsb4_trained_photoz.bpz
 
 echo "Running BPZ on trained naive templates..."
-python $HOME/documents/dirac/bpz-1.99.3/bpz.py data/bpz_catalog.cat -SPECTRA naive_trained.list -INTERP 2 > /dev/null
+python $HOME/documents/dirac/bpz-1.99.3/bpz.py data/bpz_catalog.cat -SPECTRA naive_trained.list -INTERP 2 -NTYPES 1 3 5 > /dev/null
 python $HOME/documents/dirac/bpz-1.99.3/bpzfinalize.py data/bpz_catalog > /dev/null
 echo "Saving data/naive_trained_photoz.bpz ..."
 mv data/bpz_catalog_bpz.cat data/naive_trained_photoz.bpz
