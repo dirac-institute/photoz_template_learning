@@ -140,7 +140,7 @@ def create_training_sets(template_dict,galaxies,bandpass_dict):
 
 # Functions for training templates
 # --------------------------------------------------------------------------
-def perturb_template(template, data, bandpass_dict, Delta=0.005, mask=0):
+def perturb_template(template, training_set, bandpass_dict, Delta=0.005, mask=None):
     """
     Function that perturbs an SED template in accordance with the
     matched photometry. Definition of terms found in paper I am writing.
@@ -157,11 +157,11 @@ def perturb_template(template, data, bandpass_dict, Delta=0.005, mask=0):
     nu = np.zeros(nbins)
     
     # if no mask is given, use all data
-    if type(mask) == int:
-        mask = np.ones(len(data))
+    if mask is None:
+        mask = np.ones(len(training_set))
     
     # run through all the photometry
-    for i,row in enumerate(data):
+    for i,row in enumerate(training_set):
         
         # skip this row if it's an outlier
         if mask[i] == -1:
@@ -195,16 +195,15 @@ def perturb_template(template, data, bandpass_dict, Delta=0.005, mask=0):
     return sol
 
 
-def train_templates(template_dict, data, bandpass_dict, N_rounds=5, N_iter=4, Delta=0.005):
+def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=4, Delta=0.005):
     
     Tdict = copy.deepcopy(template_dict)
-    Plist = copy.deepcopy(data)
 
     for i in range(N_rounds):
         
         print("Round "+str(i+1)+"/"+str(N_rounds))
         
-        training_sets = create_training_sets(Tdict,data,bandpass_dict)
+        training_sets = create_training_sets(Tdict,galaxies,bandpass_dict)
         
         for key in Tdict.keys():
             template = Tdict[key]
@@ -221,5 +220,5 @@ def train_templates(template_dict, data, bandpass_dict, N_rounds=5, N_iter=4, De
                 pert = perturb_template(template,training_set,bandpass_dict,Delta=Delta,mask=mask)
                 template.flambda += pert
                 
-    training_sets = create_training_sets(Tdict,Plist,bandpass_dict)
+    training_sets = create_training_sets(Tdict,galaxies,bandpass_dict)
     return Tdict, training_sets
