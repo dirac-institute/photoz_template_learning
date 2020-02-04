@@ -20,13 +20,13 @@ class Galaxy:
         self.redshift = redshift
         self.source = source
 
-    mag_ref = 25
-    lambda_ref = 5000 # Angstrom
+    _mag_ref = 25
+    _lambda_ref = 5000 # Angstrom
     def magToflux(self):
-        self.fluxes = (self.lambda_ref/self.wavelen)**2 * 10**((self.mag_ref-self.mags)/2.5)
+        self.fluxes = (self._lambda_ref/self.wavelen)**2 * 10**((self._mag_ref-self.mags)/2.5)
         self.flux_err = self.fluxes/2.5 * np.log(10) * self.mag_err
     def fluxTomag(self):
-        self.mags = self.mag_ref - 2.5*np.log10((self.wavelen/self.lambda_ref)**2 * self.fluxes)
+        self.mags = self._mag_ref - 2.5*np.log10((self.wavelen/self._lambda_ref)**2 * self.fluxes)
         self.mag_err = 2.5/np.log(10) * self.flux_err/self.fluxes
     
 
