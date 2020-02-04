@@ -5,8 +5,31 @@ from sklearn.ensemble import IsolationForest
 
 
 
-# Classes and function to support the filters and Sed's
+# Classes and function to support the galaxies, filters and Sed's
 # --------------------------------------------------------------------------
+class Galaxy:
+    '''Class defining a galaxy'''
+    def __init__(self, wavelen=None, mags=None, mag_err=None, fluxes=None, flux_err=None, 
+                                                filters=None, redshift=None, source=None):
+        self.wavelen = wavelen
+        self.mags = mags
+        self.mag_err = mag_err
+        self.fluxes = fluxes
+        self.flux_err = flux_err
+        self.filters = filters
+        self.redshift = redshift
+        self.source = source
+
+    mag_ref = 25
+    lambda_ref = 5000 # Angstrom
+    def magToflux(self):
+        self.fluxes = (self.lambda_ref/self.wavelen)**2 * 10**((self.mag_ref-self.mags)/2.5)
+        self.flux_err = self.fluxes/2.5 * np.log(10) * self.mag_err
+    def fluxTomag(self):
+        self.mags = self.mag_ref - 2.5*np.log10((self.wavelen/self.lambda_ref)**2 * self.fluxes)
+        self.mag_err = 2.5/np.log(10) * self.flux_err/self.fluxes
+    
+
 class Bandpass:
     '''Class defining a bandpass filter'''
     def __init__(self, filename):
@@ -29,9 +52,12 @@ def get_bandpass_dict(filter_loc):
         bandpass_dict[names[i]] = bandpass  
     return bandpass_dict
 
-def get_eff_wavelen(bandpass_dict):
+def get_eff_wavelen(bandpass_dict, filters=None):
+    if filters is None:
+        filters = bandpass_dict.keys()
     eff_wavelen = []
-    for band in bandpass_dict.values():
+    for name in filters:
+        band = bandpass_dict[name]
         eff_wavelen.append(band.eff_wavelen)
     return np.array(eff_wavelen)
     
