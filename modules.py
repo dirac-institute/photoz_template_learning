@@ -67,17 +67,20 @@ class Sed:
         self.wavelen = wavelen
         self.flambda = flambda
         
-    def redshift(self,z):
+    def redshift(self, z):
         self.wavelen *= (1 + z)
         
-    def flux(self,bandpass):
+    def flux(self, bandpass):
         y = np.interp(bandpass.wavelen,self.wavelen,self.flambda)
         flux = (y*bandpass.phi).sum() * (bandpass.wavelen[1] - bandpass.wavelen[0])
         return flux
     
-    def fluxlist(self,bandpass_dict):
+    def fluxlist(self, bandpass_dict, filters=None):
+        if filters is None:
+            filters = bandpass_dict.keys()
         fluxes = []
-        for bandpass in bandpass_dict.values():
+        for name in filters:
+            bandpass = bandpass_dict[name]
             fluxes.append(self.flux(bandpass))
         return np.array(fluxes)
     
@@ -85,31 +88,36 @@ class Sed:
     
 # Functions for assembling training sets
 # --------------------------------------------------------------------------
-def match_photometry(template_dict,fluxes,errs,redshift,bandpass_dict):
+def match_photometry(template_dict,galaxy,bandpass_dict):
     
     keys = np.array(list(template_dict.keys()))
     mse_list = np.array([])
     scales = np.array([])
+
+    errs = galaxy.flux_err
+    redshift = galaxy.redshift
+    filters = galaxy.filters
     
     for template in template_dict.values():
         
         sed = copy.deepcopy(template)
-        sed.redshift(redshift)
-        template_fluxes = sed.fluxlist(bandpass_dict)
+        sed.redshift(galaxy.redshift)
+        template_fluxes = sed.fluxlist(bandpass_dict, galaxy.filters)
         
-        scale = np.median(template_fluxes/fluxes)
-        template_fluxes_ = template_fluxes/template_fluxes[3]
-        fluxes_ = fluxes/fluxes[3]
-        errs_ = errs/fluxes
+        scale = np.median(template_fluxes/galaxy.fluxes)
+        # NOTE: I will need to think more carefully about how to normalize this...
+        template_fluxes = template_fluxes/template_fluxes[0]
+        fluxes = galaxy.fluxes/galaxy.fluxes[0]
+        errs = galaxy.flux_err/galaxy.fluxes
         
-        mse = np.mean(1/errs_**2*(template_fluxes_ - fluxes_)**2)
+        mse = np.mean(1/errs**2*(template_fluxes - fluxes)**2)
         mse_list = np.append(mse_list,mse)
         scales = np.append(scales,scale)
         
     idx = mse_list.argmin()
     return keys[idx],scales[idx]
 
-def create_training_sets(template_dict,data,bandpass_dict):
+def create_training_sets(template_dict,galaxies,bandpass_dict):
     
     # create a dictionary to hold the set for each template
     sets = dict()
@@ -117,17 +125,14 @@ def create_training_sets(template_dict,data,bandpass_dict):
         sets[key] = []
         
     # sort each photometry into the training sets
-    for row in data:
-        redshift = row[0]
-        fluxes = row[1:8]
-        errs = row[8:]
-        match, scale = match_photometry(template_dict,fluxes,errs,redshift,bandpass_dict)
+    for galaxy in galaxies:
+
+        match, scale = match_photometry(template_dict,galaxy,bandpass_dict)
         
-        wavelen = get_eff_wavelen(bandpass_dict)/(1+redshift)
+        wavelen = galaxy.wavelen/(1+galaxy.redshift)
         
-        filter_names = list(bandpass_dict.keys())
-        for i,wavelen_ in enumerate(wavelen):
-            sets[match].append([wavelen_,fluxes[i]*scale,errs[i]*scale,redshift,filter_names[i]])
+        for i in range(len(wavelen)):
+            sets[match].append([wavelen[i],galaxy.fluxes[i]*scale,galaxy.flux_err[i]*scale,galaxy.redshift,galaxy.filters[i]])
             
     return sets
 
