@@ -44,8 +44,8 @@ class Bandpass:
         # calculate effective wavelen
         self.eff_wavelen = (self.wavelen*self.phi).sum()/self.phi.sum()
         
-def get_bandpass_dict(filter_loc):
-    names, files = np.loadtxt(filter_loc+'filters.list', unpack=True, dtype=str)
+def get_bandpass_dict():
+    names, files = np.loadtxt('filters/filters.list', unpack=True, dtype=str)
     bandpass_dict = dict()
     for i,filename in enumerate(files):
         bandpass = Bandpass('filters/'+filename)
