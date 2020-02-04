@@ -1,11 +1,11 @@
 # Filter    columns  AB/Vega  zp_error  zp_offset
-u_megacam     2, 3   AB        0.00      0.0
-g_megacam     4, 5   AB        0.00      0.0
-r_megacam     6, 7   AB        0.00      0.0
-i2_megacam    8, 9   AB        0.00      0.0
-i_megacam    10,11   AB        0.00      0.0
-z_megacam    12,13   AB        0.00      0.0
-y_subaru     14,15   AB        0.00      0.0
-M_0              8
-Z_S 		    16
-ID               1
+u_megacam      2, 3      AB       0.00       0.00
+g_megacam      4, 5      AB       0.00       0.00
+r_megacam      6, 7      AB       0.00       0.00
+i2_megacam     8, 9      AB       0.00       0.00
+i_megacam     10,11      AB       0.00       0.00
+z_megacam     12,13      AB       0.00       0.00
+y_HSC         14,15      AB       0.00       0.00
+M_0              10
+Z_S              16
+ID                1

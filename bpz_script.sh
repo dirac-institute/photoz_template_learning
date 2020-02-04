@@ -7,6 +7,7 @@ echo " "
 export BPZPATH=$HOME/documents/dirac/bpz-1.99.3
 
 cp templates/* $BPZPATH/SED/
+cp filters/*res $BPZPATH/FILTER/
 
 echo "Running BPZ on CWW+SB4 templates..."
 python $BPZPATH/bpz.py data/bpz_catalog.cat -SPECTRA cwwsb4.list -INTERP 2 > /dev/null
