@@ -93,10 +93,6 @@ def match_photometry(template_dict,galaxy,bandpass_dict):
     keys = np.array(list(template_dict.keys()))
     mse_list = np.array([])
     scales = np.array([])
-
-    errs = galaxy.flux_err
-    redshift = galaxy.redshift
-    filters = galaxy.filters
     
     for template in template_dict.values():
         
@@ -105,9 +101,9 @@ def match_photometry(template_dict,galaxy,bandpass_dict):
         template_fluxes = sed.fluxlist(bandpass_dict, galaxy.filters)
         
         scale = np.median(template_fluxes/galaxy.fluxes)
-        # NOTE: I will need to think more carefully about how to normalize this...
-        template_fluxes = template_fluxes/template_fluxes[0]
-        fluxes = galaxy.fluxes/galaxy.fluxes[0]
+        idx = np.where( galaxy.filters == 'i' )
+        template_fluxes /= template_fluxes[idx]
+        fluxes = galaxy.fluxes/galaxy.fluxes[idx]
         errs = galaxy.flux_err/galaxy.fluxes
         
         mse = np.mean(1/errs**2*(template_fluxes - fluxes)**2)
