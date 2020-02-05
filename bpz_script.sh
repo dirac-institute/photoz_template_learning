@@ -1,3 +1,6 @@
+
+STARTTIME=$(date +%s)
+
 echo " "
 echo "WARNING:" 
 echo "Don't forget to switch to python 2. On my laptop: conda activate py2"
@@ -32,4 +35,8 @@ rm data/bpz_catalog.bpz.bak
 rm data/bpz_catalog.flux_comparison
 rm data/bpz_catalog.probs
 
+echo " "
+
+ENDTIME=$(date +%s)
+echo "Duration $(($ENDTIME - $STARTTIME)) seconds"
 echo " "
