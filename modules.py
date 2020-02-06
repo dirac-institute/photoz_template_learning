@@ -136,7 +136,7 @@ def create_training_sets(template_dict,galaxies,bandpass_dict):
 
 # Functions for training templates
 # --------------------------------------------------------------------------
-def perturb_template(template, training_set, bandpass_dict, Delta=0.005, mask=None):
+def perturb_template(template, training_set, bandpass_dict, Delta=0.005, w=None, mask=None):
     """
     Function that perturbs an SED template in accordance with the
     matched photometry. Definition of terms found in paper I am writing.
@@ -149,7 +149,24 @@ def perturb_template(template, training_set, bandpass_dict, Delta=0.005, mask=No
                       float(wavelen[-1]-wavelen[-2])])
     
     # create initial M and nu
-    M = np.identity(nbins)*1/Delta**2
+    if w is None:
+        M = np.identity(nbins)*1/Delta**2
+    else:
+        M = np.array([])
+        for k in range(len(wavelen)):
+            lo = wavelen[k] - widths[k]/2
+            hi = wavelen[k] + widths[k]/2
+            wavelens = np.array([i[0] for i in training_set])
+            photometry  = np.array([i[1] for i in training_set])
+            sigmas = np.array([i[2] for i in training_set])
+            idx = np.where( (wavelens > lo) & (wavelens < hi))
+            sigmas = sigmas[idx]/photometry[idx]
+            if idx[0].size != 0:
+                Delta = 1/np.sqrt(w*sum(1/sigmas**2))
+            Delta = np.clip(Delta,0.005,0.1)
+            M = np.append(M,Delta)
+        M = np.diag(1/M**2)
+        
     nu = np.zeros(nbins)
     
     # if no mask is given, use all data
@@ -191,7 +208,7 @@ def perturb_template(template, training_set, bandpass_dict, Delta=0.005, mask=No
     return sol
 
 
-def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=4, Delta=0.005):
+def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=4, Delta=0.005, w=None):
     
     Tdict = copy.deepcopy(template_dict)
 
@@ -213,7 +230,7 @@ def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=4
             mask = clf.fit_predict(xy)
 
             for j in range(N_iter):
-                pert = perturb_template(template,training_set,bandpass_dict,Delta=Delta,mask=mask)
+                pert = perturb_template(template,training_set,bandpass_dict,Delta=Delta,w=None,mask=mask)
                 template.flambda += pert
                 
     training_sets = create_training_sets(Tdict,galaxies,bandpass_dict)
