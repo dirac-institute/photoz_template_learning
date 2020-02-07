@@ -5,7 +5,8 @@ from sklearn.ensemble import IsolationForest
 
 
 
-# Classes and function to support the galaxies, filters and Sed's
+# Classes and functions to support the galaxies, filters and Sed's
+# --------------------------------------------------------------------------
 # --------------------------------------------------------------------------
 class Galaxy:
     '''Class defining a galaxy'''
@@ -61,6 +62,7 @@ def get_eff_wavelen(bandpass_dict, filters=None):
         eff_wavelen.append(band.eff_wavelen)
     return np.array(eff_wavelen)
     
+
 class Sed:
     '''Class defining an SED'''
     def __init__(self, wavelen=None, flambda=None):
@@ -87,6 +89,7 @@ class Sed:
     
     
 # Functions for assembling training sets
+# --------------------------------------------------------------------------
 # --------------------------------------------------------------------------
 def match_photometry(template_dict,galaxy,bandpass_dict):
     
@@ -136,7 +139,8 @@ def create_training_sets(template_dict,galaxies,bandpass_dict):
 
 # Functions for training templates
 # --------------------------------------------------------------------------
-def perturb_template(template, training_set, bandpass_dict, Delta=0.005, w=None, mask=None):
+# --------------------------------------------------------------------------
+def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
     """
     Function that perturbs an SED template in accordance with the
     matched photometry. Definition of terms found in paper I am writing.
@@ -149,36 +153,15 @@ def perturb_template(template, training_set, bandpass_dict, Delta=0.005, w=None,
                       float(wavelen[-1]-wavelen[-2])])
     
     # create initial M and nu
-    if w is None:
-        M = np.identity(nbins)*1/Delta**2
-    else:
-        M = np.array([])
-        for k in range(len(wavelen)):
-            lo = wavelen[k] - widths[k]/2
-            hi = wavelen[k] + widths[k]/2
-            wavelens = np.array([i[0] for i in training_set])
-            photometry  = np.array([i[1] for i in training_set])
-            sigmas = np.array([i[2] for i in training_set])
-            idx = np.where( (wavelens > lo) & (wavelens < hi))
-            sigmas = sigmas[idx]/photometry[idx]
-            if idx[0].size != 0:
-                Delta = 1/np.sqrt(w*sum(1/sigmas**2))
-            Delta = np.clip(Delta,0.005,0.1)
-            M = np.append(M,Delta)
-        M = np.diag(1/M**2)
+    if Delta is None:
+        sigmas = np.array([i[2] for i in training_set])/np.array([i[1] for i in training_set])
+        Delta = np.mean(sigmas)*np.sqrt(len(template.wavelen)/(w*len(training_set)))
+    M = np.identity(nbins)*1/Delta**2
         
     nu = np.zeros(nbins)
     
-    # if no mask is given, use all data
-    if mask is None:
-        mask = np.ones(len(training_set))
-    
     # run through all the photometry
     for i,row in enumerate(training_set):
-        
-        # skip this row if it's an outlier
-        if mask[i] == -1:
-            continue
             
         # get observed flux
         obs_flux = row[1]
@@ -208,30 +191,41 @@ def perturb_template(template, training_set, bandpass_dict, Delta=0.005, w=None,
     return sol
 
 
-def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=4, Delta=0.005, w=None):
+def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1, w=0.75, Delta=None):
     
-    Tdict = copy.deepcopy(template_dict)
+    new_templates = copy.deepcopy(template_dict)
+
+    old_training_sets = dict()
+    for key in template_dict.keys():
+        old_training_sets[key] = None
 
     for i in range(N_rounds):
         
         print("Round "+str(i+1)+"/"+str(N_rounds))
         
-        training_sets = create_training_sets(Tdict,galaxies,bandpass_dict)
+        training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
         
-        for key in Tdict.keys():
-            template = Tdict[key]
+        for key in new_templates.keys():
+            template = new_templates[key]
             training_set = training_sets[key]
 
-            # identify outliers
+            # remove outliers
             x = np.array(training_set)[:,0].astype(float)
             y = np.array(training_set)[:,1].astype(float)
             clf = IsolationForest(max_samples=len(x))
             xy = np.array([x,y]).T
-            mask = clf.fit_predict(xy)
+            idx = np.where( clf.fit_predict(xy) == 1 )
+            training_set = [training_set[j] for j in idx[0]]
+
+            if training_set == old_training_sets[key]:
+                print("Skipping",key)
+                continue
 
             for j in range(N_iter):
-                pert = perturb_template(template,training_set,bandpass_dict,Delta=Delta,w=None,mask=mask)
+                pert = perturb_template(template,training_set,bandpass_dict,w=w,Delta=Delta)
                 template.flambda += pert
+
+            old_training_sets[key] = training_set
                 
-    training_sets = create_training_sets(Tdict,galaxies,bandpass_dict)
-    return Tdict, training_sets
+    training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
+    return new_templates, training_sets
