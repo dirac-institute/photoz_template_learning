@@ -158,7 +158,7 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
         Delta = np.mean(sigmas)*np.sqrt(len(template.wavelen)/(w*len(training_set)))
         Delta = np.clip(Delta,0,0.05)
     M = np.identity(nbins)*1/Delta**2
-    print(Delta)
+
     nu = np.zeros(nbins)
     
     # run through all the photometry
@@ -228,6 +228,8 @@ def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1
                 template.flambda = np.clip(template.flambda,a_min=0,a_max=None)
 
             old_training_sets[key] = training_set
-                
+
+    print("Generating final sets")            
     training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
+    print("Done!")
     return new_templates, training_sets
