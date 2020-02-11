@@ -16,7 +16,7 @@ http://cosmos.astro.caltech.edu/page/filterset
 obtaining data from SQL module at http://cesam.lam.fr/hstcosmos/search/sql-module
 
 
-Only keeping galaxies with zflag between 3 and 4.5. This is to keep all the best redshifts, per the Lilly paper, and includes all of the various decimal flags described there as well.
+Kept all redshift flags from the recommended sample in the ESO release.
 
 Only keeping galaxies with flag_maskB, flag_maskV, flag_maski, flag_maskz, flag_maskD all equal 0 (per the photometry README).
 
@@ -24,4 +24,12 @@ Type = 0 (galaxy)
 
 NOTE I NEED TO INCLUDE LINKS TO THE READMEs.
 
-Saving the following bands:
+
+
+VVDS DATA:
+described here https://arxiv.org/abs/1307.0545
+downloaded via interface here: https://cesam.lam.fr/vvds/vvds_criteria.php
+
+downloaded all deep and all wide, keeping very secure redshifts for primaries and secondaries.
+
+Will need to download the appropriate filters.
