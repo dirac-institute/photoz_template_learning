@@ -105,6 +105,8 @@ def match_photometry(template_dict,galaxy,bandpass_dict):
         
         scale = np.median(template_fluxes/galaxy.fluxes)
         idx = np.where( galaxy.filters == 'i' )
+        if idx[0].size == 0:
+            idx = np.where( galaxy.filters == 'Icfh12k' )
         template_fluxes /= template_fluxes[idx]
         fluxes = galaxy.fluxes/galaxy.fluxes[idx]
         errs = galaxy.flux_err/galaxy.fluxes
