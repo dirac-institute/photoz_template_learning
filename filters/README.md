@@ -9,3 +9,5 @@ Good table for this stuff in https://iopscience.iop.org/article/10.1088/0004-637
 NOTE: I took the HSC y, but probably just need suprime cam y. Might need to fix this in the future!
 
 Good source for filters: http://svo2.cab.inta-csic.es/svo/theory/fps3/
+
+K_video from https://www.eso.org/sci/facilities/paranal/instruments/vircam/inst.html

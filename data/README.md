@@ -33,3 +33,8 @@ downloaded via interface here: https://cesam.lam.fr/vvds/vvds_criteria.php
 downloaded all deep and all wide, keeping very secure redshifts for primaries and secondaries.
 
 Will need to download the appropriate filters.
+
+
+VIPERS:
+classFlag >= 0
+photoMask and spectroMask == 1
