@@ -1,6 +1,5 @@
 import numpy as np
 import copy
-from scipy.interpolate import interp1d
 from sklearn.ensemble import IsolationForest
 
 
@@ -10,8 +9,8 @@ from sklearn.ensemble import IsolationForest
 # --------------------------------------------------------------------------
 class Galaxy:
     '''Class defining a galaxy'''
-    def __init__(self, wavelen=None, mags=None, mag_err=None, fluxes=None, flux_err=None, 
-                                                filters=None, redshift=None, source=None):
+    def __init__(self, wavelen=None, mags=None, mag_err=None, fluxes=None, 
+                flux_err=None, filters=None, redshift=None, source=None):
         self.wavelen = wavelen
         self.mags = mags
         self.mag_err = mag_err
@@ -135,7 +134,9 @@ def create_training_sets(template_dict,galaxies,bandpass_dict):
         wavelen = galaxy.wavelen/(1+galaxy.redshift)
         
         for i in range(len(wavelen)):
-            sets[match].append([wavelen[i],galaxy.fluxes[i]*scale,galaxy.flux_err[i]*scale,galaxy.redshift,galaxy.filters[i]])
+            sets[match].append([wavelen[i],galaxy.fluxes[i]*scale,
+                                galaxy.flux_err[i]*scale,galaxy.redshift,
+                                galaxy.filters[i]])
             
     return sets
 
@@ -180,7 +181,9 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
         template_flux = template_.flux(bandpass_dict[filter_name])
         
         # calculate r^n * Delta lambda
-        rn = np.interp(wavelen * (1+redshift), bandpass_dict[filter_name].wavelen, bandpass_dict[filter_name].phi)
+        rn = np.interp(wavelen * (1+redshift), 
+                        bandpass_dict[filter_name].wavelen, 
+                        bandpass_dict[filter_name].phi)
         dlambda = widths * (1+redshift)
         rn_dlambda = rn * dlambda
         
@@ -196,7 +199,8 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
     return sol
 
 
-def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1, w=0.75, Delta=None):
+def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, 
+                    N_iter=1, w=0.75, Delta=None):
     
     new_templates = copy.deepcopy(template_dict)
 

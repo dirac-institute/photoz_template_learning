@@ -1,41 +1,84 @@
 
+# settings
+export CONDALOC=/opt/miniconda3/etc/profile.d/conda.sh
+export PY2ENV=py2
+export BPZPATH=$HOME/documents/dirac/bpz-1.99.3
+export OUTDIR=bpz_files
+export IBANDS=('i' 'i2' 'Icfh12k')
+export NINTERP=2 # number of templates to interpolate for BPZ
+export NEl=2 # number of eliptical galaxy templates in the trained naive set
+export NSp=11 # number of spiral galaxy templates in the trained naive set
+export NIS=7 # number of irregular/star burst galaxy templates in the trained naive set
+
+
 STARTTIME=$(date +%s)
 
+# print reminders
 echo " "
-echo "WARNING:" 
-echo "Don't forget to switch to python 2. On my laptop: conda activate py2"
-echo "You also might need to change the BPZPATH in the script"
-echo " "
+echo "NOTE:" 
+echo "Make sure the settings at the top of the script are correct."
+echo "This includes:"
+echo "  -location of the conda bash function"
+echo "  -name of the python 2 environment"
+echo "  -location of BPZ"
+echo "  -where to save BPZ results"
+echo "  -list of i-bands used for the magnitude prior"
+echo "  -number of templates to interpolate in BPZ"
+echo "  -number of each spectral type in the trained naive template set (determined"
+echo "      in color_classify.ipynb)"
+echo "  "
 
-export BPZPATH=$HOME/documents/dirac/bpz-1.99.3
+# switch to environment with python 2 
+source $CONDALOC
+conda activate $PY2ENV
 
+# copy templates and filters to the BPZ folders
 cp templates/* $BPZPATH/SED/
 cp filters/*res $BPZPATH/FILTER/
 
-#echo "Running BPZ on CWW+SB4 templates..."
-#python $BPZPATH/bpz.py data/bpz_catalog.cat -SPECTRA cwwsb4.list -INTERP 2 > /dev/null
-#python $BPZPATH/bpzfinalize.py data/bpz_catalog > /dev/null
-#echo "Saving data/cwwsb4_photoz.bpz ..."
-#mv data/bpz_catalog_bpz.cat data/cwwsb4_photoz.bpz
 
-#echo "Running BPZ on trained CWW+SB4 templates..."
-#python $HOME/documents/dirac/bpz-1.99.3/bpz.py data/bpz_catalog.cat -SPECTRA cwwsb4_trained.list -INTERP 2 > /dev/null
-#python $HOME/documents/dirac/bpz-1.99.3/bpzfinalize.py data/bpz_catalog > /dev/null
-#echo "Saving data/cwwsb4_trained_photoz.bpz ..."
-#mv data/bpz_catalog_bpz.cat data/cwwsb4_trained_photoz.bpz
+echo "Running BPZ on CWW+SB4 templates..."
+export OUTFILE=$OUTDIR/cwwsb4_output.txt
+rm $OUTFILE 2> /dev/null
+echo "Saving output to" $OUTFILE"..."
+for BAND in "${IBANDS[@]}"; do
+    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA cwwsb4.list -INTERP $NINTERP -VERBOSE no &>> $OUTFILE
+    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
+    echo "Saving" $OUTDIR"/cwwsb4_"$BAND"_photoz.bpz..."
+    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/cwwsb4_$BAND\_photoz.bpz
+done
+echo " "
+
+echo "Running BPZ on trained CWW+SB4 templates..."
+export OUTFILE=$OUTDIR/cwwsb4_trained_output.txt
+rm $OUTFILE 2> /dev/null
+echo "Saving output to" $OUTFILE"..."
+for BAND in "${IBANDS[@]}"; do
+    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA cwwsb4_trained.list -INTERP $NINTERP -VERBOSE no &>> $OUTFILE
+    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
+    echo "Saving" $OUTDIR"/cwwsb4_trained_"$BAND"_photoz.bpz..."
+    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/cwwsb4_trained_$BAND\_photoz.bpz
+done
+echo " "
 
 echo "Running BPZ on trained naive templates..."
-python $HOME/documents/dirac/bpz-1.99.3/bpz.py data/bpz_catalog.cat -SPECTRA naive_trained.list -INTERP 2 -NTYPES 2 11 7 > /dev/null
-python $HOME/documents/dirac/bpz-1.99.3/bpzfinalize.py data/bpz_catalog > /dev/null
-echo "Saving data/naive_trained_photoz.bpz ..."
-mv data/bpz_catalog_bpz.cat data/naive_trained_photoz.bpz
-
-rm data/bpz_catalog.bpz
-rm data/bpz_catalog.bpz.bak
-rm data/bpz_catalog.flux_comparison
-rm data/bpz_catalog.probs
-
+export OUTFILE=$OUTDIR/naive_trained_output.txt
+rm $OUTFILE 2> /dev/null
+echo "Saving output to" $OUTFILE"..."
+for BAND in "${IBANDS[@]}"; do
+    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA naive_trained.list -INTERP $NINTERP -NTYPES $NEl $NSp $NIS -VERBOSE no &>> $OUTFILE
+    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
+    echo "Saving" $OUTDIR"/naive_trained_"$BAND"_photoz.bpz..."
+    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/naive_trained_$BAND\_photoz.bpz
+done
 echo " "
+
+
+rm $OUTDIR/*catalog*bpz 2> /dev/null
+rm $OUTDIR/*bak 2> /dev/null
+rm $OUTDIR/*flux_comparison 2> /dev/null
+rm $OUTDIR/*probs 2> /dev/null
+
 
 ENDTIME=$(date +%s)
 echo "Duration $(($ENDTIME - $STARTTIME)) seconds"
