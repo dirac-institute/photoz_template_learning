@@ -237,7 +237,14 @@ def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5,
 
             old_training_sets[key] = training_set
 
-    print("Generating final sets")            
+    # now, re-normalize all the templates at 10,000 angstroms
+    for template in training_sets.values():
+        x = template.wavelen
+        y = template.flambda
+        scale = np.interp(10000,x,y)
+        y /= scale
+    print("Generating final sets")
     training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
     print("Done!")
+    
     return new_templates, training_sets

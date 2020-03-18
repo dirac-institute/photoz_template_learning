@@ -5,8 +5,8 @@ import pickle
 
 # This script creates the catalog and column files for BPZ 
 
-# load all of the galaxies
-with open('data/galaxy_catalog.pkl', 'rb') as input:
+# load the validation catalog
+with open('data/validation_catalog.pkl', 'rb') as input:
     allgalaxies = pickle.load(input)
 
 # I need to make catalog and column files for each of the various i-bands I am
@@ -18,6 +18,8 @@ for i,band in enumerate(ibands):
     galaxies = np.array([galaxy for galaxy in allgalaxies
                             if band in galaxy.filters and
                             set(galaxy.filters).isdisjoint(ibands[:i])])
+    if len(galaxies) == 0:
+        continue
 
     # create the catalog file
     f = open("bpz_files/bpz_catalog_"+band+".cat",'w')
