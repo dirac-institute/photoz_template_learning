@@ -239,9 +239,9 @@ def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5,
 
             old_training_sets[key] = training_set
 
-    # now, re-normalize all the templates at 10,000 angstroms
+    # now, re-normalize all the templates at 5000 angstroms
     for template in new_templates.values():
-        scale = np.interp(10000, template.wavelen, template.flambda)
+        scale = np.interp(5000, template.wavelen, template.flambda)
         template.flambda /= scale
         
     print("Generating final sets")
@@ -301,6 +301,7 @@ def line_photometry(x,wavelen,bandpass_dict,FWHM=30):
         lineSED_ = copy.deepcopy(lineSED)
         lineSED_.redshift(z)
         bands = ['y']
+        #bands = list(bandpass_dict.keys())
         wavelens_ = [bandpass_dict[band].eff_wavelen/(1+z) for band in bands]
         fluxes_ = lineSED_.fluxlist(bandpass_dict,bands)
         wavelens = np.concatenate((wavelens,wavelens_))
@@ -330,13 +331,13 @@ def spectral_lines(sed,bandpass_dict,FWHM=30,order=2):
     
     line_dict = {
         "Halpha": { "wavelen": 6563,
-                    "window" : [5850,7300],
+                    "window" : [6100,7000],
                     "scale"  : None,
                     "ratio"  : None,
                     "ref"    : None,
                     "buffer" : 500 },
         "Hbeta" : { "wavelen": 4861,
-                    "window" : None,
+                    "window" : [4400,5200],
                     "scale"  : None,
                     "ratio"  : 1/2.9,
                     "ref"    : "Halpha",
@@ -375,5 +376,17 @@ def spectral_lines(sed,bandpass_dict,FWHM=30,order=2):
         
     final_sed = copy.deepcopy(continuum_sed)
     final_sed.flambda += line_sed.flambda
+
+    print("Equivalent Widths:")
+    for line in line_dict:
+
+        wavelen, window, scale, ratio, ref, buffer = line_dict[line].values()
+
+        continuum_sed_ = copy.deepcopy(continuum_sed)
+        continuum_sed_.flambda += 1e-6
+
+        eqW = np.fabs(simps(scale * np.exp(-(continuum_sed_.wavelen-wavelen)**2/(2*sig**2))/continuum_sed_.flambda,continuum_sed_.wavelen))
+
+        print("{0:<8}{1:<8}{2:<8.2f}".format(line,wavelen,eqW))
         
     return final_sed, continuum_sed, line_sed
