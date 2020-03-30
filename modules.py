@@ -202,7 +202,7 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
 
 
 def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, 
-                    N_iter=1, w=0.75, Delta=None):
+                    N_iter=1, w=0.75, Delta=None, renorm=5000):
     
     new_templates = copy.deepcopy(template_dict)
 
@@ -240,9 +240,10 @@ def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5,
             old_training_sets[key] = training_set
 
     # now, re-normalize all the templates at 5000 angstroms
-    for template in new_templates.values():
-        scale = np.interp(5000, template.wavelen, template.flambda)
-        template.flambda /= scale
+    if renorm != False:
+        for template in new_templates.values():
+            scale = np.interp(renorm, template.wavelen, template.flambda)
+            template.flambda /= scale
         
     print("Generating final sets")
     training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)

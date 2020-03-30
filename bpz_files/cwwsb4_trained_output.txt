@@ -1,5 +1,5 @@
 
-Current time  Wed Mar 18 13:55:04 2020
+Current time  Sun Mar 29 20:09:27 2020
 
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
@@ -203,6 +203,7 @@ Clipping them to f>=0 values
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
+File bpz_files/bpz_catalog_i.bpz exists. Copying it to bpz_files/bpz_catalog_i.bpz.bak
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
 
@@ -236,7 +237,7 @@ fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:04:47
+Elapsed time 00:05:44
 
 Loading  bpz_files/bpz_catalog_i.bpz ...
 

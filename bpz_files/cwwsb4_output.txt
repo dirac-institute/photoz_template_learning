@@ -3,7 +3,7 @@
 /home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
   fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
 
-Current time  Thu Feb 20 15:57:58 2020
+Current time  Sun Mar 29 20:04:49 2020
 
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
@@ -50,7 +50,7 @@ fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:04:28
+Elapsed time 00:04:33
 
 Loading  bpz_files/bpz_catalog_i.bpz ...
 
