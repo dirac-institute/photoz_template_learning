@@ -3,7 +3,7 @@
 /home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
   fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
 
-Current time  Mon Mar 30 15:33:56 2020
+Current time  Mon Mar 30 16:32:44 2020
 
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
@@ -11,12 +11,9 @@ Clipping them to f>=0 values
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
+0 2
+1 7
+2 7
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
 
@@ -28,29 +25,29 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
   fo/ft    dmag   nobj   filter
     nan      nan     0   FUV_galex
     nan      nan     0   NUV_galex
-  0.997   -0.003 11964   u_megacam
+  0.991   -0.010 12511   u_megacam
     nan      nan     0   B_cfh12k
     nan      nan     0   B_subaru
     nan      nan     0   g_subaru
-  1.021    0.022 11981   g_megacam
+  1.005    0.005 12535   g_megacam
     nan      nan     0   V_cfh12k
     nan      nan     0   V_subaru
-  1.002    0.002 11981   r_megacam
+  1.002    0.002 12535   r_megacam
     nan      nan     0   r_subaru
     nan      nan     0   R_cfh12k
-  1.002    0.002  9499   i2_megacam
-  1.009    0.010 11981   i_megacam
+  1.002    0.002  9996   i2_megacam
+  1.007    0.008 12535   i_megacam
     nan      nan     0   i_subaru
     nan      nan     0   I_cfh12k
-  1.000    0.000 11981   z_megacam
+  1.000    0.000 12535   z_megacam
     nan      nan     0   z_subaru
-  0.980   -0.022  6704   y_subaru
+  0.991   -0.010  6897   y_subaru
     nan      nan     0   J_wfcam
 fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:04:14
+Elapsed time 00:06:30
 
 Loading  bpz_files/bpz_catalog_i.bpz ...
 
@@ -65,20 +62,3 @@ Formatting...
 
 Saving  bpz_files/bpz_catalog_i_bpz.cat ...
 
-
-Current time  Mon Mar 30 15:38:14 2020
-
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py", line 266, in <module>
-    filters=get_str(col_file,0)
-  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/useful.py", line 90, in get_str
-    buffer=open(file).readlines() 
-IOError: [Errno 2] No such file or directory: 'bpz_files/bpz_catalog_i2.columns'
-Loading  bpz_files/bpz_catalog_i2.bpz ...
-
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpzfinalize.py", line 25, in <module>
-    infile = loadfile(inbpz)
-  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/coeio.py", line 153, in loadfile
-    fin = open(infile, 'r')
-IOError: [Errno 2] No such file or directory: 'bpz_files/bpz_catalog_i2.bpz'

@@ -12,10 +12,10 @@ export NEl_8=1 # number of eliptical galaxy templates
 export NSp_8=5 # number of spiral galaxy templates
 export NIS_8=2 # number of irregular/star burst galaxy templates
 
-# Number of each galaxy type in the naive set with 20 templates
-export NEl_20=2 # number of eliptical galaxy templates
-export NSp_20=11 # number of spiral galaxy templates
-export NIS_20=7 # number of irregular/star burst galaxy templates
+# Number of each galaxy type in the naive set with 16 templates
+export NEl_16=2 # number of eliptical galaxy templates
+export NSp_16=7 # number of spiral galaxy templates
+export NIS_16=7 # number of irregular/star burst galaxy templates
 
 STARTTIME=$(date +%s)
 
@@ -43,51 +43,51 @@ cp templates/* $BPZPATH/SED/
 cp filters/*res $BPZPATH/FILTER/
 
 
-echo "Running BPZ on CWW+SB4 templates..."
-export OUTFILE=$OUTDIR/cwwsb4_output.txt
-rm $OUTFILE 2> /dev/null
-echo "Saving output to" $OUTFILE"..."
-for BAND in "${IBANDS[@]}"; do
-    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA cwwsb4.list -INTERP $NINTERP -VERBOSE no &>> $OUTFILE
-    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
-    echo "Saving" $OUTDIR"/cwwsb4_"$BAND"_photoz.bpz..."
-    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/cwwsb4_$BAND\_photoz.bpz
-done
-echo " "
+#echo "Running BPZ on CWW+SB4 templates..."
+#export OUTFILE=$OUTDIR/cwwsb4_output.txt
+#rm $OUTFILE 2> /dev/null
+#echo "Saving output to" $OUTFILE"..."
+#for BAND in "${IBANDS[@]}"; do
+#    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA cwwsb4.list -INTERP $NINTERP -VERBOSE no &>> $OUTFILE
+#    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
+#    echo "Saving" $OUTDIR"/cwwsb4_"$BAND"_photoz.bpz..."
+#    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/cwwsb4_$BAND\_photoz.bpz
+#done
+#echo " "
 
-echo "Running BPZ on trained CWW+SB4 templates..."
-export OUTFILE=$OUTDIR/cwwsb4_trained_output.txt
-rm $OUTFILE 2> /dev/null
-echo "Saving output to" $OUTFILE"..."
-for BAND in "${IBANDS[@]}"; do
-    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA cwwsb4_trained.list -INTERP $NINTERP -VERBOSE no &>> $OUTFILE
-    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
-    echo "Saving" $OUTDIR"/cwwsb4_trained_"$BAND"_photoz.bpz..."
-    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/cwwsb4_trained_$BAND\_photoz.bpz
-done
-echo " "
+#echo "Running BPZ on trained CWW+SB4 templates..."
+#export OUTFILE=$OUTDIR/cwwsb4_trained_output.txt
+#rm $OUTFILE 2> /dev/null
+#echo "Saving output to" $OUTFILE"..."
+#for BAND in "${IBANDS[@]}"; do
+#    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA cwwsb4_trained.list -INTERP $NINTERP -VERBOSE no &>> $OUTFILE
+#    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
+#    echo "Saving" $OUTDIR"/cwwsb4_trained_"$BAND"_photoz.bpz..."
+#    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/cwwsb4_trained_$BAND\_photoz.bpz
+#done
+#echo " "
 
-echo "Running BPZ on the 8 trained naive templates..."
-export OUTFILE=$OUTDIR/naive_8_trained_output.txt
-rm $OUTFILE 2> /dev/null
-echo "Saving output to" $OUTFILE"..."
-for BAND in "${IBANDS[@]}"; do
-    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA naive_8_trained.list -INTERP $NINTERP -NTYPES $NEl_8 $NSp_8 $NIS_8 -VERBOSE no &>> $OUTFILE
-    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
-    echo "Saving" $OUTDIR"/naive_8_trained_"$BAND"_photoz.bpz..."
-    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/naive_8_trained_$BAND\_photoz.bpz
-done
-echo " "
+#echo "Running BPZ on the 8 trained naive templates..."
+#export OUTFILE=$OUTDIR/N8_trained_output.txt
+#rm $OUTFILE 2> /dev/null
+#echo "Saving output to" $OUTFILE"..."
+#for BAND in "${IBANDS[@]}"; do
+#    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA N8_trained.list -INTERP $NINTERP -NTYPES $NEl_8 $NSp_8 $NIS_8 -VERBOSE no &>> $OUTFILE
+#    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
+#    echo "Saving" $OUTDIR"/N8_trained_"$BAND"_photoz.bpz..."
+#    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/N8_trained_$BAND\_photoz.bpz
+#done
+#echo " "
 
-echo "Running BPZ on the 20 trained naive templates..."
-export OUTFILE=$OUTDIR/naive_20_trained_output.txt
+echo "Running BPZ on the 16 trained naive templates..."
+export OUTFILE=$OUTDIR/N16_trained_output.txt
 rm $OUTFILE 2> /dev/null
 echo "Saving output to" $OUTFILE"..."
 for BAND in "${IBANDS[@]}"; do
-    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA naive_20_trained.list -INTERP $NINTERP -NTYPES $NEl_20 $NSp_20 $NIS_20 -VERBOSE no &>> $OUTFILE
+    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA N16_trained.list -INTERP $NINTERP -NTYPES $NEl_16 $NSp_16 $NIS_16 -VERBOSE no &>> $OUTFILE
     python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
-    echo "Saving" $OUTDIR"/naive_20_trained_"$BAND"_photoz.bpz..."
-    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/naive_20_trained_$BAND\_photoz.bpz
+    echo "Saving" $OUTDIR"/N16_trained_"$BAND"_photoz.bpz..."
+    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/N16_trained_$BAND\_photoz.bpz
 done
 echo " "
 

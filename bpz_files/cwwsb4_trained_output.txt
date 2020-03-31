@@ -1,5 +1,5 @@
 
-Current time  Sun Mar 29 20:09:27 2020
+Current time  Mon Mar 30 15:38:15 2020
 
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
@@ -237,7 +237,7 @@ fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:05:44
+Elapsed time 00:04:26
 
 Loading  bpz_files/bpz_catalog_i.bpz ...
 
@@ -252,3 +252,20 @@ Formatting...
 
 Saving  bpz_files/bpz_catalog_i_bpz.cat ...
 
+
+Current time  Mon Mar 30 15:42:45 2020
+
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py", line 266, in <module>
+    filters=get_str(col_file,0)
+  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/useful.py", line 90, in get_str
+    buffer=open(file).readlines() 
+IOError: [Errno 2] No such file or directory: 'bpz_files/bpz_catalog_i2.columns'
+Loading  bpz_files/bpz_catalog_i2.bpz ...
+
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpzfinalize.py", line 25, in <module>
+    infile = loadfile(inbpz)
+  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/coeio.py", line 153, in loadfile
+    fin = open(infile, 'r')
+IOError: [Errno 2] No such file or directory: 'bpz_files/bpz_catalog_i2.bpz'
