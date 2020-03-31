@@ -1,4 +1,6 @@
 
+NOTE: This is out of date and needs to be cleaned up!
+
 Repo that contains all the code and plots for the template learning paper about my algorithm to learn photo-z templates from broadband galaxy photometry.
 
 
