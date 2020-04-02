@@ -13,8 +13,8 @@ export NSp_8un=3 # number of spiral galaxy templates
 export NIS_8un=3 # number of irregular/star burst galaxy templates
 
 # Number of each galaxy type in the naive set with 8 trained templates
-export NEl_8tr=2 # number of eliptical galaxy templates 
-export NSp_8tr=3 # number of spiral galaxy templates
+export NEl_8tr=1 # number of eliptical galaxy templates 
+export NSp_8tr=4 # number of spiral galaxy templates
 export NIS_8tr=3 # number of irregular/star burst galaxy templates
 
 # Number of each galaxy type in the naive set with 16 trained templates
@@ -84,17 +84,17 @@ cp filters/*res $BPZPATH/FILTER/
 #done
 #echo " "
 
-#echo "Running BPZ on the 8 trained naive templates..."
-#export OUTFILE=$OUTDIR/N8_trained_output.txt
-#rm $OUTFILE 2> /dev/null
-#echo "Saving output to" $OUTFILE"..."
-#for BAND in "${IBANDS[@]}"; do
-#    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA N8_trained.list -INTERP $NINTERP -NTYPES $NEl_8tr $NSp_8tr $NIS_8tr -VERBOSE no &>> $OUTFILE
-#    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
-#    echo "Saving" $OUTDIR"/N8_trained_"$BAND"_photoz.bpz..."
-#    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/N8_trained_$BAND\_photoz.bpz
-#done
-#echo " "
+echo "Running BPZ on the 8 trained naive templates..."
+export OUTFILE=$OUTDIR/N8_trained_output.txt
+rm $OUTFILE 2> /dev/null
+echo "Saving output to" $OUTFILE"..."
+for BAND in "${IBANDS[@]}"; do
+    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA N8_trained.list -INTERP $NINTERP -NTYPES $NEl_8tr $NSp_8tr $NIS_8tr -VERBOSE no &>> $OUTFILE
+    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
+    echo "Saving" $OUTDIR"/N8_trained_"$BAND"_photoz.bpz..."
+    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/N8_trained_$BAND\_photoz.bpz
+done
+echo " "
 
 #echo "Running BPZ on the 16 trained naive templates..."
 #export OUTFILE=$OUTDIR/N16_trained_output.txt
