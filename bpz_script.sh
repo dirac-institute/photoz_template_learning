@@ -7,6 +7,11 @@ export OUTDIR=bpz_files
 export IBANDS=('i')
 export NINTERP=2 # number of templates to interpolate for BPZ
 
+# Number of each galaxy type in the CWW+SB4 trained templates
+export NEl_8cw=1 # number of eliptical galaxy templates 
+export NSp_8cw=3 # number of spiral galaxy templates
+export NIS_8cw=4 # number of irregular/star burst galaxy templates
+
 # Number of each galaxy type in the naive set with 8 untrained templates
 export NEl_8un=2 # number of eliptical galaxy templates 
 export NSp_8un=3 # number of spiral galaxy templates
@@ -60,17 +65,17 @@ cp filters/*res $BPZPATH/FILTER/
 #done
 #echo " "
 
-#echo "Running BPZ on trained CWW+SB4 templates..."
-#export OUTFILE=$OUTDIR/cwwsb4_trained_output.txt
-#rm $OUTFILE 2> /dev/null
-#echo "Saving output to" $OUTFILE"..."
-#for BAND in "${IBANDS[@]}"; do
-#    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA cwwsb4_trained.list -INTERP $NINTERP -VERBOSE no &>> $OUTFILE
-#    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
-#    echo "Saving" $OUTDIR"/cwwsb4_trained_"$BAND"_photoz.bpz..."
-#    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/cwwsb4_trained_$BAND\_photoz.bpz
-#done
-#echo " "
+echo "Running BPZ on trained CWW+SB4 templates..."
+export OUTFILE=$OUTDIR/cwwsb4_trained_output.txt
+rm $OUTFILE 2> /dev/null
+echo "Saving output to" $OUTFILE"..."
+for BAND in "${IBANDS[@]}"; do
+    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA cwwsb4_trained.list -INTERP $NINTERP -NTYPES $NEl_8cw $NSp_8cw $NIS_8cw -VERBOSE no &>> $OUTFILE
+    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
+    echo "Saving" $OUTDIR"/cwwsb4_trained_"$BAND"_photoz.bpz..."
+    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/cwwsb4_trained_$BAND\_photoz.bpz
+done
+echo " "
 
 #echo "Running BPZ on the 8 untrained naive templates..."
 #export OUTFILE=$OUTDIR/N8_untrained_output.txt

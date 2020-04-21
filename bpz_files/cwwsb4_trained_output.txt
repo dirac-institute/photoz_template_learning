@@ -1,5 +1,5 @@
 
-Current time  Mon Mar 30 15:38:15 2020
+Current time  Tue Apr 21 11:37:20 2020
 
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
@@ -203,7 +203,9 @@ Clipping them to f>=0 values
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
-File bpz_files/bpz_catalog_i.bpz exists. Copying it to bpz_files/bpz_catalog_i.bpz.bak
+0 1
+1 3
+2 4
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
 
@@ -215,29 +217,29 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
   fo/ft    dmag   nobj   filter
     nan      nan     0   FUV_galex
     nan      nan     0   NUV_galex
-  1.083    0.087 11709   u_megacam
+  1.186    0.186 11706   u_megacam
     nan      nan     0   B_cfh12k
     nan      nan     0   B_subaru
     nan      nan     0   g_subaru
-  1.002    0.002 11734   g_megacam
+  1.002    0.002 11731   g_megacam
     nan      nan     0   V_cfh12k
     nan      nan     0   V_subaru
-  1.002    0.002 11734   r_megacam
+  1.002    0.002 11731   r_megacam
     nan      nan     0   r_subaru
     nan      nan     0   R_cfh12k
-  1.006    0.007  9562   i2_megacam
-  1.013    0.014 11734   i_megacam
+  1.006    0.007  9549   i2_megacam
+  1.013    0.014 11731   i_megacam
     nan      nan     0   i_subaru
     nan      nan     0   I_cfh12k
-  0.998   -0.002 11734   z_megacam
+  0.998   -0.002 11731   z_megacam
     nan      nan     0   z_subaru
-  0.973   -0.029  6619   y_subaru
+  0.974   -0.029  6625   y_subaru
     nan      nan     0   J_wfcam
 fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:04:26
+Elapsed time 00:05:58
 
 Loading  bpz_files/bpz_catalog_i.bpz ...
 
@@ -252,20 +254,3 @@ Formatting...
 
 Saving  bpz_files/bpz_catalog_i_bpz.cat ...
 
-
-Current time  Mon Mar 30 15:42:45 2020
-
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py", line 266, in <module>
-    filters=get_str(col_file,0)
-  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/useful.py", line 90, in get_str
-    buffer=open(file).readlines() 
-IOError: [Errno 2] No such file or directory: 'bpz_files/bpz_catalog_i2.columns'
-Loading  bpz_files/bpz_catalog_i2.bpz ...
-
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpzfinalize.py", line 25, in <module>
-    infile = loadfile(inbpz)
-  File "/home/jfcrenshaw/documents/dirac/bpz-1.99.3/coeio.py", line 153, in loadfile
-    fin = open(infile, 'r')
-IOError: [Errno 2] No such file or directory: 'bpz_files/bpz_catalog_i2.bpz'
