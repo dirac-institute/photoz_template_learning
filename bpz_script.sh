@@ -4,7 +4,7 @@ export CONDALOC=/opt/miniconda3/etc/profile.d/conda.sh
 export PY2ENV=py2
 export BPZPATH=$HOME/documents/dirac/bpz-1.99.3
 export OUTDIR=bpz_files
-export IBANDS=('i')
+export IBANDS=('i' 'i2' 'Icfh12k' 'i+')
 export NINTERP=2 # number of templates to interpolate for BPZ
 
 # Number of each galaxy type in the CWW+SB4 trained templates

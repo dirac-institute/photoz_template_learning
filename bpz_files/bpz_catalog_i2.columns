@@ -1,0 +1,23 @@
+# Filter    columns  AB/Vega  zp_error  zp_offset
+NUV_galex      2, 3      AB       0.00       0.00
+u_megacam      4, 5      AB       0.00       0.00
+B_cfh12k       6, 7      AB       0.00       0.00
+B_subaru       8, 9      AB       0.00       0.00
+g_subaru      10,11      AB       0.00       0.00
+g_megacam     12,13      AB       0.00       0.00
+V_cfh12k      14,15      AB       0.00       0.00
+V_subaru      16,17      AB       0.00       0.00
+r_megacam     18,19      AB       0.00       0.00
+r_subaru      20,21      AB       0.00       0.00
+R_cfh12k      22,23      AB       0.00       0.00
+i2_megacam    24,25      AB       0.00       0.00
+i_megacam     26,27      AB       0.00       0.00
+i_subaru      28,29      AB       0.00       0.00
+I_cfh12k      30,31      AB       0.00       0.00
+z_megacam     32,33      AB       0.00       0.00
+z_subaru      34,35      AB       0.00       0.00
+y_subaru      36,37      AB       0.00       0.00
+J_wfcam       38,39      AB       0.00       0.00
+M_0              24
+Z_S              40
+ID                1
