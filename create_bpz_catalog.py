@@ -11,9 +11,9 @@ with open('data/test_catalog.pkl', 'rb') as input:
 
 # I need to make catalog and column files for each of the various i-bands I am
 # using for the magnitude prior
-ibands = ['i','i2','Icfh12k']
+ibands = ['i','i2','Icfh12k','i+']
 for i,band in enumerate(ibands):
-
+    
     # get the galaxies that will be using this i band
     galaxies = np.array([galaxy for galaxy in allgalaxies
                             if band in galaxy.filters and

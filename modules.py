@@ -34,11 +34,10 @@ class Galaxy:
 
 class Bandpass:
     '''Class defining a bandpass filter'''
-    def __init__(self, filename):
+    def __init__(self, filename,dlambda=20):
         # load from file
         wavelen,T = np.loadtxt(filename,unpack=True)
         # resample wavelen and calculate R
-        dlambda = 1
         self.wavelen = np.arange(min(wavelen),max(wavelen),dlambda)
         self.T = np.interp(self.wavelen,wavelen,T)
         self.R = self.T * self.wavelen
@@ -48,11 +47,11 @@ class Bandpass:
         self.eff_width = (self.R * dlambda).sum()/max(self.R)
         
 
-def get_bandpass_dict():
-    names, files = np.loadtxt('filters/filters.list', unpack=True, dtype=str)
+def get_bandpass_dict(filter_loc='filters/',dlambda=20):
+    names, files = np.loadtxt(filter_loc+'filters.list', unpack=True, dtype=str)
     bandpass_dict = dict()
     for i,filename in enumerate(files):
-        bandpass = Bandpass('filters/'+filename)
+        bandpass = Bandpass('filters/'+filename,dlambda)
         bandpass_dict[names[i]] = bandpass  
     return bandpass_dict
 
@@ -111,7 +110,8 @@ def match_photometry(template_dict,galaxy,bandpass_dict):
         sed.redshift(galaxy.redshift)
         template_fluxes = sed.fluxlist(bandpass_dict, filters)
         
-        scale = np.median(template_fluxes/fluxes)
+        idx = np.where( template_fluxes > 0 )
+        scale = np.median(template_fluxes[idx]/fluxes[idx])
         idx = (np.fabs(template_fluxes/fluxes - scale)).argmin()
         template_fluxes /= template_fluxes[idx]
         fluxes /= fluxes[idx]
@@ -203,8 +203,8 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
     return sol
 
 
-def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, 
-                    N_iter=1, w=0.75, Delta=None, renorm=5000):
+def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1,
+                    w=0.75, Delta=None, renorm=5000, remove_outliers=False):
     
     new_templates = copy.deepcopy(template_dict)
 
@@ -223,12 +223,13 @@ def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5,
             training_set = training_sets[key]
 
             # remove outliers
-            x = np.array(training_set)[:,0].astype(float)
-            y = np.array(training_set)[:,1].astype(float)
-            clf = IsolationForest(max_samples=len(x))
-            xy = np.array([x,y]).T
-            idx = np.where( clf.fit_predict(xy) == 1 )
-            training_set = [training_set[j] for j in idx[0]]
+            if remove_outliers == True:
+                x = np.array(training_set)[:,0].astype(float)
+                y = np.array(training_set)[:,1].astype(float)
+                clf = IsolationForest(max_samples=len(x),max_features=2,contamination=0.002)
+                xy = np.array([x,y]).T
+                idx = np.where( clf.fit_predict(xy) == 1 )
+                training_set = [training_set[j] for j in idx[0]]
 
             if training_set == old_training_sets[key]:
                 print("Skipping",key)

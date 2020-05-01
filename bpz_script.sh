@@ -18,8 +18,8 @@ export NSp_8un=3 # number of spiral galaxy templates
 export NIS_8un=3 # number of irregular/star burst galaxy templates
 
 # Number of each galaxy type in the naive set with 8 trained templates
-export NEl_8tr=1 # number of eliptical galaxy templates 
-export NSp_8tr=4 # number of spiral galaxy templates
+export NEl_8tr=0 # number of eliptical galaxy templates 
+export NSp_8tr=5 # number of spiral galaxy templates
 export NIS_8tr=3 # number of irregular/star burst galaxy templates
 
 # Number of each galaxy type in the naive set with 16 trained templates
