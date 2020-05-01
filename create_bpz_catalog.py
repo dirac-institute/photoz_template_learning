@@ -6,7 +6,7 @@ import pickle
 # This script creates the catalog and column files for BPZ 
 
 # load the validation catalog
-with open('data/validation_catalog.pkl', 'rb') as input:
+with open('data/test_catalog.pkl', 'rb') as input:
     allgalaxies = pickle.load(input)
 
 # I need to make catalog and column files for each of the various i-bands I am

@@ -1,12 +1,6 @@
 
-Current time  Fri May  1 10:45:12 2020
+Current time  Fri May  1 13:38:55 2020
 
-     Generating  N8_1.FUV_galex.AB ....
-N8_1 FUV_galex
-x_res[0] 1340.6205
-x_res[-1] 1810.8324
-Changing filter resolution from 33.59 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_1.FUV_galex.AB
      Generating  N8_1.NUV_galex.AB ....
 N8_1 NUV_galex
 x_res[0] 1687.5251
@@ -60,6 +54,9 @@ N8_1 r_subaru
 x_res[0] 5400.0
 x_res[-1] 7241.3
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_1.r_subaru.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
      Generating  N8_1.R_cfh12k.AB ....
 N8_1 R_cfh12k
 x_res[0] 3780.0
@@ -110,12 +107,6 @@ N8_1 J_wfcam
 x_res[0] 11250.0
 x_res[-1] 13600.0
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_1.J_wfcam.AB
-     Generating  N8_2.FUV_galex.AB ....
-N8_2 FUV_galex
-x_res[0] 1340.6205
-x_res[-1] 1810.8324
-Changing filter resolution from 33.59 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_2.FUV_galex.AB
      Generating  N8_2.NUV_galex.AB ....
 N8_2 NUV_galex
 x_res[0] 1687.5251
@@ -148,9 +139,6 @@ N8_2 g_megacam
 x_res[0] 3970.0
 x_res[-1] 5825.0
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_2.g_megacam.AB
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
      Generating  N8_2.V_cfh12k.AB ....
 N8_2 V_cfh12k
 x_res[0] 3020.0
@@ -222,12 +210,6 @@ N8_2 J_wfcam
 x_res[0] 11250.0
 x_res[-1] 13600.0
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_2.J_wfcam.AB
-     Generating  N8_3.FUV_galex.AB ....
-N8_3 FUV_galex
-x_res[0] 1340.6205
-x_res[-1] 1810.8324
-Changing filter resolution from 33.59 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_3.FUV_galex.AB
      Generating  N8_3.NUV_galex.AB ....
 N8_3 NUV_galex
 x_res[0] 1687.5251
@@ -250,9 +232,6 @@ N8_3 B_subaru
 x_res[0] 3600.0
 x_res[-1] 5480.1
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_3.B_subaru.AB
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
      Generating  N8_3.g_subaru.AB ....
 N8_3 g_subaru
 x_res[0] 3790.0
@@ -334,12 +313,6 @@ N8_3 J_wfcam
 x_res[0] 11250.0
 x_res[-1] 13600.0
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_3.J_wfcam.AB
-     Generating  N8_4.FUV_galex.AB ....
-N8_4 FUV_galex
-x_res[0] 1340.6205
-x_res[-1] 1810.8324
-Changing filter resolution from 33.59 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_4.FUV_galex.AB
      Generating  N8_4.NUV_galex.AB ....
 N8_4 NUV_galex
 x_res[0] 1687.5251
@@ -367,6 +340,9 @@ N8_4 g_subaru
 x_res[0] 3790.0
 x_res[-1] 5667.3
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_4.g_subaru.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
      Generating  N8_4.g_megacam.AB ....
 N8_4 g_megacam
 x_res[0] 3970.0
@@ -443,12 +419,6 @@ N8_4 J_wfcam
 x_res[0] 11250.0
 x_res[-1] 13600.0
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_4.J_wfcam.AB
-     Generating  N8_5.FUV_galex.AB ....
-N8_5 FUV_galex
-x_res[0] 1340.6205
-x_res[-1] 1810.8324
-Changing filter resolution from 33.59 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_5.FUV_galex.AB
      Generating  N8_5.NUV_galex.AB ....
 N8_5 NUV_galex
 x_res[0] 1687.5251
@@ -552,12 +522,6 @@ N8_5 J_wfcam
 x_res[0] 11250.0
 x_res[-1] 13600.0
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_5.J_wfcam.AB
-     Generating  N8_6.FUV_galex.AB ....
-N8_6 FUV_galex
-x_res[0] 1340.6205
-x_res[-1] 1810.8324
-Changing filter resolution from 33.59 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6.FUV_galex.AB
      Generating  N8_6.NUV_galex.AB ....
 N8_6 NUV_galex
 x_res[0] 1687.5251
@@ -661,12 +625,6 @@ N8_6 J_wfcam
 x_res[0] 11250.0
 x_res[-1] 13600.0
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6.J_wfcam.AB
-     Generating  N8_7.FUV_galex.AB ....
-N8_7 FUV_galex
-x_res[0] 1340.6205
-x_res[-1] 1810.8324
-Changing filter resolution from 33.59 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7.FUV_galex.AB
      Generating  N8_7.NUV_galex.AB ....
 N8_7 NUV_galex
 x_res[0] 1687.5251
@@ -770,12 +728,6 @@ N8_7 J_wfcam
 x_res[0] 11250.0
 x_res[-1] 13600.0
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7.J_wfcam.AB
-     Generating  N8_8.FUV_galex.AB ....
-N8_8 FUV_galex
-x_res[0] 1340.6205
-x_res[-1] 1810.8324
-Changing filter resolution from 33.59 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8.FUV_galex.AB
      Generating  N8_8.NUV_galex.AB ....
 N8_8 NUV_galex
 x_res[0] 1687.5251
@@ -818,11 +770,7 @@ Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8.V_cfh12k.AB
 N8_8 V_subaru
 x_res[0] 4780.0
 x_res[-1] 6572.6
-Writing AB file /home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py:509: RuntimeWarning: invalid value encountered in multiply
-  ef_obs=where(no_seen,sqrt(ef_obs*ef_obs+(zp_frac*(ef_obs/2.))**2),ef_obs)
-/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
-  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
- /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8.V_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8.V_subaru.AB
      Generating  N8_8.r_megacam.AB ....
 N8_8 r_megacam
 x_res[0] 5295.0
@@ -872,7 +820,11 @@ x_res[0] 7914.0
 x_res[-1] 10725.7
 Changing filter resolution from 14.20 AA to 9.99
 Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8.z_subaru.AB
-     Generating  N8_8.y_subaru.AB ....
+     Generating  N/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py:509: RuntimeWarning: invalid value encountered in multiply
+  ef_obs=where(no_seen,sqrt(ef_obs*ef_obs+(zp_frac*(ef_obs/2.))**2),ef_obs)
+/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
+8_8.y_subaru.AB ....
 N8_8 y_subaru
 x_res[0] 9000.0
 x_res[-1] 11000.0
@@ -888,7 +840,6 @@ Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8.J_wfcam.AB
 2 3
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
-NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
 
 
 PHOTOMETRIC CALIBRATION TESTS
@@ -896,31 +847,30 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
 (For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
 
   fo/ft    dmag   nobj   filter
-    nan      nan     0   FUV_galex
     nan      nan     0   NUV_galex
-  0.983   -0.019 12717   u_megacam
+  0.985   -0.016 12768   u_megacam
     nan      nan     0   B_cfh12k
     nan      nan     0   B_subaru
     nan      nan     0   g_subaru
-  1.009    0.010 12743   g_megacam
+  1.009    0.009 12794   g_megacam
     nan      nan     0   V_cfh12k
     nan      nan     0   V_subaru
-  1.007    0.008 12743   r_megacam
+  1.007    0.008 12794   r_megacam
     nan      nan     0   r_subaru
     nan      nan     0   R_cfh12k
-  1.003    0.003 10129   i2_megacam
-  1.009    0.009 12743   i_megacam
+  1.002    0.002 10170   i2_megacam
+  1.008    0.009 12794   i_megacam
     nan      nan     0   i_subaru
     nan      nan     0   I_cfh12k
-  1.001    0.001 12743   z_megacam
+  1.001    0.002 12794   z_megacam
     nan      nan     0   z_subaru
-  0.996   -0.004  6991   y_subaru
+  0.996   -0.005  7019   y_subaru
     nan      nan     0   J_wfcam
 fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:05:06
+Elapsed time 00:05:04
 
 Loading  bpz_files/bpz_catalog_i.bpz ...
 
