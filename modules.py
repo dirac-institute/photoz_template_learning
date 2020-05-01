@@ -36,16 +36,18 @@ class Bandpass:
     '''Class defining a bandpass filter'''
     def __init__(self, filename):
         # load from file
-        wavelen,sb = np.loadtxt(filename,unpack=True)
-        # resample wavelen and calculate phi
-        self.wavelen = np.arange(min(wavelen),max(wavelen),20)
-        sb = np.interp(self.wavelen,wavelen,sb)
-        self.phi = sb/self.wavelen
-        self.phi /= self.phi.sum() * (self.wavelen[1] - self.wavelen[0])
-        del wavelen,sb
-        # calculate effective wavelen
-        self.eff_wavelen = (self.wavelen*self.phi).sum()/self.phi.sum()
+        wavelen,T = np.loadtxt(filename,unpack=True)
+        # resample wavelen and calculate R
+        dlambda = 1
+        self.wavelen = np.arange(min(wavelen),max(wavelen),dlambda)
+        self.T = np.interp(self.wavelen,wavelen,T)
+        self.R = self.T * self.wavelen
+        self.R /= (self.R * dlambda).sum()
+        del wavelen,T
+        self.eff_wavelen = (self.wavelen * self.R).sum()/self.R.sum()
+        self.eff_width = (self.R * dlambda).sum()/max(self.R)
         
+
 def get_bandpass_dict():
     names, files = np.loadtxt('filters/filters.list', unpack=True, dtype=str)
     bandpass_dict = dict()
@@ -75,7 +77,7 @@ class Sed:
         
     def flux(self, bandpass):
         y = np.interp(bandpass.wavelen,self.wavelen,self.flambda)
-        flux = (y*bandpass.phi).sum() * (bandpass.wavelen[1] - bandpass.wavelen[0])
+        flux = (y*bandpass.R).sum() * (bandpass.wavelen[1] - bandpass.wavelen[0])
         return flux
     
     def fluxlist(self, bandpass_dict, filters=None):
@@ -185,7 +187,7 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
         # calculate r^n * Delta lambda
         rn = np.interp(wavelen * (1+redshift), 
                         bandpass_dict[filter_name].wavelen, 
-                        bandpass_dict[filter_name].phi)
+                        bandpass_dict[filter_name].R)
         dlambda = widths * (1+redshift)
         rn_dlambda = rn * dlambda
         
