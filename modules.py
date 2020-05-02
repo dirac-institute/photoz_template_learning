@@ -93,7 +93,7 @@ class Sed:
 # Functions for assembling training sets
 # --------------------------------------------------------------------------
 # --------------------------------------------------------------------------
-def match_photometry(template_dict,galaxy,bandpass_dict):
+def match_photometry(template_dict, galaxy, bandpass_dict):
     
     keys = np.array(list(template_dict.keys()))
     mse_list = np.array([])
@@ -169,6 +169,9 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
     M = np.identity(nbins)*1/Delta**2
 
     nu = np.zeros(nbins)
+
+    # initialize mean square error
+    mse = 0
     
     # run through all the photometry
     for i,row in enumerate(training_set):
@@ -196,21 +199,36 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
         
         # add to nu
         nu += 1/sigma**2 * (obs_flux - template_flux) * rn_dlambda
+
+        # add to mse
+        mse += 1/sigma**2 * (obs_flux - template_flux)**2
     
         
     # solve the system for the perturbation    
     sol = np.linalg.solve(M,nu)
-    return sol
+
+    # calculate mse
+    mse /= len(training_set)
+
+    return sol, mse
 
 
 def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1,
-                    w=0.75, Delta=None, renorm=5000, remove_outliers=False):
+                    w=0.75, Delta=None, renorm=5000, remove_outliers=False, 
+                    return_history=False):
     
     new_templates = copy.deepcopy(template_dict)
 
     old_training_sets = dict()
     for key in template_dict.keys():
         old_training_sets[key] = None
+
+    history = dict()
+    for key in new_templates.keys():
+        history[key] = dict()
+        history[key][0] = copy.deepcopy(template_dict[key])
+        for i in range(N_rounds):
+            history[key][i+1] = dict()
 
     for i in range(N_rounds):
         
@@ -236,9 +254,11 @@ def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1
                 continue
 
             for j in range(N_iter):
-                pert = perturb_template(template,training_set,bandpass_dict,w=w,Delta=Delta)
+                pert,mse = perturb_template(template,training_set,bandpass_dict,w=w,Delta=Delta)
                 template.flambda += pert
                 template.flambda = np.clip(template.flambda,a_min=0,a_max=None)
+                history[key][i+1][j+1] = [copy.deepcopy(template),copy.deepcopy(training_set),mse]
+
 
             old_training_sets[key] = training_set
 
@@ -252,7 +272,10 @@ def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1
     training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
     print("Done!")
 
-    return new_templates, training_sets
+    if return_history == True:
+        return new_templates, training_sets, history
+    else:
+        return new_templates, training_sets
 
 
 
