@@ -170,8 +170,8 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
 
     nu = np.zeros(nbins)
 
-    # initialize mean square error
-    mse = 0
+    # initialize square fractional error
+    sfe = 0
     
     # run through all the photometry
     for i,row in enumerate(training_set):
@@ -200,43 +200,55 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
         # add to nu
         nu += 1/sigma**2 * (obs_flux - template_flux) * rn_dlambda
 
-        # add to mse
-        mse += 1/sigma**2 * (obs_flux - template_flux)**2
+        # add to sfe
+        sfe += 1/sigma**2 * (template_flux - obs_flux)**2
+        #ase += np.fabs(1/sigma * (template_flux - obs_flux))
     
         
     # solve the system for the perturbation    
     sol = np.linalg.solve(M,nu)
 
-    # calculate mse
-    mse /= len(training_set)
+    # calculate msfe
+    msfe = sfe/len(training_set)
 
-    return sol, mse
+    return sol, msfe
 
 
-def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1,
-                    w=0.75, Delta=None, renorm=5000, remove_outliers=False, 
-                    return_history=False):
+def train_templates(template_dict, galaxies, bandpass_dict, w=0.75, Delta=None, 
+                    dmsfe_stop=0.005, renorm=5000, remove_outliers=False, 
+                    N_rounds=None, N_pert=None, verbose=False):
     
     new_templates = copy.deepcopy(template_dict)
 
-    old_training_sets = dict()
-    for key in template_dict.keys():
-        old_training_sets[key] = None
-
+    # create the history dictionary
     history = dict()
     for key in new_templates.keys():
         history[key] = dict()
-        history[key][0] = copy.deepcopy(template_dict[key])
-        for i in range(N_rounds):
-            history[key][i+1] = dict()
 
-    for i in range(N_rounds):
+    roundN = 0
+    while True:
         
-        print("Round "+str(i+1)+"/"+str(N_rounds))
+        roundN += 1
+
+        if N_rounds == None:
+            print("Round "+str(roundN))
+        else:
+            print("Round "+str(roundN)+"/"+str(N_rounds))
+
+        # keep track of how many templates this round weren't perturbed
+        noPert = 0
         
+        # create the training sets for this round
         training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
         
         for key in new_templates.keys():
+
+            # save this round in the history
+            history[key][roundN] = dict()
+
+            if verbose == True:
+                print(str(key)+':',end=' ')
+
             template = new_templates[key]
             training_set = training_sets[key]
 
@@ -249,18 +261,157 @@ def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1
                 idx = np.where( clf.fit_predict(xy) == 1 )
                 training_set = [training_set[j] for j in idx[0]]
 
-            if training_set == old_training_sets[key]:
-                print("Skipping",key)
-                continue
+            # start with the unperturbed template
+            pertN = 0
+            history[key][roundN][pertN] = dict()
+            history[key][roundN][pertN]['sed'] = copy.deepcopy(template)
 
-            for j in range(N_iter):
-                pert,mse = perturb_template(template,training_set,bandpass_dict,w=w,Delta=Delta)
-                template.flambda += pert
-                template.flambda = np.clip(template.flambda,a_min=0,a_max=None)
-                history[key][i+1][j+1] = [copy.deepcopy(template),copy.deepcopy(training_set),mse]
+            while True:
 
+                # increase the perturbation number
+                pertN += 1
 
-            old_training_sets[key] = training_set
+                # calculate the perturbation and the msfe
+                pert,msfe = perturb_template(template,training_set,bandpass_dict,w=w,Delta=Delta)
+
+                # this msfe was calculated before the perturbation was added!
+                # so save it to the previous perturbation
+                history[key][roundN][pertN-1]['msfe'] = msfe
+
+                if verbose == True:
+                    print("{:>6.1f}".format(msfe), end=' ')
+
+                if N_pert == None:
+                    # check the fractional difference of the two most recent msfe's
+                    # to see if I should stop perturbing
+                    if pertN == 1 and roundN > 1:
+                        msfe2 = history[key][roundN][pertN-1]['msfe'] # msfe of new matched set
+                        finalPert = max(list(history[key][roundN-1].keys()))
+                        msfe1 = history[key][roundN-1][finalPert]['msfe'] # final msfe of previous round
+                        dmsfe = np.fabs( 1 - msfe2/msfe1 )
+                        if dmsfe < dmsfe_stop:
+                            noPert += 1
+                            if verbose == True:
+                                print(' ')
+                            break
+                    elif pertN > 1:
+                        msfe2 = history[key][roundN][pertN-1]['msfe'] # msfe of most recent iteration
+                        msfe1 = history[key][roundN][pertN-2]['msfe'] # msfe of iteration before that
+                        dmsfe = np.fabs( 1 - msfe2/msfe1 )
+                        if dmsfe < dmsfe_stop:
+                            if verbose == True:
+                                print(' ')
+                            break
+                    # otherwise, add the perturbation and continue
+                    template.flambda += pert
+                    template.flambda = np.clip(template.flambda,a_min=0,a_max=None)
+                    history[key][roundN][pertN] = dict()
+                    history[key][roundN][pertN]['sed'] = copy.deepcopy(template)
+
+                # If you specified a number of rounds
+                elif pertN == N_pert + 1:
+                    break
+                else:
+                    template.flambda += pert
+                    template.flambda = np.clip(template.flambda,a_min=0,a_max=None)
+                    history[key][roundN][pertN] = dict()
+                    history[key][roundN][pertN]['sed'] = copy.deepcopy(template)
+                
+        if verbose == False:
+            print("noPert =",noPert)
+        if noPert == len(new_templates):
+            break
+
+        elif roundN == N_rounds:
+            break
+
+    # now, re-normalize all the templates at 5000 angstroms
+    if renorm != False:
+        for template in new_templates.values():
+            scale = np.interp(renorm, template.wavelen, template.flambda)
+            if scale > 0:
+                template.flambda /= scale
+            else:
+                print("Not renormalizing, because scale wasn't > 0.")
+        
+    print("Generating final sets")
+    training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
+    print("Done!")
+
+    return new_templates, training_sets, history
+
+"""
+def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1,
+                    w=0.75, Delta=None, renorm=5000, remove_outliers=False):
+    
+    new_templates = copy.deepcopy(template_dict)
+
+    # create the history dictionary
+    history = dict()
+    for key in new_templates.keys():
+        history[key] = dict()
+
+    i = 0
+    #for i in range(N_rounds):
+    while True:
+        
+        print("Round "+str(i+1)+"/"+str(N_rounds))
+        N_skipped = 0
+        
+        training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
+        
+        for key in new_templates.keys():
+            template = new_templates[key]
+            training_set = training_sets[key]
+
+            # save this round in the history
+            history[key][i+1] = dict()
+            history[key][i+1][0] = [copy.deepcopy(template), None]
+
+            # remove outliers
+            if remove_outliers == True:
+                x = np.array(training_set)[:,0].astype(float)
+                y = np.array(training_set)[:,1].astype(float)
+                clf = IsolationForest(max_samples=len(x),max_features=2,contamination=0.002)
+                xy = np.array([x,y]).T
+                idx = np.where( clf.fit_predict(xy) == 1 )
+                training_set = [training_set[j] for j in idx[0]]
+
+            #for j in range(N_iter+1):
+            j = 0
+            while True:
+                # calculate the perturbation and the msfe
+                pert,msfe = perturb_template(template,training_set,bandpass_dict,w=w,Delta=Delta)
+                # this msfe was calculated before the perturbation was added!
+                history[key][i+1][j][1] = msfe
+                # check to see if I should truncate
+                if j == 0 and i != 0:
+                    msfe2 = history[key][i+1][0][1] # msfe of new matched set
+                    msfe1 = history[key][i][-1][1] # final msfe of previous round
+                    dmsfe = np.fabs( 1 - msfe2/msfe1 )
+                    if dmsfe < 0.005:
+                        N_skipped += 1
+                        break
+                elif j > 0:
+                    msfe2 = history[key][i+1][j][1] # msfe of most recent iteration
+                    msfe1 = history[key][i+1][j-1][1] # msfe of iteration before that
+                    dmsfe = np.fabs( 1 - msfe2/msfe1 )
+                    if dmsfe < 0.005:
+                        break
+
+                # otherwise, add the perturbation and continue
+                else:
+                    template.flambda += pert
+                    template.flambda = np.clip(template.flambda,a_min=0,a_max=None)
+                    history[key][i+1][j+1] = [copy.deepcopy(template), None]
+                    # increase j
+                    j += 1
+        
+        print("N_skipped =",N_skipped)
+        if N_skipped == len(new_templates):
+            break
+
+        i += 1
 
     # now, re-normalize all the templates at 5000 angstroms
     if renorm != False:
@@ -272,10 +423,8 @@ def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1
     training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
     print("Done!")
 
-    if return_history == True:
-        return new_templates, training_sets, history
-    else:
-        return new_templates, training_sets
+    return new_templates, training_sets, history
+"""
 
 
 
