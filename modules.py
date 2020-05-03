@@ -123,6 +123,7 @@ def match_photometry(template_dict, galaxy, bandpass_dict):
     idx = mse_list.argmin()
     return keys[idx],scales[idx]
 
+
 def create_training_sets(template_dict,galaxies,bandpass_dict):
     
     # create a dictionary to hold the set for each template
@@ -214,8 +215,8 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
     return sol, msfe
 
 
-def train_templates(template_dict, galaxies, bandpass_dict, w=0.75, Delta=None, 
-                    dmsfe_stop=0.005, renorm=5000, remove_outliers=False, 
+def train_templates(template_dict, galaxies, bandpass_dict, w=0.5, Delta=None, 
+                    dmsfe_stop=0.05, renorm=5000, remove_outliers=False, 
                     N_rounds=None, N_pert=None, verbose=False):
     
     new_templates = copy.deepcopy(template_dict)
@@ -339,92 +340,6 @@ def train_templates(template_dict, galaxies, bandpass_dict, w=0.75, Delta=None,
     print("Done!")
 
     return new_templates, training_sets, history
-
-"""
-def train_templates(template_dict, galaxies, bandpass_dict, N_rounds=5, N_iter=1,
-                    w=0.75, Delta=None, renorm=5000, remove_outliers=False):
-    
-    new_templates = copy.deepcopy(template_dict)
-
-    # create the history dictionary
-    history = dict()
-    for key in new_templates.keys():
-        history[key] = dict()
-
-    i = 0
-    #for i in range(N_rounds):
-    while True:
-        
-        print("Round "+str(i+1)+"/"+str(N_rounds))
-        N_skipped = 0
-        
-        training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
-        
-        for key in new_templates.keys():
-            template = new_templates[key]
-            training_set = training_sets[key]
-
-            # save this round in the history
-            history[key][i+1] = dict()
-            history[key][i+1][0] = [copy.deepcopy(template), None]
-
-            # remove outliers
-            if remove_outliers == True:
-                x = np.array(training_set)[:,0].astype(float)
-                y = np.array(training_set)[:,1].astype(float)
-                clf = IsolationForest(max_samples=len(x),max_features=2,contamination=0.002)
-                xy = np.array([x,y]).T
-                idx = np.where( clf.fit_predict(xy) == 1 )
-                training_set = [training_set[j] for j in idx[0]]
-
-            #for j in range(N_iter+1):
-            j = 0
-            while True:
-                # calculate the perturbation and the msfe
-                pert,msfe = perturb_template(template,training_set,bandpass_dict,w=w,Delta=Delta)
-                # this msfe was calculated before the perturbation was added!
-                history[key][i+1][j][1] = msfe
-                # check to see if I should truncate
-                if j == 0 and i != 0:
-                    msfe2 = history[key][i+1][0][1] # msfe of new matched set
-                    msfe1 = history[key][i][-1][1] # final msfe of previous round
-                    dmsfe = np.fabs( 1 - msfe2/msfe1 )
-                    if dmsfe < 0.005:
-                        N_skipped += 1
-                        break
-                elif j > 0:
-                    msfe2 = history[key][i+1][j][1] # msfe of most recent iteration
-                    msfe1 = history[key][i+1][j-1][1] # msfe of iteration before that
-                    dmsfe = np.fabs( 1 - msfe2/msfe1 )
-                    if dmsfe < 0.005:
-                        break
-
-                # otherwise, add the perturbation and continue
-                else:
-                    template.flambda += pert
-                    template.flambda = np.clip(template.flambda,a_min=0,a_max=None)
-                    history[key][i+1][j+1] = [copy.deepcopy(template), None]
-                    # increase j
-                    j += 1
-        
-        print("N_skipped =",N_skipped)
-        if N_skipped == len(new_templates):
-            break
-
-        i += 1
-
-    # now, re-normalize all the templates at 5000 angstroms
-    if renorm != False:
-        for template in new_templates.values():
-            scale = np.interp(renorm, template.wavelen, template.flambda)
-            template.flambda /= scale
-        
-    print("Generating final sets")
-    training_sets = create_training_sets(new_templates,galaxies,bandpass_dict)
-    print("Done!")
-
-    return new_templates, training_sets, history
-"""
 
 
 
