@@ -171,8 +171,8 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
 
     nu = np.zeros(nbins)
 
-    # initialize square fractional error
-    sfe = 0
+    # initialize square error
+    se = 0
     
     # run through all the photometry
     for i,row in enumerate(training_set):
@@ -201,22 +201,21 @@ def perturb_template(template, training_set, bandpass_dict, w=0.75, Delta=None):
         # add to nu
         nu += 1/sigma**2 * (obs_flux - template_flux) * rn_dlambda
 
-        # add to sfe
-        sfe += 1/sigma**2 * (template_flux - obs_flux)**2
-        #ase += np.fabs(1/sigma * (template_flux - obs_flux))
+        # add to se
+        se += 1/sigma**2 * (template_flux - obs_flux)**2
     
         
     # solve the system for the perturbation    
     sol = np.linalg.solve(M,nu)
 
     # calculate msfe
-    msfe = sfe/len(training_set)
+    mse = se/len(training_set)
 
-    return sol, msfe
+    return sol, mse
 
 
 def train_templates(template_dict, galaxies, bandpass_dict, w=0.5, Delta=None, 
-                    dmsfe_stop=0.05, renorm=5000, remove_outliers=False, 
+                    dmse_stop=0.05, renorm=5000, remove_outliers=False, 
                     N_rounds=None, N_pert=None, verbose=False):
     
     new_templates = copy.deepcopy(template_dict)
@@ -273,33 +272,33 @@ def train_templates(template_dict, galaxies, bandpass_dict, w=0.5, Delta=None,
                 pertN += 1
 
                 # calculate the perturbation and the msfe
-                pert,msfe = perturb_template(template,training_set,bandpass_dict,w=w,Delta=Delta)
+                pert,mse = perturb_template(template,training_set,bandpass_dict,w=w,Delta=Delta)
 
                 # this msfe was calculated before the perturbation was added!
                 # so save it to the previous perturbation
-                history[key][roundN][pertN-1]['msfe'] = msfe
+                history[key][roundN][pertN-1]['mse'] = mse
 
                 if verbose == True:
-                    print("{:>6.1f}".format(msfe), end=' ')
+                    print("{:>6.1f}".format(mse), end=' ')
 
                 if N_pert == None:
                     # check the fractional difference of the two most recent msfe's
                     # to see if I should stop perturbing
                     if pertN == 1 and roundN > 1:
-                        msfe2 = history[key][roundN][pertN-1]['msfe'] # msfe of new matched set
+                        mse2 = history[key][roundN][pertN-1]['mse'] # msfe of new matched set
                         finalPert = max(list(history[key][roundN-1].keys()))
-                        msfe1 = history[key][roundN-1][finalPert]['msfe'] # final msfe of previous round
-                        dmsfe = np.fabs( 1 - msfe2/msfe1 )
-                        if dmsfe < dmsfe_stop:
+                        mse1 = history[key][roundN-1][finalPert]['mse'] # final msfe of previous round
+                        dmse = np.fabs( 1 - mse2/mse1 )
+                        if dmse < dmse_stop:
                             noPert += 1
                             if verbose == True:
                                 print(' ')
                             break
                     elif pertN > 1:
-                        msfe2 = history[key][roundN][pertN-1]['msfe'] # msfe of most recent iteration
-                        msfe1 = history[key][roundN][pertN-2]['msfe'] # msfe of iteration before that
-                        dmsfe = np.fabs( 1 - msfe2/msfe1 )
-                        if dmsfe < dmsfe_stop:
+                        mse2 = history[key][roundN][pertN-1]['mse'] # msfe of most recent iteration
+                        mse1 = history[key][roundN][pertN-2]['mse'] # msfe of iteration before that
+                        dmse = np.fabs( 1 - mse2/mse1 )
+                        if dmse < dmse_stop:
                             if verbose == True:
                                 print(' ')
                             break
