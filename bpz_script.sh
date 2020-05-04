@@ -65,17 +65,17 @@ cp filters/*res $BPZPATH/FILTER/
 #done
 #echo " "
 
-echo "Running BPZ on trained CWW+SB4 templates..."
-export OUTFILE=$OUTDIR/cwwsb4_trained_output.txt
-rm $OUTFILE 2> /dev/null
-echo "Saving output to" $OUTFILE"..."
-for BAND in "${IBANDS[@]}"; do
-    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA cwwsb4_trained.list -INTERP $NINTERP -NTYPES $NEl_8cw $NSp_8cw $NIS_8cw -NEW_AB yes -VERBOSE no &>> $OUTFILE
-    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
-    echo "Saving" $OUTDIR"/cwwsb4_trained_"$BAND"_photoz.bpz..."
-    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/cwwsb4_trained_$BAND\_photoz.bpz
-done
-echo " "
+#echo "Running BPZ on trained CWW+SB4 templates..."
+#export OUTFILE=$OUTDIR/cwwsb4_trained_output.txt
+#rm $OUTFILE 2> /dev/null
+#echo "Saving output to" $OUTFILE"..."
+#for BAND in "${IBANDS[@]}"; do
+#    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA cwwsb4_trained.list -INTERP $NINTERP -NTYPES $NEl_8cw $NSp_8cw $NIS_8cw -NEW_AB yes -VERBOSE no &>> $OUTFILE
+#    python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
+#    echo "Saving" $OUTDIR"/cwwsb4_trained_"$BAND"_photoz.bpz..."
+#    mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/cwwsb4_trained_$BAND\_photoz.bpz
+#done
+#echo " "
 
 #echo "Running BPZ on the 8 untrained naive templates..."
 #export OUTFILE=$OUTDIR/N8_untrained_output.txt
@@ -94,7 +94,7 @@ export OUTFILE=$OUTDIR/N8_trained_output.txt
 rm $OUTFILE 2> /dev/null
 echo "Saving output to" $OUTFILE"..."
 for BAND in "${IBANDS[@]}"; do
-    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA N8_trained.list -INTERP $NINTERP -NTYPES $NEl_8tr $NSp_8tr $NIS_8tr -NEW_AB yes -VERBOSE no &>> $OUTFILE
+    python $BPZPATH/bpz.py $OUTDIR/bpz_catalog_$BAND.cat -SPECTRA N8_trained.list -INTERP $NINTERP -NTYPES $NEl_8tr $NSp_8tr $NIS_8tr -NEW_AB no -VERBOSE no &>> $OUTFILE
     python $BPZPATH/bpzfinalize.py $OUTDIR/bpz_catalog_$BAND &>> $OUTFILE
     echo "Saving" $OUTDIR"/N8_trained_"$BAND"_photoz.bpz..."
     mv $OUTDIR/bpz_catalog_$BAND\_bpz.cat $OUTDIR/N8_trained_$BAND\_photoz.bpz
