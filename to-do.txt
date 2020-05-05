@@ -1,0 +1,9 @@
+
+- make a plot of how the number of templates affects the BPZ results.
+- set interp=0 for these results. (also test interp=0 for the other results as well)
+- Finish the rewrite of the template training section and the photo-z section
+- incorporate all of Andy's suggestions
+- Finish describing the data sets in the paper
+- write the intro and discussion/conclusion
+- write the abstract
+- update readmes, notebook comments, and docstrings in modules
