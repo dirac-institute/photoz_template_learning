@@ -1,0 +1,3 @@
+[submodule "paper"]
+	path = paper
+	url = git@github.com:jfcrenshaw/photoz_template_learning_paper.git
