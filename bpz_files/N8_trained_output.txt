@@ -1,329 +1,834 @@
 
-Current time  Mon May  4 13:39:50 2020
+Current time  Tue May 12 20:30:35 2020
 
+     Generating  N8_1.NUV_galex.AB ....
+N8_1 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.NUV_galex.AB
+     Generating  N8_1.u_megacam.AB ....
+N8_1 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.u_megacam.AB
+     Generating  N8_1.B_cfh12k.AB ....
+N8_1 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.B_cfh12k.AB
+     Generating  N8_1.B_subaru.AB ....
+N8_1 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.B_subaru.AB
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
+     Generating  N8_1.g_subaru.AB ....
+N8_1 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.g_subaru.AB
+     Generating  N8_1.g_megacam.AB ....
+N8_1 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.g_megacam.AB
+     Generating  N8_1.V_cfh12k.AB ....
+N8_1 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.V_cfh12k.AB
+     Generating  N8_1.V_subaru.AB ....
+N8_1 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.V_subaru.AB
+     Generating  N8_1.r_megacam.AB ....
+N8_1 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.r_megacam.AB
+     Generating  N8_1.r_subaru.AB ....
+N8_1 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.r_subaru.AB
+     Generating  N8_1.R_cfh12k.AB ....
+N8_1 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.R_cfh12k.AB
+     Generating  N8_1.i2_megacam.AB ....
+N8_1 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i2_megacam.AB
+     Generating  N8_1.i_megacam.AB ....
+N8_1 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i_megacam.AB
+     Generating  N8_1.i_subaru.AB ....
+N8_1 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i_subaru.AB
+     Generating  N8_1.I_cfh12k.AB ....
+N8_1 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.I_cfh12k.AB
+     Generating  N8_1.z_megacam.AB ....
+N8_1 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.z_megacam.AB
+     Generating  N8_1.z_subaru.AB ....
+N8_1 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.z_subaru.AB
+     Generating  N8_1.y_subaru.AB ....
+N8_1 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.y_subaru.AB
+     Generating  N8_1.J_wfcam.AB ....
+N8_1 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.J_wfcam.AB
+     Generating  N8_2.NUV_galex.AB ....
+N8_2 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.NUV_galex.AB
+     Generating  N8_2.u_megacam.AB ....
+N8_2 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.u_megacam.AB
+     Generating  N8_2.B_cfh12k.AB ....
+N8_2 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.B_cfh12k.AB
+     Generating  N8_2.B_subaru.AB ....
+N8_2 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.B_subaru.AB
+     Generating  N8_2.g_subaru.AB ....
+N8_2 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.g_subaru.AB
+     Generating  N8_2.g_megacam.AB ....
+N8_2 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.g_megacam.AB
+     Generating  N8_2.V_cfh12k.AB ....
+N8_2 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.V_cfh12k.AB
+     Generating  N8_2.V_subaru.AB ....
+N8_2 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.V_subaru.AB
+     Generating  N8_2.r_megacam.AB ....
+N8_2 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.r_megacam.AB
+     Generating  N8_2.r_subaru.AB ....
+N8_2 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.r_subaru.AB
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
+     Generating  N8_2.R_cfh12k.AB ....
+N8_2 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.R_cfh12k.AB
+     Generating  N8_2.i2_megacam.AB ....
+N8_2 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i2_megacam.AB
+     Generating  N8_2.i_megacam.AB ....
+N8_2 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i_megacam.AB
+     Generating  N8_2.i_subaru.AB ....
+N8_2 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i_subaru.AB
+     Generating  N8_2.I_cfh12k.AB ....
+N8_2 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.I_cfh12k.AB
+     Generating  N8_2.z_megacam.AB ....
+N8_2 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.z_megacam.AB
+     Generating  N8_2.z_subaru.AB ....
+N8_2 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.z_subaru.AB
+     Generating  N8_2.y_subaru.AB ....
+N8_2 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.y_subaru.AB
+     Generating  N8_2.J_wfcam.AB ....
+N8_2 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.J_wfcam.AB
+     Generating  N8_3.NUV_galex.AB ....
+N8_3 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.NUV_galex.AB
+     Generating  N8_3.u_megacam.AB ....
+N8_3 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.u_megacam.AB
+     Generating  N8_3.B_cfh12k.AB ....
+N8_3 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.B_cfh12k.AB
+     Generating  N8_3.B_subaru.AB ....
+N8_3 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.B_subaru.AB
+     Generating  N8_3.g_subaru.AB ....
+N8_3 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.g_subaru.AB
+     Generating  N8_3.g_megacam.AB ....
+N8_3 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.g_megacam.AB
+     Generating  N8_3.V_cfh12k.AB ....
+N8_3 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.V_cfh12k.AB
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
+     Generating  N8_3.V_subaru.AB ....
+N8_3 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.V_subaru.AB
+     Generating  N8_3.r_megacam.AB ....
+N8_3 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.r_megacam.AB
+     Generating  N8_3.r_subaru.AB ....
+N8_3 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.r_subaru.AB
+     Generating  N8_3.R_cfh12k.AB ....
+N8_3 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.R_cfh12k.AB
+     Generating  N8_3.i2_megacam.AB ....
+N8_3 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i2_megacam.AB
+     Generating  N8_3.i_megacam.AB ....
+N8_3 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i_megacam.AB
+     Generating  N8_3.i_subaru.AB ....
+N8_3 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i_subaru.AB
+     Generating  N8_3.I_cfh12k.AB ....
+N8_3 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.I_cfh12k.AB
+     Generating  N8_3.z_megacam.AB ....
+N8_3 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.z_megacam.AB
+     Generating  N8_3.z_subaru.AB ....
+N8_3 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.z_subaru.AB
+     Generating  N8_3.y_subaru.AB ....
+N8_3 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.y_subaru.AB
+     Generating  N8_3.J_wfcam.AB ....
+N8_3 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.J_wfcam.AB
+     Generating  N8_4.NUV_galex.AB ....
+N8_4 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.NUV_galex.AB
+     Generating  N8_4.u_megacam.AB ....
+N8_4 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.u_megacam.AB
+     Generating  N8_4.B_cfh12k.AB ....
+N8_4 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.B_cfh12k.AB
+     Generating  N8_4.B_subaru.AB ....
+N8_4 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.B_subaru.AB
+     Generating  N8_4.g_subaru.AB ....
+N8_4 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.g_subaru.AB
+     Generating  N8_4.g_megacam.AB ....
+N8_4 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.g_megacam.AB
+     Generating  N8_4.V_cfh12k.AB ....
+N8_4 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.V_cfh12k.AB
+     Generating  N8_4.V_subaru.AB ....
+N8_4 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.V_subaru.AB
+     Generating  N8_4.r_megacam.AB ....
+N8_4 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.r_megacam.AB
+     Generating  N8_4.r_subaru.AB ....
+N8_4 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.r_subaru.AB
+     Generating  N8_4.R_cfh12k.AB ....
+N8_4 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.R_cfh12k.AB
+     Generating  N8_4.i2_megacam.AB ....
+N8_4 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i2_megacam.AB
+     Generating  N8_4.i_megacam.AB ....
+N8_4 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i_megacam.AB
+     Generating  N8_4.i_subaru.AB ....
+N8_4 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i_subaru.AB
+     Generating  N8_4.I_cfh12k.AB ....
+N8_4 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.I_cfh12k.AB
+     Generating  N8_4.z_megacam.AB ....
+N8_4 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.z_megacam.AB
+     Generating  N8_4.z_subaru.AB ....
+N8_4 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.z_subaru.AB
+     Generating  N8_4.y_subaru.AB ....
+N8_4 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.y_subaru.AB
+     Generating  N8_4.J_wfcam.AB ....
+N8_4 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.J_wfcam.AB
+     Generating  N8_5.NUV_galex.AB ....
+N8_5 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.NUV_galex.AB
+     Generating  N8_5.u_megacam.AB ....
+N8_5 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.u_megacam.AB
+     Generating  N8_5.B_cfh12k.AB ....
+N8_5 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.B_cfh12k.AB
+     Generating  N8_5.B_subaru.AB ....
+N8_5 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.B_subaru.AB
+     Generating  N8_5.g_subaru.AB ....
+N8_5 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.g_subaru.AB
+     Generating  N8_5.g_megacam.AB ....
+N8_5 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.g_megacam.AB
+     Generating  N8_5.V_cfh12k.AB ....
+N8_5 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.V_cfh12k.AB
+     Generating  N8_5.V_subaru.AB ....
+N8_5 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.V_subaru.AB
+     Generating  N8_5.r_megacam.AB ....
+N8_5 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.r_megacam.AB
+     Generating  N8_5.r_subaru.AB ....
+N8_5 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.r_subaru.AB
+     Generating  N8_5.R_cfh12k.AB ....
+N8_5 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.R_cfh12k.AB
+     Generating  N8_5.i2_megacam.AB ....
+N8_5 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i2_megacam.AB
+     Generating  N8_5.i_megacam.AB ....
+N8_5 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i_megacam.AB
+     Generating  N8_5.i_subaru.AB ....
+N8_5 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i_subaru.AB
+     Generating  N8_5.I_cfh12k.AB ....
+N8_5 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.I_cfh12k.AB
+     Generating  N8_5.z_megacam.AB ....
+N8_5 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.z_megacam.AB
+     Generating  N8_5.z_subaru.AB ....
+N8_5 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.z_subaru.AB
+     Generating  N8_5.y_subaru.AB ....
+N8_5 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.y_subaru.AB
+     Generating  N8_5.J_wfcam.AB ....
+N8_5 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.J_wfcam.AB
      Generating  N8_6_speclines.NUV_galex.AB ....
 N8_6_speclines NUV_galex
 x_res[0] 1687.5251
 x_res[-1] 3007.7354
 Changing filter resolution from 57.40 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.NUV_galex.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.NUV_galex.AB
      Generating  N8_6_speclines.u_megacam.AB ....
 N8_6_speclines u_megacam
 x_res[0] 3270.0
 x_res[-1] 4320.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.u_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.u_megacam.AB
      Generating  N8_6_speclines.B_cfh12k.AB ....
 N8_6_speclines B_cfh12k
 x_res[0] 3000.0
 x_res[-1] 6540.0
 Changing filter resolution from 19.89 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.B_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.B_cfh12k.AB
      Generating  N8_6_speclines.B_subaru.AB ....
 N8_6_speclines B_subaru
 x_res[0] 3600.0
 x_res[-1] 5480.1
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.B_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.B_subaru.AB
      Generating  N8_6_speclines.g_subaru.AB ....
 N8_6_speclines g_subaru
 x_res[0] 3790.0
 x_res[-1] 5667.3
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.g_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.g_subaru.AB
      Generating  N8_6_speclines.g_megacam.AB ....
 N8_6_speclines g_megacam
 x_res[0] 3970.0
 x_res[-1] 5825.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.g_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.g_megacam.AB
      Generating  N8_6_speclines.V_cfh12k.AB ....
 N8_6_speclines V_cfh12k
 x_res[0] 3020.0
 x_res[-1] 7660.0
 Changing filter resolution from 19.91 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.V_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.V_cfh12k.AB
      Generating  N8_6_speclines.V_subaru.AB ....
 N8_6_speclines V_subaru
 x_res[0] 4780.0
 x_res[-1] 6572.6
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.V_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.V_subaru.AB
      Generating  N8_6_speclines.r_megacam.AB ....
 N8_6_speclines r_megacam
 x_res[0] 5295.0
 x_res[-1] 7140.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.r_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.r_megacam.AB
      Generating  N8_6_speclines.r_subaru.AB ....
 N8_6_speclines r_subaru
 x_res[0] 5400.0
 x_res[-1] 7241.3
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.r_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.r_subaru.AB
      Generating  N8_6_speclines.R_cfh12k.AB ....
 N8_6_speclines R_cfh12k
 x_res[0] 3780.0
 x_res[-1] 9300.0
 Changing filter resolution from 19.93 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.R_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.R_cfh12k.AB
      Generating  N8_6_speclines.i2_megacam.AB ....
 N8_6_speclines i2_megacam
 x_res[0] 6515.0
 x_res[-1] 8730.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.i2_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i2_megacam.AB
      Generating  N8_6_speclines.i_megacam.AB ....
 N8_6_speclines i_megacam
 x_res[0] 6565.0
 x_res[-1] 8890.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.i_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i_megacam.AB
      Generating  N8_6_speclines.i_subaru.AB ....
 N8_6_speclines i_subaru
 x_res[0] 6710.0
 x_res[-1] 9170.1
 Changing filter resolution from 11.28 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.i_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i_subaru.AB
      Generating  N8_6_speclines.I_cfh12k.AB ....
 N8_6_speclines I_cfh12k
 x_res[0] 5020.0
 x_res[-1] 11380.0
 Changing filter resolution from 19.94 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.I_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.I_cfh12k.AB
      Generating  N8_6_speclines.z_megacam.AB ....
 N8_6_speclines z_megacam
 x_res[0] 7845.0
 x_res[-1] 10605.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.z_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.z_megacam.AB
      Generating  N8_6_speclines.z_subaru.AB ....
 N8_6_speclines z_subaru
 x_res[0] 7914.0
 x_res[-1] 10725.7
 Changing filter resolution from 14.20 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.z_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.z_subaru.AB
      Generating  N8_6_speclines.y_subaru.AB ....
 N8_6_speclines y_subaru
 x_res[0] 9365.0
 x_res[-1] 11335.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.y_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.y_subaru.AB
      Generating  N8_6_speclines.J_wfcam.AB ....
 N8_6_speclines J_wfcam
 x_res[0] 11250.0
 x_res[-1] 13600.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_6_speclines.J_wfcam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.J_wfcam.AB
      Generating  N8_7_speclines.NUV_galex.AB ....
 N8_7_speclines NUV_galex
 x_res[0] 1687.5251
 x_res[-1] 3007.7354
 Changing filter resolution from 57.40 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.NUV_galex.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.NUV_galex.AB
      Generating  N8_7_speclines.u_megacam.AB ....
 N8_7_speclines u_megacam
 x_res[0] 3270.0
 x_res[-1] 4320.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.u_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.u_megacam.AB
      Generating  N8_7_speclines.B_cfh12k.AB ....
 N8_7_speclines B_cfh12k
 x_res[0] 3000.0
 x_res[-1] 6540.0
 Changing filter resolution from 19.89 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.B_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.B_cfh12k.AB
      Generating  N8_7_speclines.B_subaru.AB ....
 N8_7_speclines B_subaru
 x_res[0] 3600.0
 x_res[-1] 5480.1
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.B_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.B_subaru.AB
      Generating  N8_7_speclines.g_subaru.AB ....
 N8_7_speclines g_subaru
 x_res[0] 3790.0
 x_res[-1] 5667.3
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.g_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.g_subaru.AB
      Generating  N8_7_speclines.g_megacam.AB ....
 N8_7_speclines g_megacam
 x_res[0] 3970.0
 x_res[-1] 5825.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.g_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.g_megacam.AB
      Generating  N8_7_speclines.V_cfh12k.AB ....
 N8_7_speclines V_cfh12k
 x_res[0] 3020.0
 x_res[-1] 7660.0
 Changing filter resolution from 19.91 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.V_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.V_cfh12k.AB
      Generating  N8_7_speclines.V_subaru.AB ....
 N8_7_speclines V_subaru
 x_res[0] 4780.0
 x_res[-1] 6572.6
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.V_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.V_subaru.AB
      Generating  N8_7_speclines.r_megacam.AB ....
 N8_7_speclines r_megacam
 x_res[0] 5295.0
 x_res[-1] 7140.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.r_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.r_megacam.AB
      Generating  N8_7_speclines.r_subaru.AB ....
 N8_7_speclines r_subaru
 x_res[0] 5400.0
 x_res[-1] 7241.3
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.r_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.r_subaru.AB
      Generating  N8_7_speclines.R_cfh12k.AB ....
 N8_7_speclines R_cfh12k
 x_res[0] 3780.0
 x_res[-1] 9300.0
 Changing filter resolution from 19.93 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.R_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.R_cfh12k.AB
      Generating  N8_7_speclines.i2_megacam.AB ....
 N8_7_speclines i2_megacam
 x_res[0] 6515.0
 x_res[-1] 8730.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.i2_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i2_megacam.AB
      Generating  N8_7_speclines.i_megacam.AB ....
 N8_7_speclines i_megacam
 x_res[0] 6565.0
 x_res[-1] 8890.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.i_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i_megacam.AB
      Generating  N8_7_speclines.i_subaru.AB ....
 N8_7_speclines i_subaru
 x_res[0] 6710.0
 x_res[-1] 9170.1
 Changing filter resolution from 11.28 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.i_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i_subaru.AB
      Generating  N8_7_speclines.I_cfh12k.AB ....
 N8_7_speclines I_cfh12k
 x_res[0] 5020.0
 x_res[-1] 11380.0
 Changing filter resolution from 19.94 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.I_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.I_cfh12k.AB
      Generating  N8_7_speclines.z_megacam.AB ....
 N8_7_speclines z_megacam
 x_res[0] 7845.0
 x_res[-1] 10605.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.z_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.z_megacam.AB
      Generating  N8_7_speclines.z_subaru.AB ....
 N8_7_speclines z_subaru
 x_res[0] 7914.0
 x_res[-1] 10725.7
 Changing filter resolution from 14.20 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.z_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.z_subaru.AB
      Generating  N8_7_speclines.y_subaru.AB ....
 N8_7_speclines y_subaru
 x_res[0] 9365.0
 x_res[-1] 11335.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.y_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.y_subaru.AB
      Generating  N8_7_speclines.J_wfcam.AB ....
 N8_7_speclines J_wfcam
 x_res[0] 11250.0
 x_res[-1] 13600.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_7_speclines.J_wfcam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.J_wfcam.AB
      Generating  N8_8_speclines.NUV_galex.AB ....
 N8_8_speclines NUV_galex
 x_res[0] 1687.5251
 x_res[-1] 3007.7354
 Changing filter resolution from 57.40 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.NUV_galex.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.NUV_galex.AB
      Generating  N8_8_speclines.u_megacam.AB ....
 N8_8_speclines u_megacam
 x_res[0] 3270.0
 x_res[-1] 4320.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.u_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.u_megacam.AB
      Generating  N8_8_speclines.B_cfh12k.AB ....
 N8_8_speclines B_cfh12k
 x_res[0] 3000.0
 x_res[-1] 6540.0
 Changing filter resolution from 19.89 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.B_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.B_cfh12k.AB
      Generating  N8_8_speclines.B_subaru.AB ....
 N8_8_speclines B_subaru
 x_res[0] 3600.0
 x_res[-1] 5480.1
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.B_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.B_subaru.AB
      Generating  N8_8_speclines.g_subaru.AB ....
 N8_8_speclines g_subaru
 x_res[0] 3790.0
 x_res[-1] 5667.3
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.g_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.g_subaru.AB
      Generating  N8_8_speclines.g_megacam.AB ....
 N8_8_speclines g_megacam
 x_res[0] 3970.0
 x_res[-1] 5825.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.g_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.g_megacam.AB
      Generating  N8_8_speclines.V_cfh12k.AB ....
 N8_8_speclines V_cfh12k
 x_res[0] 3020.0
 x_res[-1] 7660.0
 Changing filter resolution from 19.91 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.V_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.V_cfh12k.AB
      Generating  N8_8_speclines.V_subaru.AB ....
 N8_8_speclines V_subaru
 x_res[0] 4780.0
 x_res[-1] 6572.6
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.V_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.V_subaru.AB
      Generating  N8_8_speclines.r_megacam.AB ....
 N8_8_speclines r_megacam
 x_res[0] 5295.0
 x_res[-1] 7140.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.r_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.r_megacam.AB
      Generating  N8_8_speclines.r_subaru.AB ....
 N8_8_speclines r_subaru
 x_res[0] 5400.0
 x_res[-1] 7241.3
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.r_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.r_subaru.AB
      Generating  N8_8_speclines.R_cfh12k.AB ....
 N8_8_speclines R_cfh12k
 x_res[0] 3780.0
 x_res[-1] 9300.0
 Changing filter resolution from 19.93 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.R_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.R_cfh12k.AB
      Generating  N8_8_speclines.i2_megacam.AB ....
 N8_8_speclines i2_megacam
 x_res[0] 6515.0
 x_res[-1] 8730.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.i2_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i2_megacam.AB
      Generating  N8_8_speclines.i_megacam.AB ....
 N8_8_speclines i_megacam
 x_res[0] 6565.0
 x_res[-1] 8890.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.i_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i_megacam.AB
      Generating  N8_8_speclines.i_subaru.AB ....
 N8_8_speclines i_subaru
 x_res[0] 6710.0
 x_res[-1] 9170.1
 Changing filter resolution from 11.28 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.i_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i_subaru.AB
      Generating  N8_8_speclines.I_cfh12k.AB ....
 N8_8_speclines I_cfh12k
 x_res[0] 5020.0
 x_res[-1] 11380.0
 Changing filter resolution from 19.94 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.I_cfh12k.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.I_cfh12k.AB
      Generating  N8_8_speclines.z_megacam.AB ....
 N8_8_speclines z_megacam
 x_res[0] 7845.0
 x_res[-1] 10605.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.z_megacam.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.z_megacam.AB
      Generating  N8_8_speclines.z_subaru.AB ....
 N8_8_speclines z_subaru
 x_res[0] 7914.0
 x_res[-1] 10725.7
 Changing filter resolution from 14.20 AA to 9.99
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.z_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.z_subaru.AB
      Generating  N8_8_speclines.y_subaru.AB ....
 N8_8_speclines y_subaru
 x_res[0] 9365.0
 x_res[-1] 11335.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.y_subaru.AB
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.y_subaru.AB
      Generating  N8_8_speclines.J_wfcam.AB ....
 N8_8_speclines J_wfcam
 x_res[0] 11250.0
 x_res[-1] 13600.0
-Writing AB file  /home/jfcrenshaw/documents/dirac/bpz-1.99.3/AB/N8_8_speclines.J_wfcam.AB
-0 1
-1 4
-2 3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.J_wfcam.AB
+File bpz_files/bpz_catalog_i.bpz exists. Copying it to bpz_files/bpz_catalog_i.bpz.bak
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
-NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
-NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
-NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
 NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
 NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
 NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
@@ -427,30 +932,30 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
 (For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
 
   fo/ft    dmag   nobj   filter
-  1.482    0.427  1153   NUV_galex
- 4264.393    9.075  7549   u_megacam
-  9.099    2.397   189   B_cfh12k
-  1.181    0.180  1334   B_subaru
-  0.931   -0.078  1385   g_subaru
- 1176.269    7.676 11179   g_megacam
- 38.379    3.960   338   V_cfh12k
-  1.048    0.051  1459   V_subaru
-  1.058    0.061 12578   r_megacam
-  0.963   -0.041  1460   r_subaru
-  1.128    0.131   408   R_cfh12k
-  1.002    0.002  1889   i2_megacam
-  1.012    0.012 14049   i_megacam
-  0.978   -0.024  1424   i_subaru
-  1.134    0.137   423   I_cfh12k
-  0.990   -0.011 12077   z_megacam
-  1.068    0.072  1452   z_subaru
-  0.974   -0.028   423   y_subaru
-  0.993   -0.008  1460   J_wfcam
+  1.502    0.442  1153   NUV_galex
+ 4434.784    9.117  7449   u_megacam
+ 14.431    2.898   189   B_cfh12k
+  1.184    0.183  1335   B_subaru
+  0.931   -0.077  1386   g_subaru
+ 1224.311    7.720 10897   g_megacam
+ 36.310    3.900   339   V_cfh12k
+  1.048    0.051  1461   V_subaru
+  1.069    0.073 12280   r_megacam
+  0.964   -0.040  1462   r_subaru
+  1.130    0.133   411   R_cfh12k
+  1.003    0.004  1852   i2_megacam
+  1.012    0.013 13753   i_megacam
+  0.978   -0.025  1426   i_subaru
+  1.133    0.136   425   I_cfh12k
+  0.992   -0.009 11871   z_megacam
+  1.070    0.074  1454   z_subaru
+  0.980   -0.022   423   y_subaru
+  0.993   -0.008  1462   J_wfcam
 fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:05:48
+Elapsed time 00:02:13
 
 Loading  bpz_files/bpz_catalog_i.bpz ...
 
@@ -465,23 +970,837 @@ Formatting...
 
 Saving  bpz_files/bpz_catalog_i_bpz.cat ...
 
-/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+
+Current time  Tue May 12 20:32:52 2020
+
+     Generating  N8_1.NUV_galex.AB ....
+N8_1 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.NUV_galex.AB
+     Generating  N8_1.u_megacam.AB ....
+N8_1 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.u_megacam.AB
+     Generating  N8_1.B_cfh12k.AB ....
+N8_1 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.B_cfh12k.AB
+     Generating  N8_1.B_subaru.AB ....
+N8_1 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.B_subaru.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N8_1.g_subaru.AB ....
+N8_1 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.g_subaru.AB
+     Generating  N8_1.g_megacam.AB ....
+N8_1 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.g_megacam.AB
+     Generating  N8_1.V_cfh12k.AB ....
+N8_1 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.V_cfh12k.AB
+     Generating  N8_1.V_subaru.AB ....
+N8_1 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.V_subaru.AB
+     Generating  N8_1.r_megacam.AB ....
+N8_1 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.r_megacam.AB
+     Generating  N8_1.r_subaru.AB ....
+N8_1 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.r_subaru.AB
+     Generating  N8_1.R_cfh12k.AB ....
+N8_1 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.R_cfh12k.AB
+     Generating  N8_1.i2_megacam.AB ....
+N8_1 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i2_megacam.AB
+     Generating  N8_1.i_megacam.AB ....
+N8_1 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i_megacam.AB
+     Generating  N8_1.i_subaru.AB ....
+N8_1 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i_subaru.AB
+     Generating  N8_1.I_cfh12k.AB ....
+N8_1 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.I_cfh12k.AB
+     Generating  N8_1.z_megacam.AB ....
+N8_1 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.z_megacam.AB
+     Generating  N8_1.z_subaru.AB ....
+N8_1 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.z_subaru.AB
+     Generating  N8_1.y_subaru.AB ....
+N8_1 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.y_subaru.AB
+     Generating  N8_1.J_wfcam.AB ....
+N8_1 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.J_wfcam.AB
+     Generating  N8_2.NUV_galex.AB ....
+N8_2 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.NUV_galex.AB
+     Generating  N8_2.u_megacam.AB ....
+N8_2 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.u_megacam.AB
+     Generating  N8_2.B_cfh12k.AB ....
+N8_2 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.B_cfh12k.AB
+     Generating  N8_2.B_subaru.AB ....
+N8_2 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.B_subaru.AB
+     Generating  N8_2.g_subaru.AB ....
+N8_2 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.g_subaru.AB
+     Generating  N8_2.g_megacam.AB ....
+N8_2 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.g_megacam.AB
+     Generating  N8_2.V_cfh12k.AB ....
+N8_2 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.V_cfh12k.AB
+     Generating  N8_2.V_subaru.AB ....
+N8_2 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.V_subaru.AB
+     Generating  N8_2.r_megacam.AB ....
+N8_2 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.r_megacam.AB
+     Generating  N8_2.r_subaru.AB ....
+N8_2 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.r_subaru.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N8_2.R_cfh12k.AB ....
+N8_2 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.R_cfh12k.AB
+     Generating  N8_2.i2_megacam.AB ....
+N8_2 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i2_megacam.AB
+     Generating  N8_2.i_megacam.AB ....
+N8_2 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i_megacam.AB
+     Generating  N8_2.i_subaru.AB ....
+N8_2 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i_subaru.AB
+     Generating  N8_2.I_cfh12k.AB ....
+N8_2 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.I_cfh12k.AB
+     Generating  N8_2.z_megacam.AB ....
+N8_2 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.z_megacam.AB
+     Generating  N8_2.z_subaru.AB ....
+N8_2 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.z_subaru.AB
+     Generating  N8_2.y_subaru.AB ....
+N8_2 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.y_subaru.AB
+     Generating  N8_2.J_wfcam.AB ....
+N8_2 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.J_wfcam.AB
+     Generating  N8_3.NUV_galex.AB ....
+N8_3 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.NUV_galex.AB
+     Generating  N8_3.u_megacam.AB ....
+N8_3 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.u_megacam.AB
+     Generating  N8_3.B_cfh12k.AB ....
+N8_3 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.B_cfh12k.AB
+     Generating  N8_3.B_subaru.AB ....
+N8_3 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.B_subaru.AB
+     Generating  N8_3.g_subaru.AB ....
+N8_3 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.g_subaru.AB
+     Generating  N8_3.g_megacam.AB ....
+N8_3 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.g_megacam.AB
+     Generating  N8_3.V_cfh12k.AB ....
+N8_3 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.V_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N8_3.V_subaru.AB ....
+N8_3 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.V_subaru.AB
+     Generating  N8_3.r_megacam.AB ....
+N8_3 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.r_megacam.AB
+     Generating  N8_3.r_subaru.AB ....
+N8_3 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.r_subaru.AB
+     Generating  N8_3.R_cfh12k.AB ....
+N8_3 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.R_cfh12k.AB
+     Generating  N8_3.i2_megacam.AB ....
+N8_3 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i2_megacam.AB
+     Generating  N8_3.i_megacam.AB ....
+N8_3 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i_megacam.AB
+     Generating  N8_3.i_subaru.AB ....
+N8_3 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i_subaru.AB
+     Generating  N8_3.I_cfh12k.AB ....
+N8_3 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.I_cfh12k.AB
+     Generating  N8_3.z_megacam.AB ....
+N8_3 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.z_megacam.AB
+     Generating  N8_3.z_subaru.AB ....
+N8_3 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.z_subaru.AB
+     Generating  N8_3.y_subaru.AB ....
+N8_3 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.y_subaru.AB
+     Generating  N8_3.J_wfcam.AB ....
+N8_3 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.J_wfcam.AB
+     Generating  N8_4.NUV_galex.AB ....
+N8_4 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.NUV_galex.AB
+     Generating  N8_4.u_megacam.AB ....
+N8_4 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.u_megacam.AB
+     Generating  N8_4.B_cfh12k.AB ....
+N8_4 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.B_cfh12k.AB
+     Generating  N8_4.B_subaru.AB ....
+N8_4 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.B_subaru.AB
+     Generating  N8_4.g_subaru.AB ....
+N8_4 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.g_subaru.AB
+     Generating  N8_4.g_megacam.AB ....
+N8_4 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.g_megacam.AB
+     Generating  N8_4.V_cfh12k.AB ....
+N8_4 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.V_cfh12k.AB
+     Generating  N8_4.V_subaru.AB ....
+N8_4 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.V_subaru.AB
+     Generating  N8_4.r_megacam.AB ....
+N8_4 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.r_megacam.AB
+     Generating  N8_4.r_subaru.AB ....
+N8_4 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.r_subaru.AB
+     Generating  N8_4.R_cfh12k.AB ....
+N8_4 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.R_cfh12k.AB
+     Generating  N8_4.i2_megacam.AB ....
+N8_4 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i2_megacam.AB
+     Generating  N8_4.i_megacam.AB ....
+N8_4 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i_megacam.AB
+     Generating  N8_4.i_subaru.AB ....
+N8_4 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i_subaru.AB
+     Generating  N8_4.I_cfh12k.AB ....
+N8_4 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.I_cfh12k.AB
+     Generating  N8_4.z_megacam.AB ....
+N8_4 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.z_megacam.AB
+     Generating  N8_4.z_subaru.AB ....
+N8_4 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.z_subaru.AB
+     Generating  N8_4.y_subaru.AB ....
+N8_4 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.y_subaru.AB
+     Generating  N8_4.J_wfcam.AB ....
+N8_4 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.J_wfcam.AB
+     Generating  N8_5.NUV_galex.AB ....
+N8_5 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.NUV_galex.AB
+     Generating  N8_5.u_megacam.AB ....
+N8_5 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.u_megacam.AB
+     Generating  N8_5.B_cfh12k.AB ....
+N8_5 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.B_cfh12k.AB
+     Generating  N8_5.B_subaru.AB ....
+N8_5 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.B_subaru.AB
+     Generating  N8_5.g_subaru.AB ....
+N8_5 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.g_subaru.AB
+     Generating  N8_5.g_megacam.AB ....
+N8_5 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.g_megacam.AB
+     Generating  N8_5.V_cfh12k.AB ....
+N8_5 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.V_cfh12k.AB
+     Generating  N8_5.V_subaru.AB ....
+N8_5 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.V_subaru.AB
+     Generating  N8_5.r_megacam.AB ....
+N8_5 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.r_megacam.AB
+     Generating  N8_5.r_subaru.AB ....
+N8_5 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.r_subaru.AB
+     Generating  N8_5.R_cfh12k.AB ....
+N8_5 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.R_cfh12k.AB
+     Generating  N8_5.i2_megacam.AB ....
+N8_5 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i2_megacam.AB
+     Generating  N8_5.i_megacam.AB ....
+N8_5 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i_megacam.AB
+     Generating  N8_5.i_subaru.AB ....
+N8_5 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i_subaru.AB
+     Generating  N8_5.I_cfh12k.AB ....
+N8_5 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.I_cfh12k.AB
+     Generating  N8_5.z_megacam.AB ....
+N8_5 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.z_megacam.AB
+     Generating  N8_5.z_subaru.AB ....
+N8_5 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.z_subaru.AB
+     Generating  N8_5.y_subaru.AB ....
+N8_5 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.y_subaru.AB
+     Generating  N8_5.J_wfcam.AB ....
+N8_5 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.J_wfcam.AB
+     Generating  N8_6_speclines.NUV_galex.AB ....
+N8_6_speclines NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.NUV_galex.AB
+     Generating  N8_6_speclines.u_megacam.AB ....
+N8_6_speclines u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.u_megacam.AB
+     Generating  N8_6_speclines.B_cfh12k.AB ....
+N8_6_speclines B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.B_cfh12k.AB
+     Generating  N8_6_speclines.B_subaru.AB ....
+N8_6_speclines B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.B_subaru.AB
+     Generating  N8_6_speclines.g_subaru.AB ....
+N8_6_speclines g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.g_subaru.AB
+     Generating  N8_6_speclines.g_megacam.AB ....
+N8_6_speclines g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.g_megacam.AB
+     Generating  N8_6_speclines.V_cfh12k.AB ....
+N8_6_speclines V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.V_cfh12k.AB
+     Generating  N8_6_speclines.V_subaru.AB ....
+N8_6_speclines V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.V_subaru.AB
+     Generating  N8_6_speclines.r_megacam.AB ....
+N8_6_speclines r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.r_megacam.AB
+     Generating  N8_6_speclines.r_subaru.AB ....
+N8_6_speclines r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.r_subaru.AB
+     Generating  N8_6_speclines.R_cfh12k.AB ....
+N8_6_speclines R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.R_cfh12k.AB
+     Generating  N8_6_speclines.i2_megacam.AB ....
+N8_6_speclines i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i2_megacam.AB
+     Generating  N8_6_speclines.i_megacam.AB ....
+N8_6_speclines i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i_megacam.AB
+     Generating  N8_6_speclines.i_subaru.AB ....
+N8_6_speclines i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i_subaru.AB
+     Generating  N8_6_speclines.I_cfh12k.AB ....
+N8_6_speclines I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.I_cfh12k.AB
+     Generating  N8_6_speclines.z_megacam.AB ....
+N8_6_speclines z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.z_megacam.AB
+     Generating  N8_6_speclines.z_subaru.AB ....
+N8_6_speclines z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.z_subaru.AB
+     Generating  N8_6_speclines.y_subaru.AB ....
+N8_6_speclines y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.y_subaru.AB
+     Generating  N8_6_speclines.J_wfcam.AB ....
+N8_6_speclines J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.J_wfcam.AB
+     Generating  N8_7_speclines.NUV_galex.AB ....
+N8_7_speclines NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.NUV_galex.AB
+     Generating  N8_7_speclines.u_megacam.AB ....
+N8_7_speclines u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.u_megacam.AB
+     Generating  N8_7_speclines.B_cfh12k.AB ....
+N8_7_speclines B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.B_cfh12k.AB
+     Generating  N8_7_speclines.B_subaru.AB ....
+N8_7_speclines B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.B_subaru.AB
+     Generating  N8_7_speclines.g_subaru.AB ....
+N8_7_speclines g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.g_subaru.AB
+     Generating  N8_7_speclines.g_megacam.AB ....
+N8_7_speclines g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.g_megacam.AB
+     Generating  N8_7_speclines.V_cfh12k.AB ....
+N8_7_speclines V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.V_cfh12k.AB
+     Generating  N8_7_speclines.V_subaru.AB ....
+N8_7_speclines V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.V_subaru.AB
+     Generating  N8_7_speclines.r_megacam.AB ....
+N8_7_speclines r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.r_megacam.AB
+     Generating  N8_7_speclines.r_subaru.AB ....
+N8_7_speclines r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.r_subaru.AB
+     Generating  N8_7_speclines.R_cfh12k.AB ....
+N8_7_speclines R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.R_cfh12k.AB
+     Generating  N8_7_speclines.i2_megacam.AB ....
+N8_7_speclines i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i2_megacam.AB
+     Generating  N8_7_speclines.i_megacam.AB ....
+N8_7_speclines i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i_megacam.AB
+     Generating  N8_7_speclines.i_subaru.AB ....
+N8_7_speclines i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i_subaru.AB
+     Generating  N8_7_speclines.I_cfh12k.AB ....
+N8_7_speclines I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.I_cfh12k.AB
+     Generating  N8_7_speclines.z_megacam.AB ....
+N8_7_speclines z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.z_megacam.AB
+     Generating  N8_7_speclines.z_subaru.AB ....
+N8_7_speclines z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.z_subaru.AB
+     Generating  N8_7_speclines.y_subaru.AB ....
+N8_7_speclines y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.y_subaru.AB
+     Generating  N8_7_speclines.J_wfcam.AB ....
+N8_7_speclines J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.J_wfcam.AB
+     Generating  N8_8_speclines.NUV_galex.AB ....
+N8_8_speclines NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.NUV_galex.AB
+     Generating  N8_8_speclines.u_megacam.AB ....
+N8_8_speclines u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.u_megacam.AB
+     Generating  N8_8_speclines.B_cfh12k.AB ....
+N8_8_speclines B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.B_cfh12k.AB
+     Generating  N8_8_speclines.B_subaru.AB ....
+N8_8_speclines B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.B_subaru.AB
+     Generating  N8_8_speclines.g_subaru.AB ....
+N8_8_speclines g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.g_subaru.AB
+     Generating  N8_8_speclines.g_megacam.AB ....
+N8_8_speclines g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.g_megacam.AB
+     Generating  N8_8_speclines.V_cfh12k.AB ....
+N8_8_speclines V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.V_cfh12k.AB
+     Generating  N8_8_speclines.V_subaru.AB ....
+N8_8_speclines V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.V_subaru.AB
+     Generating  N8_8_speclines.r_megacam.AB ....
+N8_8_speclines r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.r_megacam.AB
+     Generating  N8_8_speclines.r_subaru.AB ....
+N8_8_speclines r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.r_subaru.AB
+     Generating  N8_8_speclines.R_cfh12k.AB ....
+N8_8_speclines R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.R_cfh12k.AB
+     Generating  N8_8_speclines.i2_megacam.AB ....
+N8_8_speclines i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i2_megacam.AB
+     Generating  N8_8_speclines.i_megacam.AB ....
+N8_8_speclines i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i_megacam.AB
+     Generating  N8_8_speclines.i_subaru.AB ....
+N8_8_speclines i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i_subaru.AB
+     Generating  N8_8_speclines.I_cfh12k.AB ....
+N8_8_speclines I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfc/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
   fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
-
-Current time  Mon May  4 13:45:45 2020
-
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
-0 1
-1 4
-2 3
+renshaw/documents/bpz-1.99.3/AB/N8_8_speclines.I_cfh12k.AB
+     Generating  N8_8_speclines.z_megacam.AB ....
+N8_8_speclines z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.z_megacam.AB
+     Generating  N8_8_speclines.z_subaru.AB ....
+N8_8_speclines z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.z_subaru.AB
+     Generating  N8_8_speclines.y_subaru.AB ....
+N8_8_speclines y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.y_subaru.AB
+     Generating  N8_8_speclines.J_wfcam.AB ....
+N8_8_speclines J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.J_wfcam.AB
+File bpz_files/bpz_catalog_i2.bpz exists. Copying it to bpz_files/bpz_catalog_i2.bpz.bak
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
 
@@ -491,22 +1810,22 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
 (For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
 
   fo/ft    dmag   nobj   filter
-  1.076    0.079   196   NUV_galex
-  0.981   -0.020  1127   u_megacam
+  1.109    0.112   196   NUV_galex
+  0.990   -0.011  1120   u_megacam
     nan      nan     0   B_cfh12k
     nan      nan     0   B_subaru
     nan      nan     0   g_subaru
-  0.999   -0.001  2209   g_megacam
+  1.001    0.001  2172   g_megacam
     nan      nan     0   V_cfh12k
     nan      nan     0   V_subaru
-  1.000    0.000  2404   r_megacam
+  0.998   -0.002  2365   r_megacam
     nan      nan     0   r_subaru
     nan      nan     0   R_cfh12k
-  1.004    0.004  2410   i2_megacam
+  1.005    0.005  2372   i2_megacam
     nan      nan     0   i_megacam
     nan      nan     0   i_subaru
     nan      nan     0   I_cfh12k
-  0.994   -0.006  2320   z_megacam
+  0.996   -0.005  2299   z_megacam
     nan      nan     0   z_subaru
     nan      nan     0   y_subaru
     nan      nan     0   J_wfcam
@@ -514,7 +1833,7 @@ fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:01:08
+Elapsed time 00:00:47
 
 Loading  bpz_files/bpz_catalog_i2.bpz ...
 
@@ -529,23 +1848,837 @@ Formatting...
 
 Saving  bpz_files/bpz_catalog_i2_bpz.cat ...
 
-/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+
+Current time  Tue May 12 20:33:41 2020
+
+     Generating  N8_1.NUV_galex.AB ....
+N8_1 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.NUV_galex.AB
+     Generating  N8_1.u_megacam.AB ....
+N8_1 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.u_megacam.AB
+     Generating  N8_1.B_cfh12k.AB ....
+N8_1 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.B_cfh12k.AB
+     Generating  N8_1.B_subaru.AB ....
+N8_1 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.B_subaru.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N8_1.g_subaru.AB ....
+N8_1 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.g_subaru.AB
+     Generating  N8_1.g_megacam.AB ....
+N8_1 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.g_megacam.AB
+     Generating  N8_1.V_cfh12k.AB ....
+N8_1 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.V_cfh12k.AB
+     Generating  N8_1.V_subaru.AB ....
+N8_1 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.V_subaru.AB
+     Generating  N8_1.r_megacam.AB ....
+N8_1 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.r_megacam.AB
+     Generating  N8_1.r_subaru.AB ....
+N8_1 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.r_subaru.AB
+     Generating  N8_1.R_cfh12k.AB ....
+N8_1 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.R_cfh12k.AB
+     Generating  N8_1.i2_megacam.AB ....
+N8_1 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i2_megacam.AB
+     Generating  N8_1.i_megacam.AB ....
+N8_1 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i_megacam.AB
+     Generating  N8_1.i_subaru.AB ....
+N8_1 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i_subaru.AB
+     Generating  N8_1.I_cfh12k.AB ....
+N8_1 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.I_cfh12k.AB
+     Generating  N8_1.z_megacam.AB ....
+N8_1 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.z_megacam.AB
+     Generating  N8_1.z_subaru.AB ....
+N8_1 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.z_subaru.AB
+     Generating  N8_1.y_subaru.AB ....
+N8_1 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.y_subaru.AB
+     Generating  N8_1.J_wfcam.AB ....
+N8_1 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.J_wfcam.AB
+     Generating  N8_2.NUV_galex.AB ....
+N8_2 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.NUV_galex.AB
+     Generating  N8_2.u_megacam.AB ....
+N8_2 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.u_megacam.AB
+     Generating  N8_2.B_cfh12k.AB ....
+N8_2 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.B_cfh12k.AB
+     Generating  N8_2.B_subaru.AB ....
+N8_2 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.B_subaru.AB
+     Generating  N8_2.g_subaru.AB ....
+N8_2 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.g_subaru.AB
+     Generating  N8_2.g_megacam.AB ....
+N8_2 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.g_megacam.AB
+     Generating  N8_2.V_cfh12k.AB ....
+N8_2 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.V_cfh12k.AB
+     Generating  N8_2.V_subaru.AB ....
+N8_2 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.V_subaru.AB
+     Generating  N8_2.r_megacam.AB ....
+N8_2 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.r_megacam.AB
+     Generating  N8_2.r_subaru.AB ....
+N8_2 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.r_subaru.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N8_2.R_cfh12k.AB ....
+N8_2 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.R_cfh12k.AB
+     Generating  N8_2.i2_megacam.AB ....
+N8_2 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i2_megacam.AB
+     Generating  N8_2.i_megacam.AB ....
+N8_2 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i_megacam.AB
+     Generating  N8_2.i_subaru.AB ....
+N8_2 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i_subaru.AB
+     Generating  N8_2.I_cfh12k.AB ....
+N8_2 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.I_cfh12k.AB
+     Generating  N8_2.z_megacam.AB ....
+N8_2 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.z_megacam.AB
+     Generating  N8_2.z_subaru.AB ....
+N8_2 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.z_subaru.AB
+     Generating  N8_2.y_subaru.AB ....
+N8_2 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.y_subaru.AB
+     Generating  N8_2.J_wfcam.AB ....
+N8_2 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.J_wfcam.AB
+     Generating  N8_3.NUV_galex.AB ....
+N8_3 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.NUV_galex.AB
+     Generating  N8_3.u_megacam.AB ....
+N8_3 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.u_megacam.AB
+     Generating  N8_3.B_cfh12k.AB ....
+N8_3 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.B_cfh12k.AB
+     Generating  N8_3.B_subaru.AB ....
+N8_3 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.B_subaru.AB
+     Generating  N8_3.g_subaru.AB ....
+N8_3 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.g_subaru.AB
+     Generating  N8_3.g_megacam.AB ....
+N8_3 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.g_megacam.AB
+     Generating  N8_3.V_cfh12k.AB ....
+N8_3 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.V_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N8_3.V_subaru.AB ....
+N8_3 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.V_subaru.AB
+     Generating  N8_3.r_megacam.AB ....
+N8_3 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.r_megacam.AB
+     Generating  N8_3.r_subaru.AB ....
+N8_3 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.r_subaru.AB
+     Generating  N8_3.R_cfh12k.AB ....
+N8_3 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.R_cfh12k.AB
+     Generating  N8_3.i2_megacam.AB ....
+N8_3 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i2_megacam.AB
+     Generating  N8_3.i_megacam.AB ....
+N8_3 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i_megacam.AB
+     Generating  N8_3.i_subaru.AB ....
+N8_3 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i_subaru.AB
+     Generating  N8_3.I_cfh12k.AB ....
+N8_3 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.I_cfh12k.AB
+     Generating  N8_3.z_megacam.AB ....
+N8_3 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.z_megacam.AB
+     Generating  N8_3.z_subaru.AB ....
+N8_3 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.z_subaru.AB
+     Generating  N8_3.y_subaru.AB ....
+N8_3 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.y_subaru.AB
+     Generating  N8_3.J_wfcam.AB ....
+N8_3 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.J_wfcam.AB
+     Generating  N8_4.NUV_galex.AB ....
+N8_4 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.NUV_galex.AB
+     Generating  N8_4.u_megacam.AB ....
+N8_4 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.u_megacam.AB
+     Generating  N8_4.B_cfh12k.AB ....
+N8_4 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.B_cfh12k.AB
+     Generating  N8_4.B_subaru.AB ....
+N8_4 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.B_subaru.AB
+     Generating  N8_4.g_subaru.AB ....
+N8_4 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.g_subaru.AB
+     Generating  N8_4.g_megacam.AB ....
+N8_4 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.g_megacam.AB
+     Generating  N8_4.V_cfh12k.AB ....
+N8_4 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.V_cfh12k.AB
+     Generating  N8_4.V_subaru.AB ....
+N8_4 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.V_subaru.AB
+     Generating  N8_4.r_megacam.AB ....
+N8_4 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.r_megacam.AB
+     Generating  N8_4.r_subaru.AB ....
+N8_4 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.r_subaru.AB
+     Generating  N8_4.R_cfh12k.AB ....
+N8_4 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.R_cfh12k.AB
+     Generating  N8_4.i2_megacam.AB ....
+N8_4 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i2_megacam.AB
+     Generating  N8_4.i_megacam.AB ....
+N8_4 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i_megacam.AB
+     Generating  N8_4.i_subaru.AB ....
+N8_4 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i_subaru.AB
+     Generating  N8_4.I_cfh12k.AB ....
+N8_4 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.I_cfh12k.AB
+     Generating  N8_4.z_megacam.AB ....
+N8_4 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.z_megacam.AB
+     Generating  N8_4.z_subaru.AB ....
+N8_4 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.z_subaru.AB
+     Generating  N8_4.y_subaru.AB ....
+N8_4 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.y_subaru.AB
+     Generating  N8_4.J_wfcam.AB ....
+N8_4 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.J_wfcam.AB
+     Generating  N8_5.NUV_galex.AB ....
+N8_5 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.NUV_galex.AB
+     Generating  N8_5.u_megacam.AB ....
+N8_5 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.u_megacam.AB
+     Generating  N8_5.B_cfh12k.AB ....
+N8_5 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.B_cfh12k.AB
+     Generating  N8_5.B_subaru.AB ....
+N8_5 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.B_subaru.AB
+     Generating  N8_5.g_subaru.AB ....
+N8_5 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.g_subaru.AB
+     Generating  N8_5.g_megacam.AB ....
+N8_5 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.g_megacam.AB
+     Generating  N8_5.V_cfh12k.AB ....
+N8_5 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.V_cfh12k.AB
+     Generating  N8_5.V_subaru.AB ....
+N8_5 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.V_subaru.AB
+     Generating  N8_5.r_megacam.AB ....
+N8_5 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.r_megacam.AB
+     Generating  N8_5.r_subaru.AB ....
+N8_5 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.r_subaru.AB
+     Generating  N8_5.R_cfh12k.AB ....
+N8_5 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.R_cfh12k.AB
+     Generating  N8_5.i2_megacam.AB ....
+N8_5 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i2_megacam.AB
+     Generating  N8_5.i_megacam.AB ....
+N8_5 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i_megacam.AB
+     Generating  N8_5.i_subaru.AB ....
+N8_5 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i_subaru.AB
+     Generating  N8_5.I_cfh12k.AB ....
+N8_5 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.I_cfh12k.AB
+     Generating  N8_5.z_megacam.AB ....
+N8_5 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.z_megacam.AB
+     Generating  N8_5.z_subaru.AB ....
+N8_5 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.z_subaru.AB
+     Generating  N8_5.y_subaru.AB ....
+N8_5 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.y_subaru.AB
+     Generating  N8_5.J_wfcam.AB ....
+N8_5 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.J_wfcam.AB
+     Generating  N8_6_speclines.NUV_galex.AB ....
+N8_6_speclines NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.NUV_galex.AB
+     Generating  N8_6_speclines.u_megacam.AB ....
+N8_6_speclines u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.u_megacam.AB
+     Generating  N8_6_speclines.B_cfh12k.AB ....
+N8_6_speclines B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.B_cfh12k.AB
+     Generating  N8_6_speclines.B_subaru.AB ....
+N8_6_speclines B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.B_subaru.AB
+     Generating  N8_6_speclines.g_subaru.AB ....
+N8_6_speclines g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.g_subaru.AB
+     Generating  N8_6_speclines.g_megacam.AB ....
+N8_6_speclines g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.g_megacam.AB
+     Generating  N8_6_speclines.V_cfh12k.AB ....
+N8_6_speclines V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.V_cfh12k.AB
+     Generating  N8_6_speclines.V_subaru.AB ....
+N8_6_speclines V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.V_subaru.AB
+     Generating  N8_6_speclines.r_megacam.AB ....
+N8_6_speclines r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.r_megacam.AB
+     Generating  N8_6_speclines.r_subaru.AB ....
+N8_6_speclines r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.r_subaru.AB
+     Generating  N8_6_speclines.R_cfh12k.AB ....
+N8_6_speclines R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.R_cfh12k.AB
+     Generating  N8_6_speclines.i2_megacam.AB ....
+N8_6_speclines i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i2_megacam.AB
+     Generating  N8_6_speclines.i_megacam.AB ....
+N8_6_speclines i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i_megacam.AB
+     Generating  N8_6_speclines.i_subaru.AB ....
+N8_6_speclines i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i_subaru.AB
+     Generating  N8_6_speclines.I_cfh12k.AB ....
+N8_6_speclines I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.I_cfh12k.AB
+     Generating  N8_6_speclines.z_megacam.AB ....
+N8_6_speclines z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.z_megacam.AB
+     Generating  N8_6_speclines.z_subaru.AB ....
+N8_6_speclines z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.z_subaru.AB
+     Generating  N8_6_speclines.y_subaru.AB ....
+N8_6_speclines y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.y_subaru.AB
+     Generating  N8_6_speclines.J_wfcam.AB ....
+N8_6_speclines J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.J_wfcam.AB
+     Generating  N8_7_speclines.NUV_galex.AB ....
+N8_7_speclines NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.NUV_galex.AB
+     Generating  N8_7_speclines.u_megacam.AB ....
+N8_7_speclines u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.u_megacam.AB
+     Generating  N8_7_speclines.B_cfh12k.AB ....
+N8_7_speclines B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.B_cfh12k.AB
+     Generating  N8_7_speclines.B_subaru.AB ....
+N8_7_speclines B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.B_subaru.AB
+     Generating  N8_7_speclines.g_subaru.AB ....
+N8_7_speclines g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.g_subaru.AB
+     Generating  N8_7_speclines.g_megacam.AB ....
+N8_7_speclines g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.g_megacam.AB
+     Generating  N8_7_speclines.V_cfh12k.AB ....
+N8_7_speclines V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.V_cfh12k.AB
+     Generating  N8_7_speclines.V_subaru.AB ....
+N8_7_speclines V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.V_subaru.AB
+     Generating  N8_7_speclines.r_megacam.AB ....
+N8_7_speclines r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.r_megacam.AB
+     Generating  N8_7_speclines.r_subaru.AB ....
+N8_7_speclines r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.r_subaru.AB
+     Generating  N8_7_speclines.R_cfh12k.AB ....
+N8_7_speclines R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.R_cfh12k.AB
+     Generating  N8_7_speclines.i2_megacam.AB ....
+N8_7_speclines i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i2_megacam.AB
+     Generating  N8_7_speclines.i_megacam.AB ....
+N8_7_speclines i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i_megacam.AB
+     Generating  N8_7_speclines.i_subaru.AB ....
+N8_7_speclines i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i_subaru.AB
+     Generating  N8_7_speclines.I_cfh12k.AB ....
+N8_7_speclines I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.I_cfh12k.AB
+     Generating  N8_7_speclines.z_megacam.AB ....
+N8_7_speclines z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.z_megacam.AB
+     Generating  N8_7_speclines.z_subaru.AB ....
+N8_7_speclines z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.z_subaru.AB
+     Generating  N8_7_speclines.y_subaru.AB ....
+N8_7_speclines y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.y_subaru.AB
+     Generating  N8_7_speclines.J_wfcam.AB ....
+N8_7_speclines J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.J_wfcam.AB
+     Generating  N8_8_speclines.NUV_galex.AB ....
+N8_8_speclines NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.NUV_galex.AB
+     Generating  N8_8_speclines.u_megacam.AB ....
+N8_8_speclines u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.u_megacam.AB
+     Generating  N8_8_speclines.B_cfh12k.AB ....
+N8_8_speclines B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.B_cfh12k.AB
+     Generating  N8_8_speclines.B_subaru.AB ....
+N8_8_speclines B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.B_subaru.AB
+     Generating  N8_8_speclines.g_subaru.AB ....
+N8_8_speclines g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.g_subaru.AB
+     Generating  N8_8_speclines.g_megacam.AB ....
+N8_8_speclines g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.g_megacam.AB
+     Generating  N8_8_speclines.V_cfh12k.AB ....
+N8_8_speclines V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.V_cfh12k.AB
+     Generating  N8_8_speclines.V_subaru.AB ....
+N8_8_speclines V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.V_subaru.AB
+     Generating  N8_8_speclines.r_megacam.AB ....
+N8_8_speclines r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.r_megacam.AB
+     Generating  N8_8_speclines.r_subaru.AB ....
+N8_8_speclines r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.r_subaru.AB
+     Generating  N8_8_speclines.R_cfh12k.AB ....
+N8_8_speclines R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.R_cfh12k.AB
+     Generating  N8_8_speclines.i2_megacam.AB ....
+N8_8_speclines i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i2_megacam.AB
+     Generating  N8_8_speclines.i_megacam.AB ....
+N8_8_speclines i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i_megacam.AB
+     Generating  N8_8_speclines.i_subaru.AB ....
+N8_8_speclines i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i_subaru.AB
+     Generating  N8_8_speclines.I_cfh12k.AB ....
+N8_8_speclines I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfc/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
   fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
-
-Current time  Mon May  4 13:46:55 2020
-
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
-0 1
-1 4
-2 3
+renshaw/documents/bpz-1.99.3/AB/N8_8_speclines.I_cfh12k.AB
+     Generating  N8_8_speclines.z_megacam.AB ....
+N8_8_speclines z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.z_megacam.AB
+     Generating  N8_8_speclines.z_subaru.AB ....
+N8_8_speclines z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.z_subaru.AB
+     Generating  N8_8_speclines.y_subaru.AB ....
+N8_8_speclines y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.y_subaru.AB
+     Generating  N8_8_speclines.J_wfcam.AB ....
+N8_8_speclines J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.J_wfcam.AB
+File bpz_files/bpz_catalog_Icfh12k.bpz exists. Copying it to bpz_files/bpz_catalog_Icfh12k.bpz.bak
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
 NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
@@ -558,19 +2691,19 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
   fo/ft    dmag   nobj   filter
     nan      nan     0   NUV_galex
     nan      nan     0   u_megacam
-  0.975   -0.027   245   B_cfh12k
+  0.976   -0.026   237   B_cfh12k
     nan      nan     0   B_subaru
     nan      nan     0   g_subaru
     nan      nan     0   g_megacam
-  1.012    0.013   326   V_cfh12k
+  1.013    0.014   305   V_cfh12k
     nan      nan     0   V_subaru
     nan      nan     0   r_megacam
     nan      nan     0   r_subaru
-  1.015    0.016   322   R_cfh12k
+  1.015    0.016   303   R_cfh12k
     nan      nan     0   i2_megacam
     nan      nan     0   i_megacam
     nan      nan     0   i_subaru
-  0.983   -0.019   328   I_cfh12k
+  0.984   -0.017   308   I_cfh12k
     nan      nan     0   z_megacam
     nan      nan     0   z_subaru
     nan      nan     0   y_subaru
@@ -579,7 +2712,7 @@ fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:00:13
+Elapsed time 00:00:29
 
 Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
 
@@ -594,23 +2727,837 @@ Formatting...
 
 Saving  bpz_files/bpz_catalog_Icfh12k_bpz.cat ...
 
-/home/jfcrenshaw/documents/dirac/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+
+Current time  Tue May 12 20:34:11 2020
+
+     Generating  N8_1.NUV_galex.AB ....
+N8_1 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.NUV_galex.AB
+     Generating  N8_1.u_megacam.AB ....
+N8_1 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.u_megacam.AB
+     Generating  N8_1.B_cfh12k.AB ....
+N8_1 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.B_cfh12k.AB
+     Generating  N8_1.B_subaru.AB ....
+N8_1 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.B_subaru.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N8_1.g_subaru.AB ....
+N8_1 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.g_subaru.AB
+     Generating  N8_1.g_megacam.AB ....
+N8_1 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.g_megacam.AB
+     Generating  N8_1.V_cfh12k.AB ....
+N8_1 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.V_cfh12k.AB
+     Generating  N8_1.V_subaru.AB ....
+N8_1 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.V_subaru.AB
+     Generating  N8_1.r_megacam.AB ....
+N8_1 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.r_megacam.AB
+     Generating  N8_1.r_subaru.AB ....
+N8_1 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.r_subaru.AB
+     Generating  N8_1.R_cfh12k.AB ....
+N8_1 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.R_cfh12k.AB
+     Generating  N8_1.i2_megacam.AB ....
+N8_1 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i2_megacam.AB
+     Generating  N8_1.i_megacam.AB ....
+N8_1 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i_megacam.AB
+     Generating  N8_1.i_subaru.AB ....
+N8_1 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.i_subaru.AB
+     Generating  N8_1.I_cfh12k.AB ....
+N8_1 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.I_cfh12k.AB
+     Generating  N8_1.z_megacam.AB ....
+N8_1 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.z_megacam.AB
+     Generating  N8_1.z_subaru.AB ....
+N8_1 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.z_subaru.AB
+     Generating  N8_1.y_subaru.AB ....
+N8_1 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.y_subaru.AB
+     Generating  N8_1.J_wfcam.AB ....
+N8_1 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_1.J_wfcam.AB
+     Generating  N8_2.NUV_galex.AB ....
+N8_2 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.NUV_galex.AB
+     Generating  N8_2.u_megacam.AB ....
+N8_2 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.u_megacam.AB
+     Generating  N8_2.B_cfh12k.AB ....
+N8_2 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.B_cfh12k.AB
+     Generating  N8_2.B_subaru.AB ....
+N8_2 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.B_subaru.AB
+     Generating  N8_2.g_subaru.AB ....
+N8_2 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.g_subaru.AB
+     Generating  N8_2.g_megacam.AB ....
+N8_2 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.g_megacam.AB
+     Generating  N8_2.V_cfh12k.AB ....
+N8_2 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.V_cfh12k.AB
+     Generating  N8_2.V_subaru.AB ....
+N8_2 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.V_subaru.AB
+     Generating  N8_2.r_megacam.AB ....
+N8_2 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.r_megacam.AB
+     Generating  N8_2.r_subaru.AB ....
+N8_2 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.r_subaru.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N8_2.R_cfh12k.AB ....
+N8_2 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.R_cfh12k.AB
+     Generating  N8_2.i2_megacam.AB ....
+N8_2 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i2_megacam.AB
+     Generating  N8_2.i_megacam.AB ....
+N8_2 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i_megacam.AB
+     Generating  N8_2.i_subaru.AB ....
+N8_2 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.i_subaru.AB
+     Generating  N8_2.I_cfh12k.AB ....
+N8_2 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.I_cfh12k.AB
+     Generating  N8_2.z_megacam.AB ....
+N8_2 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.z_megacam.AB
+     Generating  N8_2.z_subaru.AB ....
+N8_2 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.z_subaru.AB
+     Generating  N8_2.y_subaru.AB ....
+N8_2 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.y_subaru.AB
+     Generating  N8_2.J_wfcam.AB ....
+N8_2 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_2.J_wfcam.AB
+     Generating  N8_3.NUV_galex.AB ....
+N8_3 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.NUV_galex.AB
+     Generating  N8_3.u_megacam.AB ....
+N8_3 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.u_megacam.AB
+     Generating  N8_3.B_cfh12k.AB ....
+N8_3 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.B_cfh12k.AB
+     Generating  N8_3.B_subaru.AB ....
+N8_3 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.B_subaru.AB
+     Generating  N8_3.g_subaru.AB ....
+N8_3 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.g_subaru.AB
+     Generating  N8_3.g_megacam.AB ....
+N8_3 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.g_megacam.AB
+     Generating  N8_3.V_cfh12k.AB ....
+N8_3 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.V_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N8_3.V_subaru.AB ....
+N8_3 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.V_subaru.AB
+     Generating  N8_3.r_megacam.AB ....
+N8_3 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.r_megacam.AB
+     Generating  N8_3.r_subaru.AB ....
+N8_3 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.r_subaru.AB
+     Generating  N8_3.R_cfh12k.AB ....
+N8_3 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.R_cfh12k.AB
+     Generating  N8_3.i2_megacam.AB ....
+N8_3 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i2_megacam.AB
+     Generating  N8_3.i_megacam.AB ....
+N8_3 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i_megacam.AB
+     Generating  N8_3.i_subaru.AB ....
+N8_3 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.i_subaru.AB
+     Generating  N8_3.I_cfh12k.AB ....
+N8_3 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.I_cfh12k.AB
+     Generating  N8_3.z_megacam.AB ....
+N8_3 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.z_megacam.AB
+     Generating  N8_3.z_subaru.AB ....
+N8_3 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.z_subaru.AB
+     Generating  N8_3.y_subaru.AB ....
+N8_3 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.y_subaru.AB
+     Generating  N8_3.J_wfcam.AB ....
+N8_3 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_3.J_wfcam.AB
+     Generating  N8_4.NUV_galex.AB ....
+N8_4 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.NUV_galex.AB
+     Generating  N8_4.u_megacam.AB ....
+N8_4 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.u_megacam.AB
+     Generating  N8_4.B_cfh12k.AB ....
+N8_4 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.B_cfh12k.AB
+     Generating  N8_4.B_subaru.AB ....
+N8_4 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.B_subaru.AB
+     Generating  N8_4.g_subaru.AB ....
+N8_4 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.g_subaru.AB
+     Generating  N8_4.g_megacam.AB ....
+N8_4 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.g_megacam.AB
+     Generating  N8_4.V_cfh12k.AB ....
+N8_4 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.V_cfh12k.AB
+     Generating  N8_4.V_subaru.AB ....
+N8_4 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.V_subaru.AB
+     Generating  N8_4.r_megacam.AB ....
+N8_4 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.r_megacam.AB
+     Generating  N8_4.r_subaru.AB ....
+N8_4 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.r_subaru.AB
+     Generating  N8_4.R_cfh12k.AB ....
+N8_4 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.R_cfh12k.AB
+     Generating  N8_4.i2_megacam.AB ....
+N8_4 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i2_megacam.AB
+     Generating  N8_4.i_megacam.AB ....
+N8_4 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i_megacam.AB
+     Generating  N8_4.i_subaru.AB ....
+N8_4 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.i_subaru.AB
+     Generating  N8_4.I_cfh12k.AB ....
+N8_4 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.I_cfh12k.AB
+     Generating  N8_4.z_megacam.AB ....
+N8_4 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.z_megacam.AB
+     Generating  N8_4.z_subaru.AB ....
+N8_4 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.z_subaru.AB
+     Generating  N8_4.y_subaru.AB ....
+N8_4 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.y_subaru.AB
+     Generating  N8_4.J_wfcam.AB ....
+N8_4 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_4.J_wfcam.AB
+     Generating  N8_5.NUV_galex.AB ....
+N8_5 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.NUV_galex.AB
+     Generating  N8_5.u_megacam.AB ....
+N8_5 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.u_megacam.AB
+     Generating  N8_5.B_cfh12k.AB ....
+N8_5 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.B_cfh12k.AB
+     Generating  N8_5.B_subaru.AB ....
+N8_5 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.B_subaru.AB
+     Generating  N8_5.g_subaru.AB ....
+N8_5 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.g_subaru.AB
+     Generating  N8_5.g_megacam.AB ....
+N8_5 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.g_megacam.AB
+     Generating  N8_5.V_cfh12k.AB ....
+N8_5 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.V_cfh12k.AB
+     Generating  N8_5.V_subaru.AB ....
+N8_5 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.V_subaru.AB
+     Generating  N8_5.r_megacam.AB ....
+N8_5 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.r_megacam.AB
+     Generating  N8_5.r_subaru.AB ....
+N8_5 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.r_subaru.AB
+     Generating  N8_5.R_cfh12k.AB ....
+N8_5 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.R_cfh12k.AB
+     Generating  N8_5.i2_megacam.AB ....
+N8_5 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i2_megacam.AB
+     Generating  N8_5.i_megacam.AB ....
+N8_5 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i_megacam.AB
+     Generating  N8_5.i_subaru.AB ....
+N8_5 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.i_subaru.AB
+     Generating  N8_5.I_cfh12k.AB ....
+N8_5 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.I_cfh12k.AB
+     Generating  N8_5.z_megacam.AB ....
+N8_5 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.z_megacam.AB
+     Generating  N8_5.z_subaru.AB ....
+N8_5 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.z_subaru.AB
+     Generating  N8_5.y_subaru.AB ....
+N8_5 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.y_subaru.AB
+     Generating  N8_5.J_wfcam.AB ....
+N8_5 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_5.J_wfcam.AB
+     Generating  N8_6_speclines.NUV_galex.AB ....
+N8_6_speclines NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.NUV_galex.AB
+     Generating  N8_6_speclines.u_megacam.AB ....
+N8_6_speclines u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.u_megacam.AB
+     Generating  N8_6_speclines.B_cfh12k.AB ....
+N8_6_speclines B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.B_cfh12k.AB
+     Generating  N8_6_speclines.B_subaru.AB ....
+N8_6_speclines B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.B_subaru.AB
+     Generating  N8_6_speclines.g_subaru.AB ....
+N8_6_speclines g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.g_subaru.AB
+     Generating  N8_6_speclines.g_megacam.AB ....
+N8_6_speclines g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.g_megacam.AB
+     Generating  N8_6_speclines.V_cfh12k.AB ....
+N8_6_speclines V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.V_cfh12k.AB
+     Generating  N8_6_speclines.V_subaru.AB ....
+N8_6_speclines V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.V_subaru.AB
+     Generating  N8_6_speclines.r_megacam.AB ....
+N8_6_speclines r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.r_megacam.AB
+     Generating  N8_6_speclines.r_subaru.AB ....
+N8_6_speclines r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.r_subaru.AB
+     Generating  N8_6_speclines.R_cfh12k.AB ....
+N8_6_speclines R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.R_cfh12k.AB
+     Generating  N8_6_speclines.i2_megacam.AB ....
+N8_6_speclines i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i2_megacam.AB
+     Generating  N8_6_speclines.i_megacam.AB ....
+N8_6_speclines i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i_megacam.AB
+     Generating  N8_6_speclines.i_subaru.AB ....
+N8_6_speclines i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.i_subaru.AB
+     Generating  N8_6_speclines.I_cfh12k.AB ....
+N8_6_speclines I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.I_cfh12k.AB
+     Generating  N8_6_speclines.z_megacam.AB ....
+N8_6_speclines z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.z_megacam.AB
+     Generating  N8_6_speclines.z_subaru.AB ....
+N8_6_speclines z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.z_subaru.AB
+     Generating  N8_6_speclines.y_subaru.AB ....
+N8_6_speclines y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.y_subaru.AB
+     Generating  N8_6_speclines.J_wfcam.AB ....
+N8_6_speclines J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_6_speclines.J_wfcam.AB
+     Generating  N8_7_speclines.NUV_galex.AB ....
+N8_7_speclines NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.NUV_galex.AB
+     Generating  N8_7_speclines.u_megacam.AB ....
+N8_7_speclines u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.u_megacam.AB
+     Generating  N8_7_speclines.B_cfh12k.AB ....
+N8_7_speclines B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.B_cfh12k.AB
+     Generating  N8_7_speclines.B_subaru.AB ....
+N8_7_speclines B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.B_subaru.AB
+     Generating  N8_7_speclines.g_subaru.AB ....
+N8_7_speclines g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.g_subaru.AB
+     Generating  N8_7_speclines.g_megacam.AB ....
+N8_7_speclines g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.g_megacam.AB
+     Generating  N8_7_speclines.V_cfh12k.AB ....
+N8_7_speclines V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.V_cfh12k.AB
+     Generating  N8_7_speclines.V_subaru.AB ....
+N8_7_speclines V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.V_subaru.AB
+     Generating  N8_7_speclines.r_megacam.AB ....
+N8_7_speclines r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.r_megacam.AB
+     Generating  N8_7_speclines.r_subaru.AB ....
+N8_7_speclines r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.r_subaru.AB
+     Generating  N8_7_speclines.R_cfh12k.AB ....
+N8_7_speclines R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.R_cfh12k.AB
+     Generating  N8_7_speclines.i2_megacam.AB ....
+N8_7_speclines i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i2_megacam.AB
+     Generating  N8_7_speclines.i_megacam.AB ....
+N8_7_speclines i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i_megacam.AB
+     Generating  N8_7_speclines.i_subaru.AB ....
+N8_7_speclines i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.i_subaru.AB
+     Generating  N8_7_speclines.I_cfh12k.AB ....
+N8_7_speclines I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.I_cfh12k.AB
+     Generating  N8_7_speclines.z_megacam.AB ....
+N8_7_speclines z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.z_megacam.AB
+     Generating  N8_7_speclines.z_subaru.AB ....
+N8_7_speclines z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.z_subaru.AB
+     Generating  N8_7_speclines.y_subaru.AB ....
+N8_7_speclines y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.y_subaru.AB
+     Generating  N8_7_speclines.J_wfcam.AB ....
+N8_7_speclines J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_7_speclines.J_wfcam.AB
+     Generating  N8_8_speclines.NUV_galex.AB ....
+N8_8_speclines NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Changing filter resolution from 57.40 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.NUV_galex.AB
+     Generating  N8_8_speclines.u_megacam.AB ....
+N8_8_speclines u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.u_megacam.AB
+     Generating  N8_8_speclines.B_cfh12k.AB ....
+N8_8_speclines B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Changing filter resolution from 19.89 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.B_cfh12k.AB
+     Generating  N8_8_speclines.B_subaru.AB ....
+N8_8_speclines B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.B_subaru.AB
+     Generating  N8_8_speclines.g_subaru.AB ....
+N8_8_speclines g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.g_subaru.AB
+     Generating  N8_8_speclines.g_megacam.AB ....
+N8_8_speclines g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.g_megacam.AB
+     Generating  N8_8_speclines.V_cfh12k.AB ....
+N8_8_speclines V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Changing filter resolution from 19.91 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.V_cfh12k.AB
+     Generating  N8_8_speclines.V_subaru.AB ....
+N8_8_speclines V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.V_subaru.AB
+     Generating  N8_8_speclines.r_megacam.AB ....
+N8_8_speclines r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.r_megacam.AB
+     Generating  N8_8_speclines.r_subaru.AB ....
+N8_8_speclines r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.r_subaru.AB
+     Generating  N8_8_speclines.R_cfh12k.AB ....
+N8_8_speclines R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Changing filter resolution from 19.93 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.R_cfh12k.AB
+     Generating  N8_8_speclines.i2_megacam.AB ....
+N8_8_speclines i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i2_megacam.AB
+     Generating  N8_8_speclines.i_megacam.AB ....
+N8_8_speclines i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i_megacam.AB
+     Generating  N8_8_speclines.i_subaru.AB ....
+N8_8_speclines i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Changing filter resolution from 11.28 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.i_subaru.AB
+     Generating  N8_8_speclines.I_cfh12k.AB ....
+N8_8_speclines I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Changing filter resolution from 19.94 AA to 9.99
+Writing AB file  /home/jfc/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
   fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
-
-Current time  Mon May  4 13:47:09 2020
-
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
-Warning: some values of the model AB fluxes are <0
-due to the interpolation 
-Clipping them to f>=0 values
-0 1
-1 4
-2 3
+renshaw/documents/bpz-1.99.3/AB/N8_8_speclines.I_cfh12k.AB
+     Generating  N8_8_speclines.z_megacam.AB ....
+N8_8_speclines z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.z_megacam.AB
+     Generating  N8_8_speclines.z_subaru.AB ....
+N8_8_speclines z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Changing filter resolution from 14.20 AA to 9.99
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.z_subaru.AB
+     Generating  N8_8_speclines.y_subaru.AB ....
+N8_8_speclines y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.y_subaru.AB
+     Generating  N8_8_speclines.J_wfcam.AB ....
+N8_8_speclines J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N8_8_speclines.J_wfcam.AB
+File bpz_files/bpz_catalog_i+.bpz exists. Copying it to bpz_files/bpz_catalog_i+.bpz.bak
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
 
@@ -620,30 +3567,30 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
 (For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
 
   fo/ft    dmag   nobj   filter
-  1.657    0.549   120   NUV_galex
-  0.976   -0.027  1002   u_megacam
+  1.657    0.548   121   NUV_galex
+  0.986   -0.016   995   u_megacam
     nan      nan     0   B_cfh12k
-  1.165    0.166  1149   B_subaru
-  0.922   -0.088  1192   g_subaru
+  1.172    0.172  1139   B_subaru
+  0.926   -0.083  1183   g_subaru
     nan      nan     0   g_megacam
     nan      nan     0   V_cfh12k
-  1.031    0.033  1416   V_subaru
+  1.032    0.034  1407   V_subaru
     nan      nan     0   r_megacam
-  0.973   -0.030  1464   r_subaru
+  0.973   -0.030  1454   r_subaru
     nan      nan     0   R_cfh12k
     nan      nan     0   i2_megacam
     nan      nan     0   i_megacam
-  1.011    0.011  1465   i_subaru
+  1.010    0.011  1454   i_subaru
     nan      nan     0   I_cfh12k
     nan      nan     0   z_megacam
-  1.084    0.087  1465   z_subaru
+  1.084    0.088  1454   z_subaru
     nan      nan     0   y_subaru
-  0.952   -0.053  1448   J_wfcam
+  0.953   -0.052  1437   J_wfcam
 fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:00:39
+Elapsed time 00:00:37
 
 Loading  bpz_files/bpz_catalog_i+.bpz ...
 
