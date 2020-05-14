@@ -14,13 +14,13 @@ export NIS_8cw=5 # number of irregular/star burst galaxy templates
 
 # Number of each galaxy type in the naive set with 8 trained templates
 export NEl_8=1 # number of eliptical galaxy templates 
-export NSp_8=3 # number of spiral galaxy templates
-export NIS_8=4 # number of irregular/star burst galaxy templates
+export NSp_8=4 # number of spiral galaxy templates
+export NIS_8=3 # number of irregular/star burst galaxy templates
 
 # Number of each galaxy type in the naive set with 16 trained templates
 export NEl_16=2 # number of eliptical galaxy templates
-export NSp_16=5 # number of spiral galaxy templates
-export NIS_16=9 # number of irregular/star burst galaxy templates
+export NSp_16=8 # number of spiral galaxy templates
+export NIS_16=6 # number of irregular/star burst galaxy templates
 
 STARTTIME=$(date +%s)
 
