@@ -1,5 +1,5 @@
 
-Current time  Tue May 12 21:13:25 2020
+Current time  Thu May 14 09:13:51 2020
 
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
@@ -10,6 +10,9 @@ Clipping them to f>=0 values
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
+0 2
+1 5
+2 9
 File bpz_files/bpz_catalog_i.bpz exists. Copying it to bpz_files/bpz_catalog_i.bpz.bak
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
@@ -90,6 +93,10 @@ NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
 NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
 NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
 NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
 
 
 PHOTOMETRIC CALIBRATION TESTS
@@ -97,30 +104,30 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
 (For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
 
   fo/ft    dmag   nobj   filter
-  1.409    0.373  1151   NUV_galex
- 11817.137   10.181  7322   u_megacam
-  1.613    0.519   202   B_cfh12k
-  1.172    0.172  1332   B_subaru
-  0.925   -0.084  1381   g_subaru
- 1308.751    7.792 10472   g_megacam
- 40.320    4.014   361   V_cfh12k
-  1.050    0.053  1453   V_subaru
-  1.079    0.083 11760   r_megacam
-  0.976   -0.026  1454   r_subaru
-  1.157    0.158   431   R_cfh12k
-  1.000    0.001  1810   i2_megacam
-  1.011    0.012 13225   i_megacam
-  0.980   -0.022  1418   i_subaru
-  1.143    0.145   450   I_cfh12k
-  0.992   -0.009 11470   z_megacam
-  1.052    0.055  1446   z_subaru
-  0.978   -0.024   423   y_subaru
-  0.994   -0.007  1454   J_wfcam
+  1.409    0.372  1151   NUV_galex
+ 5285.859    9.308  7382   u_megacam
+  1.614    0.519   202   B_cfh12k
+  1.172    0.172  1331   B_subaru
+  0.926   -0.084  1381   g_subaru
+ 1271.493    7.761 10718   g_megacam
+ 36.110    3.894   359   V_cfh12k
+  1.050    0.053  1452   V_subaru
+  1.060    0.063 11991   r_megacam
+  0.976   -0.026  1453   r_subaru
+  1.154    0.156   431   R_cfh12k
+  1.001    0.001  1832   i2_megacam
+  1.012    0.012 13456   i_megacam
+  0.980   -0.022  1417   i_subaru
+  1.144    0.146   448   I_cfh12k
+  0.992   -0.009 11629   z_megacam
+  1.052    0.055  1445   z_subaru
+  0.978   -0.024   419   y_subaru
+  0.994   -0.007  1453   J_wfcam
 fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:11:47
+Elapsed time 00:08:47
 
 Loading  bpz_files/bpz_catalog_i.bpz ...
 
@@ -138,7 +145,7 @@ Saving  bpz_files/bpz_catalog_i_bpz.cat ...
 /home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
   fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
 
-Current time  Tue May 12 21:25:16 2020
+Current time  Thu May 14 09:22:43 2020
 
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
@@ -149,6 +156,9 @@ Clipping them to f>=0 values
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
+0 2
+1 5
+2 9
 File bpz_files/bpz_catalog_i2.bpz exists. Copying it to bpz_files/bpz_catalog_i2.bpz.bak
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
@@ -159,22 +169,22 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
 (For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
 
   fo/ft    dmag   nobj   filter
-  1.094    0.097   194   NUV_galex
-  0.993   -0.008  1090   u_megacam
+  1.098    0.101   195   NUV_galex
+  0.994   -0.007  1103   u_megacam
     nan      nan     0   B_cfh12k
     nan      nan     0   B_subaru
     nan      nan     0   g_subaru
-  0.998   -0.002  2077   g_megacam
+  0.998   -0.002  2133   g_megacam
     nan      nan     0   V_cfh12k
     nan      nan     0   V_subaru
-  1.000   -0.000  2270   r_megacam
+  0.999   -0.001  2322   r_megacam
     nan      nan     0   r_subaru
     nan      nan     0   R_cfh12k
-  1.004    0.005  2275   i2_megacam
+  1.004    0.005  2329   i2_megacam
     nan      nan     0   i_megacam
     nan      nan     0   i_subaru
     nan      nan     0   I_cfh12k
-  0.995   -0.006  2224   z_megacam
+  0.994   -0.006  2267   z_megacam
     nan      nan     0   z_subaru
     nan      nan     0   y_subaru
     nan      nan     0   J_wfcam
@@ -182,7 +192,7 @@ fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:01:34
+Elapsed time 00:01:31
 
 Loading  bpz_files/bpz_catalog_i2.bpz ...
 
@@ -200,7 +210,7 @@ Saving  bpz_files/bpz_catalog_i2_bpz.cat ...
 /home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
   fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
 
-Current time  Tue May 12 21:26:52 2020
+Current time  Thu May 14 09:24:16 2020
 
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
@@ -211,6 +221,9 @@ Clipping them to f>=0 values
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
+0 2
+1 5
+2 9
 File bpz_files/bpz_catalog_Icfh12k.bpz exists. Copying it to bpz_files/bpz_catalog_Icfh12k.bpz.bak
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
@@ -224,19 +237,19 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
   fo/ft    dmag   nobj   filter
     nan      nan     0   NUV_galex
     nan      nan     0   u_megacam
-  0.981   -0.021   211   B_cfh12k
+  0.979   -0.023   219   B_cfh12k
     nan      nan     0   B_subaru
     nan      nan     0   g_subaru
     nan      nan     0   g_megacam
-  1.009    0.010   270   V_cfh12k
+  1.009    0.010   293   V_cfh12k
     nan      nan     0   V_subaru
     nan      nan     0   r_megacam
     nan      nan     0   r_subaru
-  1.010    0.011   269   R_cfh12k
+  1.010    0.011   292   R_cfh12k
     nan      nan     0   i2_megacam
     nan      nan     0   i_megacam
     nan      nan     0   i_subaru
-  0.989   -0.012   273   I_cfh12k
+  0.989   -0.012   296   I_cfh12k
     nan      nan     0   z_megacam
     nan      nan     0   z_subaru
     nan      nan     0   y_subaru
@@ -245,7 +258,7 @@ fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:00:14
+Elapsed time 00:00:15
 
 Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
 
@@ -263,7 +276,7 @@ Saving  bpz_files/bpz_catalog_Icfh12k_bpz.cat ...
 /home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
   fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
 
-Current time  Tue May 12 21:27:07 2020
+Current time  Thu May 14 09:24:32 2020
 
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
@@ -274,6 +287,9 @@ Clipping them to f>=0 values
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
+0 2
+1 5
+2 9
 File bpz_files/bpz_catalog_i+.bpz exists. Copying it to bpz_files/bpz_catalog_i+.bpz.bak
 0.95 1.9599300000000002
 ML * prior -- NOT QUITE BAYESIAN
@@ -285,15 +301,15 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
 
   fo/ft    dmag   nobj   filter
   1.609    0.516   124   NUV_galex
-  0.980   -0.022  1000   u_megacam
+  0.980   -0.022  1001   u_megacam
     nan      nan     0   B_cfh12k
-  1.167    0.168  1146   B_subaru
-  0.922   -0.088  1188   g_subaru
+  1.167    0.168  1147   B_subaru
+  0.923   -0.087  1191   g_subaru
     nan      nan     0   g_megacam
     nan      nan     0   V_cfh12k
   1.034    0.036  1400   V_subaru
     nan      nan     0   r_megacam
-  0.972   -0.030  1440   r_subaru
+  0.973   -0.030  1440   r_subaru
     nan      nan     0   R_cfh12k
     nan      nan     0   i2_megacam
     nan      nan     0   i_megacam
@@ -302,12 +318,12 @@ If the dmag are large, add them to the .columns file (zp_offset), then re-run BP
     nan      nan     0   z_megacam
   1.064    0.068  1440   z_subaru
     nan      nan     0   y_subaru
-  0.963   -0.041  1425   J_wfcam
+  0.963   -0.041  1424   J_wfcam
 fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
 dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
 nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
 
-Elapsed time 00:00:51
+Elapsed time 00:00:52
 
 Loading  bpz_files/bpz_catalog_i+.bpz ...
 
