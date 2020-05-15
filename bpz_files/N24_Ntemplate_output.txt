@@ -1,0 +1,2951 @@
+
+Current time  Fri May 15 14:30:29 2020
+
+     Generating  N24_1.NUV_galex.AB ....
+N24_1 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.NUV_galex.AB
+     Generating  N24_1.u_megacam.AB ....
+N24_1 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.u_megacam.AB
+     Generating  N24_1.B_cfh12k.AB ....
+N24_1 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.B_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_1.B_subaru.AB ....
+N24_1 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.B_subaru.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_1.g_subaru.AB ....
+N24_1 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.g_subaru.AB
+     Generating  N24_1.g_megacam.AB ....
+N24_1 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.g_megacam.AB
+     Generating  N24_1.V_cfh12k.AB ....
+N24_1 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.V_cfh12k.AB
+     Generating  N24_1.V_subaru.AB ....
+N24_1 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.V_subaru.AB
+     Generating  N24_1.r_megacam.AB ....
+N24_1 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.r_megacam.AB
+     Generating  N24_1.r_subaru.AB ....
+N24_1 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.r_subaru.AB
+     Generating  N24_1.R_cfh12k.AB ....
+N24_1 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_1.i2_megacam.AB ....
+N24_1 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.i2_megacam.AB
+     Generating  N24_1.i_megacam.AB ....
+N24_1 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.i_megacam.AB
+     Generating  N24_1.i_subaru.AB ....
+N24_1 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.i_subaru.AB
+     Generating  N24_1.I_cfh12k.AB ....
+N24_1 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.I_cfh12k.AB
+     Generating  N24_1.z_megacam.AB ....
+N24_1 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.z_megacam.AB
+     Generating  N24_1.z_subaru.AB ....
+N24_1 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.z_subaru.AB
+     Generating  N24_1.y_subaru.AB ....
+N24_1 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.y_subaru.AB
+     Generating  N24_1.J_wfcam.AB ....
+N24_1 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_1.J_wfcam.AB
+     Generating  N24_2.NUV_galex.AB ....
+N24_2 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.NUV_galex.AB
+     Generating  N24_2.u_megacam.AB ....
+N24_2 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.u_megacam.AB
+     Generating  N24_2.B_cfh12k.AB ....
+N24_2 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.B_cfh12k.AB
+     Generating  N24_2.B_subaru.AB ....
+N24_2 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.B_subaru.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_2.g_subaru.AB ....
+N24_2 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.g_subaru.AB
+     Generating  N24_2.g_megacam.AB ....
+N24_2 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.g_megacam.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_2.V_cfh12k.AB ....
+N24_2 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.V_cfh12k.AB
+     Generating  N24_2.V_subaru.AB ....
+N24_2 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.V_subaru.AB
+     Generating  N24_2.r_megacam.AB ....
+N24_2 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.r_megacam.AB
+     Generating  N24_2.r_subaru.AB ....
+N24_2 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.r_subaru.AB
+     Generating  N24_2.R_cfh12k.AB ....
+N24_2 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_2.i2_megacam.AB ....
+N24_2 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.i2_megacam.AB
+     Generating  N24_2.i_megacam.AB ....
+N24_2 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.i_megacam.AB
+     Generating  N24_2.i_subaru.AB ....
+N24_2 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.i_subaru.AB
+     Generating  N24_2.I_cfh12k.AB ....
+N24_2 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.I_cfh12k.AB
+     Generating  N24_2.z_megacam.AB ....
+N24_2 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.z_megacam.AB
+     Generating  N24_2.z_subaru.AB ....
+N24_2 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.z_subaru.AB
+     Generating  N24_2.y_subaru.AB ....
+N24_2 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.y_subaru.AB
+     Generating  N24_2.J_wfcam.AB ....
+N24_2 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_2.J_wfcam.AB
+     Generating  N24_3.NUV_galex.AB ....
+N24_3 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.NUV_galex.AB
+     Generating  N24_3.u_megacam.AB ....
+N24_3 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.u_megacam.AB
+     Generating  N24_3.B_cfh12k.AB ....
+N24_3 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.B_cfh12k.AB
+     Generating  N24_3.B_subaru.AB ....
+N24_3 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.B_subaru.AB
+     Generating  N24_3.g_subaru.AB ....
+N24_3 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.g_subaru.AB
+     Generating  N24_3.g_megacam.AB ....
+N24_3 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.g_megacam.AB
+     Generating  N24_3.V_cfh12k.AB ....
+N24_3 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.V_cfh12k.AB
+     Generating  N24_3.V_subaru.AB ....
+N24_3 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.V_subaru.AB
+     Generating  N24_3.r_megacam.AB ....
+N24_3 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.r_megacam.AB
+     Generating  N24_3.r_subaru.AB ....
+N24_3 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.r_subaru.AB
+     Generating  N24_3.R_cfh12k.AB ....
+N24_3 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_3.i2_megacam.AB ....
+N24_3 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.i2_megacam.AB
+     Generating  N24_3.i_megacam.AB ....
+N24_3 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.i_megacam.AB
+     Generating  N24_3.i_subaru.AB ....
+N24_3 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.i_subaru.AB
+     Generating  N24_3.I_cfh12k.AB ....
+N24_3 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.I_cfh12k.AB
+     Generating  N24_3.z_megacam.AB ....
+N24_3 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.z_megacam.AB
+     Generating  N24_3.z_subaru.AB ....
+N24_3 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.z_subaru.AB
+     Generating  N24_3.y_subaru.AB ....
+N24_3 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.y_subaru.AB
+     Generating  N24_3.J_wfcam.AB ....
+N24_3 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_3.J_wfcam.AB
+     Generating  N24_4.NUV_galex.AB ....
+N24_4 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.NUV_galex.AB
+     Generating  N24_4.u_megacam.AB ....
+N24_4 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.u_megacam.AB
+     Generating  N24_4.B_cfh12k.AB ....
+N24_4 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.B_cfh12k.AB
+     Generating  N24_4.B_subaru.AB ....
+N24_4 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.B_subaru.AB
+     Generating  N24_4.g_subaru.AB ....
+N24_4 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.g_subaru.AB
+     Generating  N24_4.g_megacam.AB ....
+N24_4 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.g_megacam.AB
+     Generating  N24_4.V_cfh12k.AB ....
+N24_4 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.V_cfh12k.AB
+     Generating  N24_4.V_subaru.AB ....
+N24_4 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.V_subaru.AB
+     Generating  N24_4.r_megacam.AB ....
+N24_4 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.r_megacam.AB
+     Generating  N24_4.r_subaru.AB ....
+N24_4 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.r_subaru.AB
+     Generating  N24_4.R_cfh12k.AB ....
+N24_4 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_4.i2_megacam.AB ....
+N24_4 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.i2_megacam.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_4.i_megacam.AB ....
+N24_4 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.i_megacam.AB
+     Generating  N24_4.i_subaru.AB ....
+N24_4 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.i_subaru.AB
+     Generating  N24_4.I_cfh12k.AB ....
+N24_4 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.I_cfh12k.AB
+     Generating  N24_4.z_megacam.AB ....
+N24_4 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.z_megacam.AB
+     Generating  N24_4.z_subaru.AB ....
+N24_4 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.z_subaru.AB
+     Generating  N24_4.y_subaru.AB ....
+N24_4 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.y_subaru.AB
+     Generating  N24_4.J_wfcam.AB ....
+N24_4 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_4.J_wfcam.AB
+     Generating  N24_5.NUV_galex.AB ....
+N24_5 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.NUV_galex.AB
+     Generating  N24_5.u_megacam.AB ....
+N24_5 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.u_megacam.AB
+     Generating  N24_5.B_cfh12k.AB ....
+N24_5 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.B_cfh12k.AB
+     Generating  N24_5.B_subaru.AB ....
+N24_5 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.B_subaru.AB
+     Generating  N24_5.g_subaru.AB ....
+N24_5 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.g_subaru.AB
+     Generating  N24_5.g_megacam.AB ....
+N24_5 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.g_megacam.AB
+     Generating  N24_5.V_cfh12k.AB ....
+N24_5 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.V_cfh12k.AB
+     Generating  N24_5.V_subaru.AB ....
+N24_5 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.V_subaru.AB
+     Generating  N24_5.r_megacam.AB ....
+N24_5 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.r_megacam.AB
+     Generating  N24_5.r_subaru.AB ....
+N24_5 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.r_subaru.AB
+     Generating  N24_5.R_cfh12k.AB ....
+N24_5 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_5.i2_megacam.AB ....
+N24_5 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.i2_megacam.AB
+     Generating  N24_5.i_megacam.AB ....
+N24_5 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.i_megacam.AB
+     Generating  N24_5.i_subaru.AB ....
+N24_5 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.i_subaru.AB
+     Generating  N24_5.I_cfh12k.AB ....
+N24_5 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.I_cfh12k.AB
+     Generating  N24_5.z_megacam.AB ....
+N24_5 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.z_megacam.AB
+     Generating  N24_5.z_subaru.AB ....
+N24_5 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.z_subaru.AB
+     Generating  N24_5.y_subaru.AB ....
+N24_5 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.y_subaru.AB
+     Generating  N24_5.J_wfcam.AB ....
+N24_5 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_5.J_wfcam.AB
+     Generating  N24_6.NUV_galex.AB ....
+N24_6 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.NUV_galex.AB
+     Generating  N24_6.u_megacam.AB ....
+N24_6 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.u_megacam.AB
+     Generating  N24_6.B_cfh12k.AB ....
+N24_6 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.B_cfh12k.AB
+     Generating  N24_6.B_subaru.AB ....
+N24_6 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.B_subaru.AB
+     Generating  N24_6.g_subaru.AB ....
+N24_6 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.g_subaru.AB
+     Generating  N24_6.g_megacam.AB ....
+N24_6 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.g_megacam.AB
+     Generating  N24_6.V_cfh12k.AB ....
+N24_6 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.V_cfh12k.AB
+     Generating  N24_6.V_subaru.AB ....
+N24_6 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.V_subaru.AB
+     Generating  N24_6.r_megacam.AB ....
+N24_6 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.r_megacam.AB
+     Generating  N24_6.r_subaru.AB ....
+N24_6 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.r_subaru.AB
+     Generating  N24_6.R_cfh12k.AB ....
+N24_6 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_6.i2_megacam.AB ....
+N24_6 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.i2_megacam.AB
+     Generating  N24_6.i_megacam.AB ....
+N24_6 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.i_megacam.AB
+     Generating  N24_6.i_subaru.AB ....
+N24_6 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.i_subaru.AB
+     Generating  N24_6.I_cfh12k.AB ....
+N24_6 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.I_cfh12k.AB
+     Generating  N24_6.z_megacam.AB ....
+N24_6 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.z_megacam.AB
+     Generating  N24_6.z_subaru.AB ....
+N24_6 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.z_subaru.AB
+     Generating  N24_6.y_subaru.AB ....
+N24_6 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.y_subaru.AB
+     Generating  N24_6.J_wfcam.AB ....
+N24_6 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_6.J_wfcam.AB
+     Generating  N24_7.NUV_galex.AB ....
+N24_7 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.NUV_galex.AB
+     Generating  N24_7.u_megacam.AB ....
+N24_7 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.u_megacam.AB
+     Generating  N24_7.B_cfh12k.AB ....
+N24_7 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.B_cfh12k.AB
+     Generating  N24_7.B_subaru.AB ....
+N24_7 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.B_subaru.AB
+     Generating  N24_7.g_subaru.AB ....
+N24_7 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.g_subaru.AB
+     Generating  N24_7.g_megacam.AB ....
+N24_7 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.g_megacam.AB
+     Generating  N24_7.V_cfh12k.AB ....
+N24_7 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.V_cfh12k.AB
+     Generating  N24_7.V_subaru.AB ....
+N24_7 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.V_subaru.AB
+     Generating  N24_7.r_megacam.AB ....
+N24_7 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.r_megacam.AB
+     Generating  N24_7.r_subaru.AB ....
+N24_7 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.r_subaru.AB
+     Generating  N24_7.R_cfh12k.AB ....
+N24_7 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_7.i2_megacam.AB ....
+N24_7 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.i2_megacam.AB
+     Generating  N24_7.i_megacam.AB ....
+N24_7 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.i_megacam.AB
+     Generating  N24_7.i_subaru.AB ....
+N24_7 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.i_subaru.AB
+     Generating  N24_7.I_cfh12k.AB ....
+N24_7 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.I_cfh12k.AB
+     Generating  N24_7.z_megacam.AB ....
+N24_7 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.z_megacam.AB
+     Generating  N24_7.z_subaru.AB ....
+N24_7 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.z_subaru.AB
+     Generating  N24_7.y_subaru.AB ....
+N24_7 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.y_subaru.AB
+     Generating  N24_7.J_wfcam.AB ....
+N24_7 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_7.J_wfcam.AB
+     Generating  N24_8.NUV_galex.AB ....
+N24_8 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.NUV_galex.AB
+     Generating  N24_8.u_megacam.AB ....
+N24_8 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.u_megacam.AB
+     Generating  N24_8.B_cfh12k.AB ....
+N24_8 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.B_cfh12k.AB
+     Generating  N24_8.B_subaru.AB ....
+N24_8 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.B_subaru.AB
+     Generating  N24_8.g_subaru.AB ....
+N24_8 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.g_subaru.AB
+     Generating  N24_8.g_megacam.AB ....
+N24_8 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.g_megacam.AB
+     Generating  N24_8.V_cfh12k.AB ....
+N24_8 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.V_cfh12k.AB
+     Generating  N24_8.V_subaru.AB ....
+N24_8 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.V_subaru.AB
+     Generating  N24_8.r_megacam.AB ....
+N24_8 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.r_megacam.AB
+     Generating  N24_8.r_subaru.AB ....
+N24_8 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.r_subaru.AB
+     Generating  N24_8.R_cfh12k.AB ....
+N24_8 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_8.i2_megacam.AB ....
+N24_8 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.i2_megacam.AB
+     Generating  N24_8.i_megacam.AB ....
+N24_8 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.i_megacam.AB
+     Generating  N24_8.i_subaru.AB ....
+N24_8 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.i_subaru.AB
+     Generating  N24_8.I_cfh12k.AB ....
+N24_8 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.I_cfh12k.AB
+     Generating  N24_8.z_megacam.AB ....
+N24_8 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.z_megacam.AB
+     Generating  N24_8.z_subaru.AB ....
+N24_8 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.z_subaru.AB
+     Generating  N24_8.y_subaru.AB ....
+N24_8 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.y_subaru.AB
+     Generating  N24_8.J_wfcam.AB ....
+N24_8 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_8.J_wfcam.AB
+     Generating  N24_9.NUV_galex.AB ....
+N24_9 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.NUV_galex.AB
+     Generating  N24_9.u_megacam.AB ....
+N24_9 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.u_megacam.AB
+     Generating  N24_9.B_cfh12k.AB ....
+N24_9 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.B_cfh12k.AB
+     Generating  N24_9.B_subaru.AB ....
+N24_9 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.B_subaru.AB
+     Generating  N24_9.g_subaru.AB ....
+N24_9 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.g_subaru.AB
+     Generating  N24_9.g_megacam.AB ....
+N24_9 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.g_megacam.AB
+     Generating  N24_9.V_cfh12k.AB ....
+N24_9 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.V_cfh12k.AB
+     Generating  N24_9.V_subaru.AB ....
+N24_9 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.V_subaru.AB
+     Generating  N24_9.r_megacam.AB ....
+N24_9 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.r_megacam.AB
+     Generating  N24_9.r_subaru.AB ....
+N24_9 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.r_subaru.AB
+     Generating  N24_9.R_cfh12k.AB ....
+N24_9 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_9.i2_megacam.AB ....
+N24_9 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.i2_megacam.AB
+     Generating  N24_9.i_megacam.AB ....
+N24_9 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.i_megacam.AB
+     Generating  N24_9.i_subaru.AB ....
+N24_9 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.i_subaru.AB
+     Generating  N24_9.I_cfh12k.AB ....
+N24_9 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.I_cfh12k.AB
+     Generating  N24_9.z_megacam.AB ....
+N24_9 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.z_megacam.AB
+     Generating  N24_9.z_subaru.AB ....
+N24_9 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.z_subaru.AB
+     Generating  N24_9.y_subaru.AB ....
+N24_9 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.y_subaru.AB
+     Generating  N24_9.J_wfcam.AB ....
+N24_9 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_9.J_wfcam.AB
+     Generating  N24_10.NUV_galex.AB ....
+N24_10 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.NUV_galex.AB
+     Generating  N24_10.u_megacam.AB ....
+N24_10 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.u_megacam.AB
+     Generating  N24_10.B_cfh12k.AB ....
+N24_10 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.B_cfh12k.AB
+     Generating  N24_10.B_subaru.AB ....
+N24_10 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.B_subaru.AB
+     Generating  N24_10.g_subaru.AB ....
+N24_10 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.g_subaru.AB
+     Generating  N24_10.g_megacam.AB ....
+N24_10 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.g_megacam.AB
+     Generating  N24_10.V_cfh12k.AB ....
+N24_10 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.V_cfh12k.AB
+     Generating  N24_10.V_subaru.AB ....
+N24_10 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.V_subaru.AB
+     Generating  N24_10.r_megacam.AB ....
+N24_10 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.r_megacam.AB
+     Generating  N24_10.r_subaru.AB ....
+N24_10 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.r_subaru.AB
+     Generating  N24_10.R_cfh12k.AB ....
+N24_10 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_10.i2_megacam.AB ....
+N24_10 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.i2_megacam.AB
+     Generating  N24_10.i_megacam.AB ....
+N24_10 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.i_megacam.AB
+     Generating  N24_10.i_subaru.AB ....
+N24_10 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.i_subaru.AB
+     Generating  N24_10.I_cfh12k.AB ....
+N24_10 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.I_cfh12k.AB
+     Generating  N24_10.z_megacam.AB ....
+N24_10 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.z_megacam.AB
+     Generating  N24_10.z_subaru.AB ....
+N24_10 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.z_subaru.AB
+     Generating  N24_10.y_subaru.AB ....
+N24_10 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.y_subaru.AB
+     Generating  N24_10.J_wfcam.AB ....
+N24_10 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_10.J_wfcam.AB
+     Generating  N24_11.NUV_galex.AB ....
+N24_11 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.NUV_galex.AB
+     Generating  N24_11.u_megacam.AB ....
+N24_11 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.u_megacam.AB
+     Generating  N24_11.B_cfh12k.AB ....
+N24_11 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.B_cfh12k.AB
+     Generating  N24_11.B_subaru.AB ....
+N24_11 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.B_subaru.AB
+     Generating  N24_11.g_subaru.AB ....
+N24_11 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.g_subaru.AB
+     Generating  N24_11.g_megacam.AB ....
+N24_11 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.g_megacam.AB
+     Generating  N24_11.V_cfh12k.AB ....
+N24_11 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.V_cfh12k.AB
+     Generating  N24_11.V_subaru.AB ....
+N24_11 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.V_subaru.AB
+     Generating  N24_11.r_megacam.AB ....
+N24_11 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.r_megacam.AB
+     Generating  N24_11.r_subaru.AB ....
+N24_11 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.r_subaru.AB
+     Generating  N24_11.R_cfh12k.AB ....
+N24_11 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_11.i2_megacam.AB ....
+N24_11 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.i2_megacam.AB
+     Generating  N24_11.i_megacam.AB ....
+N24_11 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.i_megacam.AB
+     Generating  N24_11.i_subaru.AB ....
+N24_11 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.i_subaru.AB
+     Generating  N24_11.I_cfh12k.AB ....
+N24_11 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.I_cfh12k.AB
+     Generating  N24_11.z_megacam.AB ....
+N24_11 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.z_megacam.AB
+     Generating  N24_11.z_subaru.AB ....
+N24_11 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.z_subaru.AB
+     Generating  N24_11.y_subaru.AB ....
+N24_11 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.y_subaru.AB
+     Generating  N24_11.J_wfcam.AB ....
+N24_11 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_11.J_wfcam.AB
+     Generating  N24_12.NUV_galex.AB ....
+N24_12 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.NUV_galex.AB
+     Generating  N24_12.u_megacam.AB ....
+N24_12 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.u_megacam.AB
+     Generating  N24_12.B_cfh12k.AB ....
+N24_12 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.B_cfh12k.AB
+     Generating  N24_12.B_subaru.AB ....
+N24_12 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.B_subaru.AB
+     Generating  N24_12.g_subaru.AB ....
+N24_12 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.g_subaru.AB
+     Generating  N24_12.g_megacam.AB ....
+N24_12 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.g_megacam.AB
+     Generating  N24_12.V_cfh12k.AB ....
+N24_12 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.V_cfh12k.AB
+     Generating  N24_12.V_subaru.AB ....
+N24_12 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.V_subaru.AB
+     Generating  N24_12.r_megacam.AB ....
+N24_12 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.r_megacam.AB
+     Generating  N24_12.r_subaru.AB ....
+N24_12 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.r_subaru.AB
+     Generating  N24_12.R_cfh12k.AB ....
+N24_12 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_12.i2_megacam.AB ....
+N24_12 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.i2_megacam.AB
+     Generating  N24_12.i_megacam.AB ....
+N24_12 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.i_megacam.AB
+     Generating  N24_12.i_subaru.AB ....
+N24_12 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.i_subaru.AB
+     Generating  N24_12.I_cfh12k.AB ....
+N24_12 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.I_cfh12k.AB
+     Generating  N24_12.z_megacam.AB ....
+N24_12 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.z_megacam.AB
+     Generating  N24_12.z_subaru.AB ....
+N24_12 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.z_subaru.AB
+     Generating  N24_12.y_subaru.AB ....
+N24_12 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.y_subaru.AB
+     Generating  N24_12.J_wfcam.AB ....
+N24_12 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_12.J_wfcam.AB
+     Generating  N24_13.NUV_galex.AB ....
+N24_13 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.NUV_galex.AB
+     Generating  N24_13.u_megacam.AB ....
+N24_13 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.u_megacam.AB
+     Generating  N24_13.B_cfh12k.AB ....
+N24_13 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.B_cfh12k.AB
+     Generating  N24_13.B_subaru.AB ....
+N24_13 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.B_subaru.AB
+     Generating  N24_13.g_subaru.AB ....
+N24_13 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.g_subaru.AB
+     Generating  N24_13.g_megacam.AB ....
+N24_13 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.g_megacam.AB
+     Generating  N24_13.V_cfh12k.AB ....
+N24_13 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.V_cfh12k.AB
+     Generating  N24_13.V_subaru.AB ....
+N24_13 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.V_subaru.AB
+     Generating  N24_13.r_megacam.AB ....
+N24_13 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.r_megacam.AB
+     Generating  N24_13.r_subaru.AB ....
+N24_13 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.r_subaru.AB
+     Generating  N24_13.R_cfh12k.AB ....
+N24_13 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_13.i2_megacam.AB ....
+N24_13 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.i2_megacam.AB
+     Generating  N24_13.i_megacam.AB ....
+N24_13 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.i_megacam.AB
+     Generating  N24_13.i_subaru.AB ....
+N24_13 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.i_subaru.AB
+     Generating  N24_13.I_cfh12k.AB ....
+N24_13 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.I_cfh12k.AB
+     Generating  N24_13.z_megacam.AB ....
+N24_13 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.z_megacam.AB
+     Generating  N24_13.z_subaru.AB ....
+N24_13 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.z_subaru.AB
+     Generating  N24_13.y_subaru.AB ....
+N24_13 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.y_subaru.AB
+     Generating  N24_13.J_wfcam.AB ....
+N24_13 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_13.J_wfcam.AB
+     Generating  N24_14.NUV_galex.AB ....
+N24_14 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.NUV_galex.AB
+     Generating  N24_14.u_megacam.AB ....
+N24_14 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.u_megacam.AB
+     Generating  N24_14.B_cfh12k.AB ....
+N24_14 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.B_cfh12k.AB
+     Generating  N24_14.B_subaru.AB ....
+N24_14 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.B_subaru.AB
+     Generating  N24_14.g_subaru.AB ....
+N24_14 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.g_subaru.AB
+     Generating  N24_14.g_megacam.AB ....
+N24_14 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.g_megacam.AB
+     Generating  N24_14.V_cfh12k.AB ....
+N24_14 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.V_cfh12k.AB
+     Generating  N24_14.V_subaru.AB ....
+N24_14 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.V_subaru.AB
+     Generating  N24_14.r_megacam.AB ....
+N24_14 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.r_megacam.AB
+     Generating  N24_14.r_subaru.AB ....
+N24_14 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.r_subaru.AB
+     Generating  N24_14.R_cfh12k.AB ....
+N24_14 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_14.i2_megacam.AB ....
+N24_14 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.i2_megacam.AB
+     Generating  N24_14.i_megacam.AB ....
+N24_14 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.i_megacam.AB
+     Generating  N24_14.i_subaru.AB ....
+N24_14 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.i_subaru.AB
+     Generating  N24_14.I_cfh12k.AB ....
+N24_14 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.I_cfh12k.AB
+     Generating  N24_14.z_megacam.AB ....
+N24_14 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.z_megacam.AB
+     Generating  N24_14.z_subaru.AB ....
+N24_14 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.z_subaru.AB
+     Generating  N24_14.y_subaru.AB ....
+N24_14 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.y_subaru.AB
+     Generating  N24_14.J_wfcam.AB ....
+N24_14 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_14.J_wfcam.AB
+     Generating  N24_15.NUV_galex.AB ....
+N24_15 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.NUV_galex.AB
+     Generating  N24_15.u_megacam.AB ....
+N24_15 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.u_megacam.AB
+     Generating  N24_15.B_cfh12k.AB ....
+N24_15 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.B_cfh12k.AB
+     Generating  N24_15.B_subaru.AB ....
+N24_15 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.B_subaru.AB
+     Generating  N24_15.g_subaru.AB ....
+N24_15 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.g_subaru.AB
+     Generating  N24_15.g_megacam.AB ....
+N24_15 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.g_megacam.AB
+     Generating  N24_15.V_cfh12k.AB ....
+N24_15 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.V_cfh12k.AB
+     Generating  N24_15.V_subaru.AB ....
+N24_15 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.V_subaru.AB
+     Generating  N24_15.r_megacam.AB ....
+N24_15 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.r_megacam.AB
+     Generating  N24_15.r_subaru.AB ....
+N24_15 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.r_subaru.AB
+     Generating  N24_15.R_cfh12k.AB ....
+N24_15 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_15.i2_megacam.AB ....
+N24_15 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.i2_megacam.AB
+     Generating  N24_15.i_megacam.AB ....
+N24_15 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.i_megacam.AB
+     Generating  N24_15.i_subaru.AB ....
+N24_15 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.i_subaru.AB
+     Generating  N24_15.I_cfh12k.AB ....
+N24_15 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.I_cfh12k.AB
+     Generating  N24_15.z_megacam.AB ....
+N24_15 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.z_megacam.AB
+     Generating  N24_15.z_subaru.AB ....
+N24_15 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.z_subaru.AB
+     Generating  N24_15.y_subaru.AB ....
+N24_15 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.y_subaru.AB
+     Generating  N24_15.J_wfcam.AB ....
+N24_15 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_15.J_wfcam.AB
+     Generating  N24_16.NUV_galex.AB ....
+N24_16 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.NUV_galex.AB
+     Generating  N24_16.u_megacam.AB ....
+N24_16 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.u_megacam.AB
+     Generating  N24_16.B_cfh12k.AB ....
+N24_16 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.B_cfh12k.AB
+     Generating  N24_16.B_subaru.AB ....
+N24_16 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.B_subaru.AB
+     Generating  N24_16.g_subaru.AB ....
+N24_16 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.g_subaru.AB
+     Generating  N24_16.g_megacam.AB ....
+N24_16 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.g_megacam.AB
+     Generating  N24_16.V_cfh12k.AB ....
+N24_16 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.V_cfh12k.AB
+     Generating  N24_16.V_subaru.AB ....
+N24_16 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.V_subaru.AB
+     Generating  N24_16.r_megacam.AB ....
+N24_16 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.r_megacam.AB
+     Generating  N24_16.r_subaru.AB ....
+N24_16 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.r_subaru.AB
+     Generating  N24_16.R_cfh12k.AB ....
+N24_16 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_16.i2_megacam.AB ....
+N24_16 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.i2_megacam.AB
+     Generating  N24_16.i_megacam.AB ....
+N24_16 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.i_megacam.AB
+     Generating  N24_16.i_subaru.AB ....
+N24_16 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.i_subaru.AB
+     Generating  N24_16.I_cfh12k.AB ....
+N24_16 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.I_cfh12k.AB
+     Generating  N24_16.z_megacam.AB ....
+N24_16 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.z_megacam.AB
+     Generating  N24_16.z_subaru.AB ....
+N24_16 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.z_subaru.AB
+     Generating  N24_16.y_subaru.AB ....
+N24_16 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.y_subaru.AB
+     Generating  N24_16.J_wfcam.AB ....
+N24_16 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_16.J_wfcam.AB
+     Generating  N24_17.NUV_galex.AB ....
+N24_17 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.NUV_galex.AB
+     Generating  N24_17.u_megacam.AB ....
+N24_17 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.u_megacam.AB
+     Generating  N24_17.B_cfh12k.AB ....
+N24_17 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.B_cfh12k.AB
+     Generating  N24_17.B_subaru.AB ....
+N24_17 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.B_subaru.AB
+     Generating  N24_17.g_subaru.AB ....
+N24_17 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.g_subaru.AB
+     Generating  N24_17.g_megacam.AB ....
+N24_17 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.g_megacam.AB
+     Generating  N24_17.V_cfh12k.AB ....
+N24_17 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.V_cfh12k.AB
+     Generating  N24_17.V_subaru.AB ....
+N24_17 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.V_subaru.AB
+     Generating  N24_17.r_megacam.AB ....
+N24_17 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.r_megacam.AB
+     Generating  N24_17.r_subaru.AB ....
+N24_17 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.r_subaru.AB
+     Generating  N24_17.R_cfh12k.AB ....
+N24_17 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_17.i2_megacam.AB ....
+N24_17 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.i2_megacam.AB
+     Generating  N24_17.i_megacam.AB ....
+N24_17 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.i_megacam.AB
+     Generating  N24_17.i_subaru.AB ....
+N24_17 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.i_subaru.AB
+     Generating  N24_17.I_cfh12k.AB ....
+N24_17 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.I_cfh12k.AB
+     Generating  N24_17.z_megacam.AB ....
+N24_17 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.z_megacam.AB
+     Generating  N24_17.z_subaru.AB ....
+N24_17 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.z_subaru.AB
+     Generating  N24_17.y_subaru.AB ....
+N24_17 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.y_subaru.AB
+     Generating  N24_17.J_wfcam.AB ....
+N24_17 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_17.J_wfcam.AB
+     Generating  N24_18.NUV_galex.AB ....
+N24_18 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.NUV_galex.AB
+     Generating  N24_18.u_megacam.AB ....
+N24_18 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.u_megacam.AB
+     Generating  N24_18.B_cfh12k.AB ....
+N24_18 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.B_cfh12k.AB
+     Generating  N24_18.B_subaru.AB ....
+N24_18 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.B_subaru.AB
+     Generating  N24_18.g_subaru.AB ....
+N24_18 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.g_subaru.AB
+     Generating  N24_18.g_megacam.AB ....
+N24_18 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.g_megacam.AB
+     Generating  N24_18.V_cfh12k.AB ....
+N24_18 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.V_cfh12k.AB
+     Generating  N24_18.V_subaru.AB ....
+N24_18 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.V_subaru.AB
+     Generating  N24_18.r_megacam.AB ....
+N24_18 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.r_megacam.AB
+     Generating  N24_18.r_subaru.AB ....
+N24_18 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.r_subaru.AB
+     Generating  N24_18.R_cfh12k.AB ....
+N24_18 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_18.i2_megacam.AB ....
+N24_18 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.i2_megacam.AB
+     Generating  N24_18.i_megacam.AB ....
+N24_18 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.i_megacam.AB
+     Generating  N24_18.i_subaru.AB ....
+N24_18 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.i_subaru.AB
+     Generating  N24_18.I_cfh12k.AB ....
+N24_18 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.I_cfh12k.AB
+     Generating  N24_18.z_megacam.AB ....
+N24_18 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.z_megacam.AB
+     Generating  N24_18.z_subaru.AB ....
+N24_18 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.z_subaru.AB
+     Generating  N24_18.y_subaru.AB ....
+N24_18 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.y_subaru.AB
+     Generating  N24_18.J_wfcam.AB ....
+N24_18 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_18.J_wfcam.AB
+     Generating  N24_19.NUV_galex.AB ....
+N24_19 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.NUV_galex.AB
+     Generating  N24_19.u_megacam.AB ....
+N24_19 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.u_megacam.AB
+     Generating  N24_19.B_cfh12k.AB ....
+N24_19 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.B_cfh12k.AB
+     Generating  N24_19.B_subaru.AB ....
+N24_19 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.B_subaru.AB
+     Generating  N24_19.g_subaru.AB ....
+N24_19 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.g_subaru.AB
+     Generating  N24_19.g_megacam.AB ....
+N24_19 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.g_megacam.AB
+     Generating  N24_19.V_cfh12k.AB ....
+N24_19 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.V_cfh12k.AB
+     Generating  N24_19.V_subaru.AB ....
+N24_19 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.V_subaru.AB
+     Generating  N24_19.r_megacam.AB ....
+N24_19 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.r_megacam.AB
+     Generating  N24_19.r_subaru.AB ....
+N24_19 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.r_subaru.AB
+     Generating  N24_19.R_cfh12k.AB ....
+N24_19 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_19.i2_megacam.AB ....
+N24_19 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.i2_megacam.AB
+     Generating  N24_19.i_megacam.AB ....
+N24_19 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.i_megacam.AB
+     Generating  N24_19.i_subaru.AB ....
+N24_19 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.i_subaru.AB
+     Generating  N24_19.I_cfh12k.AB ....
+N24_19 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.I_cfh12k.AB
+     Generating  N24_19.z_megacam.AB ....
+N24_19 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.z_megacam.AB
+     Generating  N24_19.z_subaru.AB ....
+N24_19 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.z_subaru.AB
+     Generating  N24_19.y_subaru.AB ....
+N24_19 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.y_subaru.AB
+     Generating  N24_19.J_wfcam.AB ....
+N24_19 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_19.J_wfcam.AB
+     Generating  N24_20.NUV_galex.AB ....
+N24_20 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.NUV_galex.AB
+     Generating  N24_20.u_megacam.AB ....
+N24_20 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.u_megacam.AB
+     Generating  N24_20.B_cfh12k.AB ....
+N24_20 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.B_cfh12k.AB
+     Generating  N24_20.B_subaru.AB ....
+N24_20 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.B_subaru.AB
+     Generating  N24_20.g_subaru.AB ....
+N24_20 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.g_subaru.AB
+     Generating  N24_20.g_megacam.AB ....
+N24_20 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.g_megacam.AB
+     Generating  N24_20.V_cfh12k.AB ....
+N24_20 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.V_cfh12k.AB
+     Generating  N24_20.V_subaru.AB ....
+N24_20 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.V_subaru.AB
+     Generating  N24_20.r_megacam.AB ....
+N24_20 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.r_megacam.AB
+     Generating  N24_20.r_subaru.AB ....
+N24_20 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.r_subaru.AB
+     Generating  N24_20.R_cfh12k.AB ....
+N24_20 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_20.i2_megacam.AB ....
+N24_20 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.i2_megacam.AB
+     Generating  N24_20.i_megacam.AB ....
+N24_20 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.i_megacam.AB
+     Generating  N24_20.i_subaru.AB ....
+N24_20 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.i_subaru.AB
+     Generating  N24_20.I_cfh12k.AB ....
+N24_20 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.I_cfh12k.AB
+     Generating  N24_20.z_megacam.AB ....
+N24_20 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.z_megacam.AB
+     Generating  N24_20.z_subaru.AB ....
+N24_20 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.z_subaru.AB
+     Generating  N24_20.y_subaru.AB ....
+N24_20 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.y_subaru.AB
+     Generating  N24_20.J_wfcam.AB ....
+N24_20 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_20.J_wfcam.AB
+     Generating  N24_21.NUV_galex.AB ....
+N24_21 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.NUV_galex.AB
+     Generating  N24_21.u_megacam.AB ....
+N24_21 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.u_megacam.AB
+     Generating  N24_21.B_cfh12k.AB ....
+N24_21 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.B_cfh12k.AB
+     Generating  N24_21.B_subaru.AB ....
+N24_21 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.B_subaru.AB
+     Generating  N24_21.g_subaru.AB ....
+N24_21 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.g_subaru.AB
+     Generating  N24_21.g_megacam.AB ....
+N24_21 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.g_megacam.AB
+     Generating  N24_21.V_cfh12k.AB ....
+N24_21 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.V_cfh12k.AB
+     Generating  N24_21.V_subaru.AB ....
+N24_21 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.V_subaru.AB
+     Generating  N24_21.r_megacam.AB ....
+N24_21 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.r_megacam.AB
+     Generating  N24_21.r_subaru.AB ....
+N24_21 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.r_subaru.AB
+     Generating  N24_21.R_cfh12k.AB ....
+N24_21 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_21.i2_megacam.AB ....
+N24_21 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.i2_megacam.AB
+     Generating  N24_21.i_megacam.AB ....
+N24_21 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.i_megacam.AB
+     Generating  N24_21.i_subaru.AB ....
+N24_21 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.i_subaru.AB
+     Generating  N24_21.I_cfh12k.AB ....
+N24_21 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.I_cfh12k.AB
+     Generating  N24_21.z_megacam.AB ....
+N24_21 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.z_megacam.AB
+     Generating  N24_21.z_subaru.AB ....
+N24_21 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.z_subaru.AB
+     Generating  N24_21.y_subaru.AB ....
+N24_21 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.y_subaru.AB
+     Generating  N24_21.J_wfcam.AB ....
+N24_21 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_21.J_wfcam.AB
+     Generating  N24_22.NUV_galex.AB ....
+N24_22 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.NUV_galex.AB
+     Generating  N24_22.u_megacam.AB ....
+N24_22 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.u_megacam.AB
+     Generating  N24_22.B_cfh12k.AB ....
+N24_22 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.B_cfh12k.AB
+     Generating  N24_22.B_subaru.AB ....
+N24_22 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.B_subaru.AB
+     Generating  N24_22.g_subaru.AB ....
+N24_22 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.g_subaru.AB
+     Generating  N24_22.g_megacam.AB ....
+N24_22 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.g_megacam.AB
+     Generating  N24_22.V_cfh12k.AB ....
+N24_22 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.V_cfh12k.AB
+     Generating  N24_22.V_subaru.AB ....
+N24_22 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.V_subaru.AB
+     Generating  N24_22.r_megacam.AB ....
+N24_22 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.r_megacam.AB
+     Generating  N24_22.r_subaru.AB ....
+N24_22 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.r_subaru.AB
+     Generating  N24_22.R_cfh12k.AB ....
+N24_22 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_22.i2_megacam.AB ....
+N24_22 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.i2_megacam.AB
+     Generating  N24_22.i_megacam.AB ....
+N24_22 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.i_megacam.AB
+     Generating  N24_22.i_subaru.AB ....
+N24_22 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.i_subaru.AB
+     Generating  N24_22.I_cfh12k.AB ....
+N24_22 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.I_cfh12k.AB
+     Generating  N24_22.z_megacam.AB ....
+N24_22 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.z_megacam.AB
+     Generating  N24_22.z_subaru.AB ....
+N24_22 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.z_subaru.AB
+     Generating  N24_22.y_subaru.AB ....
+N24_22 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.y_subaru.AB
+     Generating  N24_22.J_wfcam.AB ....
+N24_22 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_22.J_wfcam.AB
+     Generating  N24_23.NUV_galex.AB ....
+N24_23 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.NUV_galex.AB
+     Generating  N24_23.u_megacam.AB ....
+N24_23 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.u_megacam.AB
+     Generating  N24_23.B_cfh12k.AB ....
+N24_23 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.B_cfh12k.AB
+     Generating  N24_23.B_subaru.AB ....
+N24_23 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.B_subaru.AB
+     Generating  N24_23.g_subaru.AB ....
+N24_23 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.g_subaru.AB
+     Generating  N24_23.g_megacam.AB ....
+N24_23 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.g_megacam.AB
+     Generating  N24_23.V_cfh12k.AB ....
+N24_23 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.V_cfh12k.AB
+     Generating  N24_23.V_subaru.AB ....
+N24_23 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.V_subaru.AB
+     Generating  N24_23.r_megacam.AB ....
+N24_23 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.r_megacam.AB
+     Generating  N24_23.r_subaru.AB ....
+N24_23 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.r_subaru.AB
+     Generating  N24_23.R_cfh12k.AB ....
+N24_23 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_23.i2_megacam.AB ....
+N24_23 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.i2_megacam.AB
+     Generating  N24_23.i_megacam.AB ....
+N24_23 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.i_megacam.AB
+     Generating  N24_23.i_subaru.AB ....
+N24_23 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.i_subaru.AB
+     Generating  N24_23.I_cfh12k.AB ....
+N24_23 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.I_cfh12k.AB
+     Generating  N24_23.z_megacam.AB ....
+N24_23 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.z_megacam.AB
+     Generating  N24_23.z_subaru.AB ....
+N24_23 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.z_subaru.AB
+     Generating  N24_23.y_subaru.AB ....
+N24_23 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.y_subaru.AB
+     Generating  N24_23.J_wfcam.AB ....
+N24_23 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_23.J_wfcam.AB
+     Generating  N24_24.NUV_galex.AB ....
+N24_24 NUV_galex
+x_res[0] 1687.5251
+x_res[-1] 3007.7354
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.NUV_galex.AB
+     Generating  N24_24.u_megacam.AB ....
+N24_24 u_megacam
+x_res[0] 3270.0
+x_res[-1] 4320.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.u_megacam.AB
+     Generating  N24_24.B_cfh12k.AB ....
+N24_24 B_cfh12k
+x_res[0] 3000.0
+x_res[-1] 6540.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.B_cfh12k.AB
+     Generating  N24_24.B_subaru.AB ....
+N24_24 B_subaru
+x_res[0] 3600.0
+x_res[-1] 5480.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.B_subaru.AB
+     Generating  N24_24.g_subaru.AB ....
+N24_24 g_subaru
+x_res[0] 3790.0
+x_res[-1] 5667.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.g_subaru.AB
+     Generating  N24_24.g_megacam.AB ....
+N24_24 g_megacam
+x_res[0] 3970.0
+x_res[-1] 5825.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.g_megacam.AB
+     Generating  N24_24.V_cfh12k.AB ....
+N24_24 V_cfh12k
+x_res[0] 3020.0
+x_res[-1] 7660.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.V_cfh12k.AB
+     Generating  N24_24.V_subaru.AB ....
+N24_24 V_subaru
+x_res[0] 4780.0
+x_res[-1] 6572.6
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.V_subaru.AB
+     Generating  N24_24.r_megacam.AB ....
+N24_24 r_megacam
+x_res[0] 5295.0
+x_res[-1] 7140.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.r_megacam.AB
+     Generating  N24_24.r_subaru.AB ....
+N24_24 r_subaru
+x_res[0] 5400.0
+x_res[-1] 7241.3
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.r_subaru.AB
+     Generating  N24_24.R_cfh12k.AB ....
+N24_24 R_cfh12k
+x_res[0] 3780.0
+x_res[-1] 9300.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.R_cfh12k.AB
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+     Generating  N24_24.i2_megacam.AB ....
+N24_24 i2_megacam
+x_res[0] 6515.0
+x_res[-1] 8730.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.i2_megacam.AB
+     Generating  N24_24.i_megacam.AB ....
+N24_24 i_megacam
+x_res[0] 6565.0
+x_res[-1] 8890.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.i_megacam.AB
+     Generating  N24_24.i_subaru.AB ....
+N24_24 i_subaru
+x_res[0] 6710.0
+x_res[-1] 9170.1
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.i_subaru.AB
+     Generating  N24_24.I_cfh12k.AB ....
+N24_24 I_cfh12k
+x_res[0] 5020.0
+x_res[-1] 11380.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.I_cfh12k.AB
+     Generating  N24_24.z_megacam.AB ....
+N24_24 z_megacam
+x_res[0] 7845.0
+x_res[-1] 10605.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.z_megacam.AB
+     Generating  N24_24.z_subaru.AB ....
+N24_24 z_subaru
+x_res[0] 7914.0
+x_res[-1] 10725.7
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.z_subaru.AB
+     Generating  N24_24.y_subaru.AB ....
+N24_24 y_subaru
+x_res[0] 9365.0
+x_res[-1] 11335.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.y_subaru.AB
+     Generating  N24_24.J_wfcam.AB ....
+N24_24 J_wfcam
+x_res[0] 11250.0
+x_res[-1] 13600.0
+Writing AB file  /home/jfcrenshaw/documents/bpz-1.99.3/AB/N24_24.J_wfcam.AB
+0 3
+1 10
+2 11
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+  1.462    0.412  1152   NUV_galex
+ 3269.547    8.786  7337   u_megacam
+  3.852    1.464   186   B_cfh12k
+  1.177    0.177  1326   B_subaru
+  0.933   -0.075  1377   g_subaru
+ 1001.534    7.502 10792   g_megacam
+ 33.376    3.809   334   V_cfh12k
+  1.054    0.057  1453   V_subaru
+  1.041    0.044 12127   r_megacam
+  0.976   -0.026  1454   r_subaru
+  1.126    0.129   402   R_cfh12k
+  1.002    0.002  1772   i2_megacam
+  1.011    0.011 13593   i_megacam
+  0.969   -0.034  1418   i_subaru
+  1.121    0.124   419   I_cfh12k
+  0.992   -0.008 11717   z_megacam
+  1.044    0.047  1446   z_subaru
+  0.981   -0.021   405   y_subaru
+  1.014    0.015  1454   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:10:02
+
+Loading  bpz_files/bpz_catalog_i.bpz ...
+
+Loading  bpz_files/bpz_catalog_i.bpz ...
+
+Loading  bpz_files/bpz_catalog_i.cat ...
+
+Loading  bpz_files/bpz_catalog_i.flux_comparison ...
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_i_bpz.cat ...
+
+/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
+
+Current time  Fri May 15 14:40:38 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 3
+1 10
+2 11
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+  1.127    0.130   196   NUV_galex
+  0.997   -0.003  1107   u_megacam
+    nan      nan     0   B_cfh12k
+    nan      nan     0   B_subaru
+    nan      nan     0   g_subaru
+  0.994   -0.006  2136   g_megacam
+    nan      nan     0   V_cfh12k
+    nan      nan     0   V_subaru
+  0.998   -0.002  2336   r_megacam
+    nan      nan     0   r_subaru
+    nan      nan     0   R_cfh12k
+  1.005    0.006  2343   i2_megacam
+    nan      nan     0   i_megacam
+    nan      nan     0   i_subaru
+    nan      nan     0   I_cfh12k
+  0.998   -0.002  2272   z_megacam
+    nan      nan     0   z_subaru
+    nan      nan     0   y_subaru
+    nan      nan     0   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:01:23
+
+Loading  bpz_files/bpz_catalog_i2.bpz ...
+
+Loading  bpz_files/bpz_catalog_i2.bpz ...
+
+Loading  bpz_files/bpz_catalog_i2.cat ...
+
+Loading  bpz_files/bpz_catalog_i2.flux_comparison ...
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_i2_bpz.cat ...
+
+/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
+
+Current time  Fri May 15 14:42:04 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 3
+1 10
+2 11
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+    nan      nan     0   NUV_galex
+    nan      nan     0   u_megacam
+  0.982   -0.020   221   B_cfh12k
+    nan      nan     0   B_subaru
+    nan      nan     0   g_subaru
+    nan      nan     0   g_megacam
+  1.008    0.009   285   V_cfh12k
+    nan      nan     0   V_subaru
+    nan      nan     0   r_megacam
+    nan      nan     0   r_subaru
+  1.007    0.008   285   R_cfh12k
+    nan      nan     0   i2_megacam
+    nan      nan     0   i_megacam
+    nan      nan     0   i_subaru
+  0.995   -0.006   288   I_cfh12k
+    nan      nan     0   z_megacam
+    nan      nan     0   z_subaru
+    nan      nan     0   y_subaru
+    nan      nan     0   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:00:14
+
+Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.cat ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.flux_comparison ...
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_Icfh12k_bpz.cat ...
+
+/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
+
+Current time  Fri May 15 14:42:19 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 3
+1 10
+2 11
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+  1.701    0.577   121   NUV_galex
+  0.982   -0.020  1001   u_megacam
+    nan      nan     0   B_cfh12k
+  1.154    0.156  1145   B_subaru
+  0.925   -0.085  1188   g_subaru
+    nan      nan     0   g_megacam
+    nan      nan     0   V_cfh12k
+  1.028    0.030  1413   V_subaru
+    nan      nan     0   r_megacam
+  0.979   -0.023  1457   r_subaru
+    nan      nan     0   R_cfh12k
+    nan      nan     0   i2_megacam
+    nan      nan     0   i_megacam
+  0.999   -0.001  1457   i_subaru
+    nan      nan     0   I_cfh12k
+    nan      nan     0   z_megacam
+  1.043    0.046  1457   z_subaru
+    nan      nan     0   y_subaru
+  0.980   -0.022  1442   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:00:47
+
+Loading  bpz_files/bpz_catalog_i+.bpz ...
+
+Loading  bpz_files/bpz_catalog_i+.bpz ...
+
+Loading  bpz_files/bpz_catalog_i+.cat ...
+
+Loading  bpz_files/bpz_catalog_i+.flux_comparison ...
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_i+_bpz.cat ...
+

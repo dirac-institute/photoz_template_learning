@@ -1,0 +1,161 @@
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 9, in <module>
+    from useful import *
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/useful.py", line 10, in <module>
+    from MLab_coe import *
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/MLab_coe.py", line 25, in <module>
+    from scipy.integrate import quad
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/scipy/integrate/__init__.py", line 89, in <module>
+    from .quadrature import *
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/scipy/integrate/quadrature.py", line 10, in <module>
+    from scipy.special import roots_legendre
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/scipy/special/__init__.py", line 643, in <module>
+    from .basic import *
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/scipy/special/basic.py", line 19, in <module>
+    from . import orthogonal
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/scipy/special/orthogonal.py", line 83, in <module>
+    from scipy import linalg
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/scipy/linalg/__init__.py", line 190, in <module>
+    from .misc import *
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/scipy/linalg/misc.py", line 6, in <module>
+    from .lapack import get_lapack_funcs
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/scipy/linalg/lapack.py", line 567, in <module>
+    from scipy._lib._util import DeprecatedImport as _DeprecatedImport
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/scipy/_lib/_util.py", line 9, in <module>
+    from multiprocessing import Pool
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/multiprocessing/__init__.py", line 61, in <module>
+    import os
+KeyboardInterrupt
+Loading  bpz_files/bpz_catalog_i.bpz ...
+
+Loading  bpz_files/bpz_catalog_i.bpz ...
+
+['2713', '0.680', '0.515', '1.100', '9.000', '0.95567', '0.680', '9.000', '0.089', '1.059', '22.369']
+9.000
+Loading  bpz_files/bpz_catalog_i.cat ...
+
+['4415', '-99.000', '0.000', '23.342', '0.040', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '23.018', '0.021', '-99.000', '0.000', '-99.000', '0.000', '22.364', '0.018', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '21.680', '0.014', '-99.000', '0.000', '-99.000', '0.000', '21.662', '0.022', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '0.703']
+-99.000
+['13012', '-99.000', '0.000', '23.586', '0.048', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '23.375', '0.027', '-99.000', '0.000', '-99.000', '0.000', '23.094', '0.032', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '22.301', '0.022', '-99.000', '0.000', '-99.000', '0.000', '22.170', '0.045', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '0.899']
+-99.000
+Loading  bpz_files/bpz_catalog_i.flux_comparison ...
+
+['3055', '21.57', '0.68', '2', '1.186e+02', '6.772e-11', '1.349e-10', '1.533e-10', '1.671e-10', '2.367e-10', '2.469e-10', '3.848e-10', '4.201e-10', '8.213e-10', '8.410e-10', '1.080e-09', '2.215e-09', '2.350e-09', '2.372e-09', '2.785e-09', '3.315e-09', '3.641e-09', '3.919e-09', '5.317e-09', '0.000e+00', '0.000e+00', '0.000e+00', '0.000e+00', '0.000e+00', '2.364e-10', '0.000e+00', '0.000e+00', '8.257e-10', '0.000e+00', '0.000e+00', '0.000e+00', '2.346e-09', '0.000e+00', '0.000e+00', '3.342e-09', '0.000e+00', '0.000e+00', '0.000e+00', '1.000e+108', '1.000e+108', '1.000e+108', '1.000e+108', '1.000e+108', '1.160e-11', '1.000e+108', '1.000e+108', '2.001e-11', '1.000e+108', '1.000e+108', '1.000e+108', '3.045e-11', '1.000e+108', '1.000e+108', '6.841e-11', '1.000e+108', '1.000e+108', '1.000e+108']
+8.410e-10
+['9286', '22.07', '0.26', '6', '9.647e+01', '1.904e-10', '3.461e-10', '4.571e-10', '5.079e-10', '6.608e-10', '6.940e-10', '9.485e-10', '9.846e-10', '1.201e-09', '1.194e-09', '1.259e-09', '1.426e-09', '1.454e-09', '1.457e-09', '1.527e-09', '1.582e-09', '1.587e-09', '1.755e-09', '1.597e-09', '0.000e+00', '3.206e-10', '0.000e+00', '0.000e+00', '0.000e+00', '7.053e-10', '0.000e+00', '0.000e+00', '1.157e-09', '0.000e+00', '0.000e+00', '1.455e-09', '1.486e-09', '0.000e+00', '0.000e+00', '1.647e-09', '0.000e+00', '0.000e+00', '0.000e+00', '1.000e+108', '4.161e-12', '1.000e+108', '1.000e+108', '1.000e+108', '7.839e-12', '1.000e+108', '1.000e+108', '1.285e-11', '1.000e+108', '1.000e+108', '1.481e-11', '1.513e-11', '1.000e+108', '1.000e+108', '1.831e-11', '1.000e+108', '1.000e+108', '1.000e+108']
+1.000e+108
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_i_bpz.cat ...
+
+
+Current time  Thu May 14 11:19:34 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 334, in <module>
+    zo,f_mod_0=get_data(model_path,(0,1))
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/useful.py", line 130, in get_data
+    data=get_str(file,cols,nrows)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/useful.py", line 98, in get_str
+    for j in range(nvar):lista[j].append(pieces[cols[j]])
+KeyboardInterrupt
+Loading  bpz_files/bpz_catalog_i2.bpz ...
+
+Loading  bpz_files/bpz_catalog_i2.bpz ...
+
+Loading  bpz_files/bpz_catalog_i2.cat ...
+
+['2422', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '22.900', '0.026', '-99.000', '0.000', '-99.000', '0.000', '21.515', '0.012', '-99.000', '0.000', '-99.000', '0.000', '20.441', '0.006', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '20.023', '0.008', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '0.660']
+0.000
+Loading  bpz_files/bpz_catalog_i2.flux_comparison ...
+
+WARNING!! in loadvarswithclass.add:
+len(chisq2) = 2712 BUT len(id) = 1248
+
+WARNING!! in loadvarswithclass.add:
+len(nfdet) = 2712 BUT len(id) = 1248
+
+WARNING!! in loadvarswithclass.add:
+len(nfobs) = 2712 BUT len(id) = 1248
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpzfinalize.py", line 143, in <module>
+    mybpz.save(outbpz, maxy=None)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1391, in save
+    savedata(self.updateddata(), name+'+', dir=dir, labels=labels, header=header, format=format, pf=pf, maxy=maxy, machine=machine, descriptions=self.descriptions, units=self.units, notes=self.notes, silent=silent)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 439, in savedata
+    if isNaN(datum):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/MLab_coe.py", line 2000, in isNaN
+    return not (x < 0) and not (x > 0) and (x <> 0)
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 7, in <module>
+    """
+KeyboardInterrupt
+Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.cat ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.flux_comparison ...
+
+['403', '21.84', '0.39', '9', '1.327e+02', '7.547e-10', '7.369e-10', '7.622e-10', '7.738e-10', '8.927e-10', '9.133e-10', '1.132e-09', '1.179e-09', '1.451e-09', '1.481e-09', '1.626e-09', '1.723e-09', '1.679e-09', '1.685e-09', '1.811e-09', '1.949e-09', '2.080e-09', '2.060e-09', '1.932e-09', '0.000e+00', '0.000e+00', '0.000e+00', '0.000e+00', '0.000e+00', '0.000e+00', '1.115e-09', '0.000e+00', '0.000e+00', '0.000e+00', '1.625e-09', '0.000e+00', '0.000e+00', '0.000e+00', '1.845e-09', '0.000e+00', '0.000e+00', '0.000e+00', '0.000e+00', '1.000e+108', '1.000e+108', '1.000e+108', '1.000e+108', '1.000e+108', '1.000e+108', '2.912e-11', '1.000e+108', '1.000e+108', '1.000e+108', '4.706e-11', '1.000e+108', '1.000e+108', '1.000e+108', '5.169e-11', '1.000e+108', '1.000e+108', '1.000e+108', '1.000e+108']
+0.000e+00
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_Icfh12k_bpz.cat ...
+
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 9, in <module>
+    from useful import *
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/useful.py", line 8, in <module>
+    from numpy import *
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/numpy/__init__.py", line 145, in <module>
+    from . import lib
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/numpy/lib/__init__.py", line 25, in <module>
+    from .financial import *
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/numpy/lib/financial.py", line 15, in <module>
+    from decimal import Decimal
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/decimal.py", line 5940, in <module>
+    _all_zeros = re.compile('0*$').match
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/re.py", line 194, in compile
+    return _compile(pattern, flags)
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/re.py", line 249, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/sre_compile.py", line 576, in compile
+    code = _code(p, flags)
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/sre_compile.py", line 561, in _code
+    _compile(code, p.data, flags)
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/sre_compile.py", line 132, in _compile
+    _compile(code, av[2], flags)
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/sre_compile.py", line 78, in _compile
+    for op, av in pattern:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpzfinalize.py", line 16, in <module>
+    from coetools import *
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coetools.py", line 19, in <module>
+    from MLab_coe import * #median, std, mean
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/MLab_coe.py", line 32, in <module>
+    from roman import roman  # Roman numerals
+KeyboardInterrupt

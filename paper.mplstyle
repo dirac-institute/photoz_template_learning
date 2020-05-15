@@ -3,7 +3,7 @@
 
 # Figure
 figure.figsize : 3.35, 3.35
-figure.dpi     : 100
+figure.dpi     : 130
 figure.titlesize : 10
 #figure.autolayout : True
 

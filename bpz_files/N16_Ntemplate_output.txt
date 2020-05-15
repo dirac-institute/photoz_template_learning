@@ -1,0 +1,341 @@
+
+Current time  Thu May 14 12:18:55 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 2
+1 8
+2 6
+File bpz_files/bpz_catalog_i.bpz exists. Copying it to bpz_files/bpz_catalog_i.bpz.bak
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+  1.433    0.391  1151   NUV_galex
+ 5252.724    9.301  7393   u_megacam
+  1.618    0.522   202   B_cfh12k
+  1.175    0.175  1326   B_subaru
+  0.927   -0.083  1377   g_subaru
+ 1262.122    7.753 10841   g_megacam
+ 36.131    3.895   357   V_cfh12k
+  1.050    0.053  1453   V_subaru
+  1.058    0.062 12125   r_megacam
+  0.975   -0.027  1454   r_subaru
+  1.156    0.158   428   R_cfh12k
+  1.002    0.002  1834   i2_megacam
+  1.012    0.013 13591   i_megacam
+  0.980   -0.022  1418   i_subaru
+  1.144    0.147   445   I_cfh12k
+  0.992   -0.009 11694   z_megacam
+  1.053    0.056  1446   z_subaru
+  0.978   -0.024   420   y_subaru
+  0.995   -0.006  1454   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:04:26
+
+Loading  bpz_files/bpz_catalog_i.bpz ...
+
+Loading  bpz_files/bpz_catalog_i.bpz ...
+
+Loading  bpz_files/bpz_catalog_i.cat ...
+
+Loading  bpz_files/bpz_catalog_i.flux_comparison ...
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_i_bpz.cat ...
+
+/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
+
+Current time  Thu May 14 12:23:28 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 2
+1 8
+2 6
+File bpz_files/bpz_catalog_i2.bpz exists. Copying it to bpz_files/bpz_catalog_i2.bpz.bak
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+  1.121    0.124   193   NUV_galex
+  0.996   -0.005  1112   u_megacam
+    nan      nan     0   B_cfh12k
+    nan      nan     0   B_subaru
+    nan      nan     0   g_subaru
+  0.999   -0.001  2149   g_megacam
+    nan      nan     0   V_cfh12k
+    nan      nan     0   V_subaru
+  0.999   -0.001  2343   r_megacam
+    nan      nan     0   r_subaru
+    nan      nan     0   R_cfh12k
+  1.005    0.005  2348   i2_megacam
+    nan      nan     0   i_megacam
+    nan      nan     0   i_subaru
+    nan      nan     0   I_cfh12k
+  0.995   -0.005  2272   z_megacam
+    nan      nan     0   z_subaru
+    nan      nan     0   y_subaru
+    nan      nan     0   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:00:44
+
+Loading  bpz_files/bpz_catalog_i2.bpz ...
+
+Loading  bpz_files/bpz_catalog_i2.bpz ...
+
+Loading  bpz_files/bpz_catalog_i2.cat ...
+
+Loading  bpz_files/bpz_catalog_i2.flux_comparison ...
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_i2_bpz.cat ...
+
+/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
+
+Current time  Thu May 14 12:24:14 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 2
+1 8
+2 6
+File bpz_files/bpz_catalog_Icfh12k.bpz exists. Copying it to bpz_files/bpz_catalog_Icfh12k.bpz.bak
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+    nan      nan     0   NUV_galex
+    nan      nan     0   u_megacam
+  0.979   -0.023   224   B_cfh12k
+    nan      nan     0   B_subaru
+    nan      nan     0   g_subaru
+    nan      nan     0   g_megacam
+  1.009    0.010   297   V_cfh12k
+    nan      nan     0   V_subaru
+    nan      nan     0   r_megacam
+    nan      nan     0   r_subaru
+  1.010    0.011   296   R_cfh12k
+    nan      nan     0   i2_megacam
+    nan      nan     0   i_megacam
+    nan      nan     0   i_subaru
+  0.990   -0.011   300   I_cfh12k
+    nan      nan     0   z_megacam
+    nan      nan     0   z_subaru
+    nan      nan     0   y_subaru
+    nan      nan     0   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:00:09
+
+Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.cat ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.flux_comparison ...
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_Icfh12k_bpz.cat ...
+
+/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
+
+Current time  Thu May 14 12:24:23 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 2
+1 8
+2 6
+File bpz_files/bpz_catalog_i+.bpz exists. Copying it to bpz_files/bpz_catalog_i+.bpz.bak
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+  1.613    0.519   125   NUV_galex
+  0.982   -0.020  1002   u_megacam
+    nan      nan     0   B_cfh12k
+  1.170    0.170  1149   B_subaru
+  0.924   -0.086  1192   g_subaru
+    nan      nan     0   g_megacam
+    nan      nan     0   V_cfh12k
+  1.030    0.032  1412   V_subaru
+    nan      nan     0   r_megacam
+  0.973   -0.030  1459   r_subaru
+    nan      nan     0   R_cfh12k
+    nan      nan     0   i2_megacam
+    nan      nan     0   i_megacam
+  1.004    0.004  1459   i_subaru
+    nan      nan     0   I_cfh12k
+    nan      nan     0   z_megacam
+  1.067    0.070  1458   z_subaru
+    nan      nan     0   y_subaru
+  0.964   -0.040  1443   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:00:34
+
+Loading  bpz_files/bpz_catalog_i+.bpz ...
+
+Loading  bpz_files/bpz_catalog_i+.bpz ...
+
+Loading  bpz_files/bpz_catalog_i+.cat ...
+
+Loading  bpz_files/bpz_catalog_i+.flux_comparison ...
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_i+_bpz.cat ...
+

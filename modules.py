@@ -310,6 +310,8 @@ def train_templates(template_dict, galaxies, bandpass_dict, w=0.5, Delta=None,
 
                 # If you specified a number of rounds
                 elif pertN == N_pert + 1:
+                    if verbose == True:
+                        print(' ')
                     break
                 else:
                     template.flambda += pert

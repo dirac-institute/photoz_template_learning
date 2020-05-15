@@ -1,0 +1,134 @@
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 9, in <module>
+    from useful import *
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/useful.py", line 8, in <module>
+    from numpy import *
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/numpy/__init__.py", line 187, in <module>
+    from .testing import Tester
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/numpy/testing/__init__.py", line 10, in <module>
+    from unittest import TestCase
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/unittest/__init__.py", line 59, in <module>
+    from .case import (TestCase, FunctionTestCase, SkipTest, skip, skipIf,
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/unittest/case.py", line 10, in <module>
+    import warnings
+KeyboardInterrupt
+Loading  bpz_files/bpz_catalog_i.bpz ...
+
+Loading  bpz_files/bpz_catalog_i.bpz ...
+
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpzfinalize.py", line 66, in <module>
+    mybpz = loadvarswithclass(inbpz, labels=labels)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1485, in loadvarswithclass
+    outclass = VarsClass(filename, dir, silent, labels, header, headlines)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1040, in __init__
+    self.data = loaddata(filename, dir, silent, headlines)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 759, in loaddata
+    ss = string.split(sin[iy])
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/string.py", line 294, in split
+    return s.split(sep, maxsplit)
+KeyboardInterrupt
+
+Current time  Thu May 14 11:19:26 2020
+
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 245, in <module>
+    filters_db=glob.glob(fil_dir+'*.res')
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/glob.py", line 27, in glob
+    return list(iglob(pathname))
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/glob.py", line 65, in iglob
+    yield os.path.join(dirname, name)
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/posixpath.py", line 73, in join
+    path += '/' + b
+KeyboardInterrupt
+Loading  bpz_files/bpz_catalog_i2.bpz ...
+
+Loading  bpz_files/bpz_catalog_i2.bpz ...
+
+Loading  bpz_files/bpz_catalog_i2.cat ...
+
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpzfinalize.py", line 68, in <module>
+    mycat = loadvarswithclass(incat)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1485, in loadvarswithclass
+    outclass = VarsClass(filename, dir, silent, labels, header, headlines)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1040, in __init__
+    self.data = loaddata(filename, dir, silent, headlines)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 760, in loaddata
+    for ix in range(nx):
+KeyboardInterrupt
+
+Current time  Thu May 14 11:19:26 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 334, in <module>
+    zo,f_mod_0=get_data(model_path,(0,1))
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/useful.py", line 134, in get_data
+    for j in range(nvar): data[j]=array(map(float,data[j]))
+KeyboardInterrupt
+Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.cat ...
+
+Loading  bpz_files/bpz_catalog_Icfh12k.flux_comparison ...
+
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpzfinalize.py", line 78, in <module>
+    data = loaddata(inroot+'.flux_comparison+')
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 759, in loaddata
+    ss = string.split(sin[iy])
+  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/string.py", line 294, in split
+    return s.split(sep, maxsplit)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 9, in <module>
+    from useful import *
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/useful.py", line 12, in <module>
+    from spline import *
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/spline.py", line 24, in <module>
+    import func
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/func.py", line 16, in <module>
+    import numpy as Numeric
+KeyboardInterrupt
+Loading  bpz_files/bpz_catalog_i+.bpz ...
+
+Loading  bpz_files/bpz_catalog_i+.bpz ...
+
+Loading  bpz_files/bpz_catalog_i+.cat ...
+
+['870', '-99.000', '0.000', '24.237', '0.048', '-99.000', '0.000', '23.770', '0.042', '23.899', '0.040', '-99.000', '0.000', '-99.000', '0.000', '23.535', '0.033', '-99.000', '0.000', '23.265', '0.028', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '22.607', '0.020', '-99.000', '0.000', '-99.000', '0.000', '22.278', '0.023', '-99.000', '0.000', '22.023', '0.025', '0.780']
+-99.000
+Loading  bpz_files/bpz_catalog_i+.flux_comparison ...
+
+WARNING!! in loadvarswithclass.add:
+len(chisq2) = 1508 BUT len(id) = 82
+
+WARNING!! in loadvarswithclass.add:
+len(nfdet) = 1508 BUT len(id) = 82
+
+WARNING!! in loadvarswithclass.add:
+len(nfobs) = 1508 BUT len(id) = 82
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+Traceback (most recent call last):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpzfinalize.py", line 143, in <module>
+    mybpz.save(outbpz, maxy=None)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1391, in save
+    savedata(self.updateddata(), name+'+', dir=dir, labels=labels, header=header, format=format, pf=pf, maxy=maxy, machine=machine, descriptions=self.descriptions, units=self.units, notes=self.notes, silent=silent)
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 439, in savedata
+    if isNaN(datum):
+  File "/home/jfcrenshaw/documents/bpz-1.99.3/MLab_coe.py", line 2000, in isNaN
+    return not (x < 0) and not (x > 0) and (x <> 0)
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
