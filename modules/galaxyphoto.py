@@ -80,3 +80,36 @@ def get_mean_wavelen(bandpass_dict, filters=None):
         band = bandpass_dict[name]
         mean_wavelens = np.append(mean_wavelens,band.mean_wavelen)
     return mean_wavelens
+
+
+class Sed:
+    """
+    An SED defined by F_lambda. Can redshift, or calculate fluxes in bandpasses.
+
+    redshift will redshift the SED to redshift z.
+    flux will calculate the flux in the provided bandpass.
+    fluxlist will return list of fluxes for the filters in the provided
+    bandpass_dict. If you provide the list filters, it will only provide
+    fluxes for those filters.
+    """
+    '''Class defining an SED'''
+    def __init__(self, wavelen=None, flambda=None):
+        self.wavelen = wavelen
+        self.flambda = flambda
+        
+    def redshift(self, z):
+        self.wavelen *= (1 + z)
+        
+    def flux(self, bandpass):
+        y = np.interp(bandpass.wavelen,self.wavelen,self.flambda)
+        flux = (y*bandpass.R).sum() * (bandpass.wavelen[1] - bandpass.wavelen[0])
+        return flux
+    
+    def fluxlist(self, bandpass_dict, filters=None):
+        if filters is None:
+            filters = bandpass_dict.keys()
+        fluxes = []
+        for name in filters:
+            bandpass = bandpass_dict[name]
+            fluxes.append(self.flux(bandpass))
+        return np.array(fluxes)
