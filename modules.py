@@ -1,5 +1,6 @@
 import numpy as np
 import copy
+import multiprocessing as mp
 from sklearn.ensemble import IsolationForest
 from scipy.interpolate import interp1d
 from scipy.signal import medfilt
@@ -12,7 +13,8 @@ from scipy.integrate import simps
 class Galaxy:
     '''Class defining a galaxy'''
     def __init__(self, wavelen=None, mags=None, mag_err=None, fluxes=None, 
-                flux_err=None, filters=None, redshift=None, source=None):
+                flux_err=None, filters=None, redshift=None, source=None,
+                template=None):
         self.wavelen = wavelen
         self.mags = mags
         self.mag_err = mag_err
@@ -21,6 +23,7 @@ class Galaxy:
         self.filters = filters
         self.redshift = redshift
         self.source = source
+        self.template = template
 
     _mag_ref = 25
     _lambda_ref = 5000 # Angstrom
@@ -93,7 +96,7 @@ class Sed:
 # Functions for assembling training sets
 # --------------------------------------------------------------------------
 # --------------------------------------------------------------------------
-def match_photometry(template_dict, galaxy, bandpass_dict):
+def match_photometry(galaxy, template_dict, bandpass_dict):
     
     keys = np.array(list(template_dict.keys()))
     mse_list = np.array([])
@@ -101,10 +104,9 @@ def match_photometry(template_dict, galaxy, bandpass_dict):
     
     for template in template_dict.values():
 
-        idx = np.where( (galaxy.filters != 'Ks') & (galaxy.filters != 'Kvideo') )
-        filters = galaxy.filters[idx]
-        fluxes = galaxy.fluxes[idx]
-        errs = galaxy.flux_err[idx]/galaxy.fluxes[idx]
+        filters = galaxy.filters.copy()
+        fluxes = galaxy.fluxes.copy()
+        errs = galaxy.flux_err/galaxy.fluxes
         
         sed = copy.deepcopy(template)
         sed.redshift(galaxy.redshift)
@@ -124,26 +126,37 @@ def match_photometry(template_dict, galaxy, bandpass_dict):
     return keys[idx],scales[idx]
 
 
-def create_training_sets(template_dict,galaxies,bandpass_dict):
-    
-    # create a dictionary to hold the set for each template
-    sets = dict()
-    for key in template_dict.keys():
-        sets[key] = []
-        
-    # sort each photometry into the training sets
-    for galaxy in galaxies:
+def match_galaxy(galaxy, template_dict, bandpass_dict):
 
-        match, scale = match_photometry(template_dict,galaxy,bandpass_dict)
-        
-        wavelen = galaxy.wavelen/(1+galaxy.redshift)
-        
-        for i in range(len(wavelen)):
-            sets[match].append([wavelen[i],galaxy.fluxes[i]*scale,
-                                galaxy.flux_err[i]*scale,galaxy.redshift,
-                                galaxy.filters[i]])
-            
-    return sets
+    galaxy_ = copy.deepcopy(galaxy)
+    template,scale = match_photometry(galaxy,template_dict,bandpass_dict)
+    galaxy_.fluxes *= scale
+    galaxy_.flux_err *= scale
+    galaxy_.fluxTomag()
+    galaxy_.template = template
+
+    return galaxy_
+
+
+def create_training_sets(galaxies, template_dict, bandpass_dict, Ncpus=None):
+
+    Ncpus = mp.cpu_count() if Ncpus is None else Ncpus
+
+    pool = mp.Pool(Ncpus)
+
+    galaxies_ = pool.starmap(match_galaxy,[(galaxy,template_dict,bandpass_dict) for galaxy in galaxies])
+
+    pool.close()
+
+    training_sets = dict()
+    for template in template_dict.keys():
+        training_sets[template] = []
+    for galaxy in galaxies_:
+        galaxy.wavelen /= (1 + galaxy.redshift)
+        template = galaxy.template
+        training_sets[template].append(galaxy)
+
+    return training_sets 
 
 
 
