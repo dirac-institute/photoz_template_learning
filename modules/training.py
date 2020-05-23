@@ -8,6 +8,9 @@ from modules.photomatching import create_training_sets
 
 
 def log_norm(x, mode, sigma, norm):
+    """
+    Log normal distribution normalized at the wavelength "norm"
+    """
     mu = np.log(mode) + sigma**2
     f = lambda x: 1/(x*sigma*np.sqrt(2*np.pi))*np.exp(-(np.log(x)-mu)**2/(2*sigma**2))
     return f(x)/f(norm)
@@ -17,6 +20,12 @@ def new_naive_templates(N, res=100, x_min=10, x_max=15000,
                                     mode_min=1000, mode_max=5500,
                                     sigma_min=0.35, sigma_max=0.9,
                                     norm=5000):
+    """
+    Returns a dictionary of new naive templates.
+
+    The naive templates are log-normal distributions, with mode and sigma linearly sampled
+    from the designated ranges, and normalized at the wavelength "norm"
+    """
     
     modes = np.linspace(mode_max,mode_min,N)
     sigmas = np.linspace(sigma_min,sigma_max,N)
@@ -37,6 +46,24 @@ def train_templates(galaxies, template_dict, bandpass_dict,
                     w=0.5, Delta=None, dmse_stop=0.05, 
                     maxRounds=None, maxPerts=None, renorm=5000, 
                     Ncpus=None, verbose=True):
+    """
+    Trains a dictionary of templates on a list of galaxies, using the algorithm
+    described in the paper. Returns the trained templates, and a training history
+    which is a dictionary containing the SED and wMSE for every step of the training.
+
+    galaxies is a list of galaxy objects.
+    template_dict is a dictionary of SED templates.
+    bandpass_dict is a dictionary of the filters used to observe the photometry.
+    See galaxyphoto.py for details on all of these objects.
+
+    w is the training ratio described in the paper, which will be used to calculate Delta.
+    You can manually set Delta instead.
+    dmse_stop is the threshold for fractional change in wMSE that ends perturbations.
+    You can set maxRounds and maxPerts to set a maximum number of rounds/perturbations per
+    round. These are just maxima. If you want to enforce those numbers of rounds/perturbations,
+    then set dmse_stop=0.
+    Ncpus is the number of cpus to use in the photometry matching/template training when parallelizing
+    """
 
     if verbose:
         print("Columns: Template, number of perturbations, initial/final wMSE")
@@ -112,8 +139,17 @@ def train_templates(galaxies, template_dict, bandpass_dict,
 
 
 
-def perturbation_round(key,training_set, template, bandpass_dict, mse0=1e9,
+def perturbation_round(key,training_set, template, bandpass_dict, mse0,
                         w=0.5, Delta=None, dmse_stop=0.05, maxPerts=None):
+    """
+    Perform a round of perturbations on a specific template, stopping according
+    to dmse_stop or when maxPerts is reached. See the definition of train_templates()
+    for more details.
+
+    mse0 is the wMSE from the previous round. It will be used to determined if the 
+    new photometry set is different enough to warrant further perturbations. It is
+    then updated throughout this function to track when perturbations should end.
+    """
     
     # fractional change in mse from photometry matching
     mse = calc_mse(training_set, template, bandpass_dict)
@@ -148,6 +184,16 @@ def perturbation_round(key,training_set, template, bandpass_dict, mse0=1e9,
 
 
 def perturb_template(training_set, template, bandpass_dict, w=0.5, Delta=None):
+    """
+    Perturbs the template according to the photometry in the training set, which
+    is a list of galaxy objects.
+
+    bandpass_dict is the dictionary of filters used to observe the galaxies, and
+    is used to calculate synthetic photometry for the template.
+    w is the training ratio described in the paper and is used to calculate Delta.
+    Values of order 1 work well.
+    Delta can also be set manually.
+    """
     
 
     wavelen = template.wavelen
@@ -192,6 +238,10 @@ def perturb_template(training_set, template, bandpass_dict, w=0.5, Delta=None):
 
  
 def calc_mse(training_set, template, bandpass_dict):
+    """
+    Calculates the weighted mean square error (wMSE) between a set of observed galaxy photometry
+    and synthetic photometry for an SED template.
+    """
     
     se = 0
     N = 0
