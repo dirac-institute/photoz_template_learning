@@ -16,7 +16,7 @@ class Galaxy:
     '''
     def __init__(self, wavelen=None, mags=None, mag_err=None, fluxes=None, 
                 flux_err=None, filters=None, redshift=None, source=None,
-                template=None):
+                template=None, m0=None):
         self.wavelen = wavelen
         self.mags = mags
         self.mag_err = mag_err
@@ -26,6 +26,7 @@ class Galaxy:
         self.redshift = redshift
         self.source = source
         self.template = template
+        self.m0 = m0
 
     _mag_ref = 25
     _lambda_ref = 5000 # Angstrom

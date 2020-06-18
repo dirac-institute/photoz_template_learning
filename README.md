@@ -1,23 +1,29 @@
 
-NOTE: This is very out of date and needs to be fixed!
-
 Repo that contains all the code and plots for the template learning paper about my algorithm to learn photo-z templates from broadband galaxy photometry.
 
 
-Workflow:
+The catalog notebook loads the spec-z catalogs that are in the data folder. It applies quality cuts, creates training and test sets, and creates a table and plots characterizing the data sets.
 
-1. <code>catalog.ipynb</code> - this notebook opens the DEEP2/3 and HST spec-z catalogs that are in the data folder. It applies quality cuts, combines the qualifying galaxies into a single catalog for my use, and also makes plots of the data set.
+The training_example notebook simulates observations for the 5Myr starburst CWW+SB4 template, then applies the training algorithm to a flat template until it matches the original SED.
 
-2. <code>training_example.ipynb</code> - this notebook takes the 5Myr starburst template that comes with BPZ, simulates observations, and then trains a flat template until it matches the data. The classes for filters and seds, and the all the functions used in the learning algorithm are found in <code>modules.py</code>.
+The training_N8, training_N16, and training_cwwsb4 apply the training algorithm to these sets repectively, using the training set created in the catalog notebook.
 
-3. <code>training_naive.ipynb</code> - this takes the combined galaxy catalog, establishes naive templates, and trains them to match the data. Matching and training are iterated until templates approximately converge. The notebook also contains plots analyzing the final trained templates.
+The N8_spectral_lines notebook performs post-processing on the N8 templates to reconstruct emission lines in the bluest templates.
 
-4. <code>training_cwwsb4.ipynb</code> - same as number 3, except using the CWW+SB4 templates as the starting point.
+The pca_analysis notebook does some basic pca analysis of the N16 and N8 templates. This wasn't used in the paper.
 
-5. <code>create_bpz_catalog.py</code> - this script takes the combined catalog from number 1, and creates a catalog file that is readable by BPZ.
+The N_templates notebook applies the training algorithm to sets of 6-24 templates. The goal is to see how the template number affects photo-z estimation.
 
-6. <code>bpz_script.py</code> - this script runs BPZ to estimate photo-z's using the 3 template sets: CWW+SB4 original, CWW+SB4 trained, and naive trained. It runs the original bpz script, then the bpz finalize script, and then cleans up after BPZ. Note that all BPZ output is supressed. The script requires that you have BPZ installed on your system at <code>BPZPATH</code>, which is defined at the top of the script, and that you are in an environment with python 2. BPZ can be installed [here](http://www.stsci.edu/~dcoe/BPZ/).
+create_bpz_catalog.py is a script that converts the test set into a format readable by BPZ.
 
-7. <code>photoz_analysis.ipynb</code> - this notebook loads all of the BPZ photo-z results, and makes plots/computes stats to analyze them.
+The calibrate_prior notebook finds the parameters for the prior by calibrating to the training set.
+
+prior_calibrated.py is the calibrated prior for BPZ. The parameters from the calibrate_prior notebook are hardcoded inside. This file is automatically copied to the BPZ folder by bpz_script.sh before running BPZ on the test set of galaxies.
+
+bpz_script.sh is a shell script that runs BPZ on the CWW+SB4, trained CWW+SB4, N8, and N16 template sets. The resulting files are all saved in the bpz_files folder. This script runs the original bpz script, then the bpz finalize script, then cleans up the files I don't need. All of the bpz stdout and stderr are saved in an output file in the bpz_files folder. The script requires that you have BPZ installed on your system at BPZPATH, which is defined at the top of the script. BPZ can be installed [here](http://www.stsci.edu/~dcoe/BPZ/). You also need a python 2 environment. Check the top of this script for all the settings and variables to set.
+
+Ntemplate_bpz_script.sh is a shell script that runs BPZ on the template sets created by the N_templates notebook. See the descripton of bpz_script.sh above for more details.
+
+The photoz_analysis notebook analyzes the results of BPZ.
 
 Note all of the dependencies can be installed via <code>pip install --user --requirement requirements.txt</code>. Python version is 3.7.3, except BPZ, which was run in version 2.7.17. Jupyter notebooks can be opened via running <code>jupyter lab</code> in the root directory, and then double clicking on notebooks in the sidebar.

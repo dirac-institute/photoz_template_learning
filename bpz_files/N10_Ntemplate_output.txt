@@ -1,64 +1,245 @@
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 9, in <module>
-    from useful import *
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/useful.py", line 8, in <module>
-    from numpy import *
-  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/numpy/__init__.py", line 187, in <module>
-    from .testing import Tester
-  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/site-packages/numpy/testing/__init__.py", line 10, in <module>
-    from unittest import TestCase
-  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/unittest/__init__.py", line 59, in <module>
-    from .case import (TestCase, FunctionTestCase, SkipTest, skip, skipIf,
-  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/unittest/case.py", line 10, in <module>
-    import warnings
-KeyboardInterrupt
-Loading  bpz_files/bpz_catalog_i.bpz ...
+
+Current time  Thu Jun 18 15:12:09 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 1
+1 5
+2 4
+File bpz_files/bpz_catalog_i.bpz exists. Copying it to bpz_files/bpz_catalog_i.bpz.bak
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+NO CLEAR BEST t_b; ALL PROBABILITIES ZERO
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+  1.451    0.404  1149   NUV_galex
+ 7829.252    9.734  7565   u_megacam
+ 1498.620    7.939   215   B_cfh12k
+  1.182    0.181  1333   B_subaru
+  0.932   -0.077  1384   g_subaru
+ 1146.535    7.648 11485   g_megacam
+ 97.158    4.969   376   V_cfh12k
+  1.055    0.058  1459   V_subaru
+  1.149    0.150 12910   r_megacam
+  0.972   -0.031  1460   r_subaru
+  1.126    0.129   450   R_cfh12k
+  1.003    0.004  1887   i2_megacam
+  1.014    0.015 14389   i_megacam
+  0.975   -0.027  1424   i_subaru
+  1.174    0.174   467   I_cfh12k
+  0.993   -0.007 12305   z_megacam
+  1.059    0.062  1452   z_subaru
+  0.987   -0.014   421   y_subaru
+  1.000    0.000  1460   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:01:28
 
 Loading  bpz_files/bpz_catalog_i.bpz ...
 
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpzfinalize.py", line 66, in <module>
-    mybpz = loadvarswithclass(inbpz, labels=labels)
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1485, in loadvarswithclass
-    outclass = VarsClass(filename, dir, silent, labels, header, headlines)
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1040, in __init__
-    self.data = loaddata(filename, dir, silent, headlines)
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 759, in loaddata
-    ss = string.split(sin[iy])
-  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/string.py", line 294, in split
-    return s.split(sep, maxsplit)
-KeyboardInterrupt
+Loading  bpz_files/bpz_catalog_i.bpz ...
 
-Current time  Thu May 14 11:19:26 2020
+Loading  bpz_files/bpz_catalog_i.cat ...
 
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 245, in <module>
-    filters_db=glob.glob(fil_dir+'*.res')
-  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/glob.py", line 27, in glob
-    return list(iglob(pathname))
-  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/glob.py", line 65, in iglob
-    yield os.path.join(dirname, name)
-  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/posixpath.py", line 73, in join
-    path += '/' + b
-KeyboardInterrupt
+Loading  bpz_files/bpz_catalog_i.flux_comparison ...
+
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_i_bpz.cat ...
+
+/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
+
+Current time  Thu Jun 18 15:13:42 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 1
+1 5
+2 4
+File bpz_files/bpz_catalog_i2.bpz exists. Copying it to bpz_files/bpz_catalog_i2.bpz.bak
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+  1.082    0.086   195   NUV_galex
+  0.993   -0.008  1126   u_megacam
+    nan      nan     0   B_cfh12k
+    nan      nan     0   B_subaru
+    nan      nan     0   g_subaru
+  0.998   -0.002  2234   g_megacam
+    nan      nan     0   V_cfh12k
+    nan      nan     0   V_subaru
+  0.999   -0.001  2447   r_megacam
+    nan      nan     0   r_subaru
+    nan      nan     0   R_cfh12k
+  1.006    0.006  2455   i2_megacam
+    nan      nan     0   i_megacam
+    nan      nan     0   i_subaru
+    nan      nan     0   I_cfh12k
+  0.994   -0.006  2352   z_megacam
+    nan      nan     0   z_subaru
+    nan      nan     0   y_subaru
+    nan      nan     0   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:00:15
+
 Loading  bpz_files/bpz_catalog_i2.bpz ...
 
 Loading  bpz_files/bpz_catalog_i2.bpz ...
 
 Loading  bpz_files/bpz_catalog_i2.cat ...
 
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpzfinalize.py", line 68, in <module>
-    mycat = loadvarswithclass(incat)
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1485, in loadvarswithclass
-    outclass = VarsClass(filename, dir, silent, labels, header, headlines)
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1040, in __init__
-    self.data = loaddata(filename, dir, silent, headlines)
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 760, in loaddata
-    for ix in range(nx):
-KeyboardInterrupt
+Loading  bpz_files/bpz_catalog_i2.flux_comparison ...
 
-Current time  Thu May 14 11:19:26 2020
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_i2_bpz.cat ...
+
+/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
+
+Current time  Thu Jun 18 15:13:59 2020
 
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
@@ -69,12 +250,71 @@ Clipping them to f>=0 values
 Warning: some values of the model AB fluxes are <0
 due to the interpolation 
 Clipping them to f>=0 values
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 334, in <module>
-    zo,f_mod_0=get_data(model_path,(0,1))
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/useful.py", line 134, in get_data
-    for j in range(nvar): data[j]=array(map(float,data[j]))
-KeyboardInterrupt
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 1
+1 5
+2 4
+File bpz_files/bpz_catalog_Icfh12k.bpz exists. Copying it to bpz_files/bpz_catalog_Icfh12k.bpz.bak
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+    nan      nan     0   NUV_galex
+    nan      nan     0   u_megacam
+  0.990   -0.011   274   B_cfh12k
+    nan      nan     0   B_subaru
+    nan      nan     0   g_subaru
+    nan      nan     0   g_megacam
+  1.010    0.011   362   V_cfh12k
+    nan      nan     0   V_subaru
+    nan      nan     0   r_megacam
+    nan      nan     0   r_subaru
+  1.006    0.007   364   R_cfh12k
+    nan      nan     0   i2_megacam
+    nan      nan     0   i_megacam
+    nan      nan     0   i_subaru
+  0.993   -0.008   371   I_cfh12k
+    nan      nan     0   z_megacam
+    nan      nan     0   z_subaru
+    nan      nan     0   y_subaru
+    nan      nan     0   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:00:02
+
 Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
 
 Loading  bpz_files/bpz_catalog_Icfh12k.bpz ...
@@ -83,52 +323,100 @@ Loading  bpz_files/bpz_catalog_Icfh12k.cat ...
 
 Loading  bpz_files/bpz_catalog_Icfh12k.flux_comparison ...
 
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpzfinalize.py", line 78, in <module>
-    data = loaddata(inroot+'.flux_comparison+')
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 759, in loaddata
-    ss = string.split(sin[iy])
-  File "/home/jfcrenshaw/miniconda3/envs/py2/lib/python2.7/string.py", line 294, in split
-    return s.split(sep, maxsplit)
-KeyboardInterrupt
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py", line 9, in <module>
-    from useful import *
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/useful.py", line 12, in <module>
-    from spline import *
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/spline.py", line 24, in <module>
-    import func
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/func.py", line 16, in <module>
-    import numpy as Numeric
-KeyboardInterrupt
+['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
+Formatting... 
+
+Saving  bpz_files/bpz_catalog_Icfh12k_bpz.cat ...
+
+/home/jfcrenshaw/documents/bpz-1.99.3/bpz.py:1237: RuntimeWarning: invalid value encountered in divide
+  fratavg = sum(fw*frat, axis=0) / sum(fw, axis=0)
+
+Current time  Thu Jun 18 15:14:02 2020
+
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+Warning: some values of the model AB fluxes are <0
+due to the interpolation 
+Clipping them to f>=0 values
+0 1
+1 5
+2 4
+File bpz_files/bpz_catalog_i+.bpz exists. Copying it to bpz_files/bpz_catalog_i+.bpz.bak
+0.95 1.9599300000000002
+ML * prior -- NOT QUITE BAYESIAN
+
+
+PHOTOMETRIC CALIBRATION TESTS
+If the dmag are large, add them to the .columns file (zp_offset), then re-run BPZ.
+(For better results, first re-run with -ONLY_TYPE yes to fit SEDs to known spec-z.)
+
+  fo/ft    dmag   nobj   filter
+  1.576    0.494   123   NUV_galex
+  0.987   -0.015  1005   u_megacam
+    nan      nan     0   B_cfh12k
+  1.187    0.186  1151   B_subaru
+  0.936   -0.071  1193   g_subaru
+    nan      nan     0   g_megacam
+    nan      nan     0   V_cfh12k
+  1.037    0.039  1420   V_subaru
+    nan      nan     0   r_megacam
+  0.970   -0.033  1467   r_subaru
+    nan      nan     0   R_cfh12k
+    nan      nan     0   i2_megacam
+    nan      nan     0   i_megacam
+  1.002    0.002  1468   i_subaru
+    nan      nan     0   I_cfh12k
+    nan      nan     0   z_megacam
+  1.070    0.073  1467   z_subaru
+    nan      nan     0   y_subaru
+  0.965   -0.039  1450   J_wfcam
+fo/ft = Average f_obs/f_model weighted by f_obs/ef_obs for objects with ODDS >= 0.95
+dmag = magnitude offset which should be applied (added) to the photometry (zp_offset)
+nobj = # of galaxies considered in that filter (detected and high ODDS >= 0.95)
+
+Elapsed time 00:00:08
+
 Loading  bpz_files/bpz_catalog_i+.bpz ...
 
 Loading  bpz_files/bpz_catalog_i+.bpz ...
 
 Loading  bpz_files/bpz_catalog_i+.cat ...
 
-['870', '-99.000', '0.000', '24.237', '0.048', '-99.000', '0.000', '23.770', '0.042', '23.899', '0.040', '-99.000', '0.000', '-99.000', '0.000', '23.535', '0.033', '-99.000', '0.000', '23.265', '0.028', '-99.000', '0.000', '-99.000', '0.000', '-99.000', '0.000', '22.607', '0.020', '-99.000', '0.000', '-99.000', '0.000', '22.278', '0.023', '-99.000', '0.000', '22.023', '0.025', '0.780']
--99.000
 Loading  bpz_files/bpz_catalog_i+.flux_comparison ...
-
-WARNING!! in loadvarswithclass.add:
-len(chisq2) = 1508 BUT len(id) = 82
-
-WARNING!! in loadvarswithclass.add:
-len(nfdet) = 1508 BUT len(id) = 82
-
-WARNING!! in loadvarswithclass.add:
-len(nfobs) = 1508 BUT len(id) = 82
 
 ['id', 'zb', 'zbmin', 'zbmax', 'tb', 'odds', 'zml', 'tml', 'chisq', 'zspec', 'M0', 'chisq2', 'nfdet', 'nfobs']
 Formatting... 
-Traceback (most recent call last):
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/bpzfinalize.py", line 143, in <module>
-    mybpz.save(outbpz, maxy=None)
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 1391, in save
-    savedata(self.updateddata(), name+'+', dir=dir, labels=labels, header=header, format=format, pf=pf, maxy=maxy, machine=machine, descriptions=self.descriptions, units=self.units, notes=self.notes, silent=silent)
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/coeio.py", line 439, in savedata
-    if isNaN(datum):
-  File "/home/jfcrenshaw/documents/bpz-1.99.3/MLab_coe.py", line 2000, in isNaN
-    return not (x < 0) and not (x > 0) and (x <> 0)
-ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+Saving  bpz_files/bpz_catalog_i+_bpz.cat ...
+
